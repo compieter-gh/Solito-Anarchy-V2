@@ -1,0 +1,26 @@
+Already up to date.
+receiving file list ... done
+
+sent 113 bytes  received 13,134 bytes  26,494.00 bytes/sec
+total size is 55,889,936  speedup is 4,219.06
+receiving file list ... done
+queue/
+queue/level.dat
+queue/level.dat_old
+queue/data/raids.dat
+
+sent 217 bytes  received 48,868 bytes  32,723.33 bytes/sec
+total size is 397,100,610  speedup is 8,090.06
+receiving file list ... done
+plugins/GSit/data/t.data
+
+sent 142 bytes  received 311,386 bytes  623,056.00 bytes/sec
+total size is 424,768,781  speedup is 1,363.50
+receiving file list ... done
+
+sent 113 bytes  received 133,397 bytes  89,006.67 bytes/sec
+total size is 387,033,364  speedup is 2,898.91
+receiving file list ... done
+
+sent 113 bytes  received 139,350 bytes  278,926.00 bytes/sec
+total size is 290,251,319  speedup is 2,081.21

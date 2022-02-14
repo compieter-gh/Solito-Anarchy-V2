@@ -13,6 +13,7 @@
 **/libraries
 **/logs
 **/world*
+**/queue
 
 #servers:
 ##proxy
@@ -102,3 +103,5 @@
 **/plugins/Multiverse-Inventories/players
 **/plugins/Multiverse-Inventories/worlds
 
+##Slimefun
+**/data-storage
