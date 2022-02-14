@@ -1,0 +1,12 @@
+- BoneMealAnything https://www.spigotmc.org/resources/bonemealanything.95353/
+- StoneDrop https://dev.bukkit.org/projects/stone-drop
+- SlimeFun https://dev.bukkit.org/projects/stone-drop
+- Deadly Disasters https://dev.bukkit.org/projects/deadly-disasters
+- PlayerHeads https://dev.bukkit.org/projects/player-heads
+- DeadChest https://dev.bukkit.org/projects/dead-chest
+- SilkSpawners https://dev.bukkit.org/projects/silkspawners
+- LightChatBubbles https://dev.bukkit.org/projects/light-chat-bubbles
+- Thirst https://dev.bukkit.org/projects/byte-thirst
+- Infernal Mobs https://dev.bukkit.org/projects/infernal-mobs
+- Disease https://dev.bukkit.org/projects/byte-disease
+- MendingEnchant https://dev.bukkit.org/projects/mendingenchant

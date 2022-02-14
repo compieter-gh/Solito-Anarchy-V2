@@ -1,0 +1,25 @@
+[INFO|6:07:11]: ACR > ComPieter failed Speed (x8) | type: airspeed, ping: 34ms, tps: 20 
+[INFO|6:07:12]: ACR > ComPieter failed Speed (x16) | type: airspeed, ping: 34ms, tps: 20 
+[INFO|6:07:13]: ACR > ComPieter failed Speed (x24) | type: verticalspeed, ping: 34ms, tps: 20 
+[INFO|6:07:13]: ACR > ComPieter failed Speed (x32) | type: verticalspeed, ping: 35ms, tps: 20 
+[INFO|6:07:14]: ACR > ComPieter failed Speed (x40) | type: verticalspeed, ping: 35ms, tps: 20 
+[INFO|6:07:14]: ACR > ComPieter failed Speed (x48) | type: verticalspeed, ping: 35ms, tps: 20 
+[INFO|6:07:14]: ACR > ComPieter failed Speed (x56) | type: verticalspeed, ping: 35ms, tps: 20 
+[INFO|6:07:15]: ACR > ComPieter failed Speed (x64) | type: verticalspeed, ping: 35ms, tps: 20 
+[INFO|6:07:15]: ACR > ComPieter failed Speed (x72) | type: verticalspeed, ping: 35ms, tps: 20 
+[INFO|6:07:15]: ACR > ComPieter failed Speed (x80) | type: verticalspeed, ping: 35ms, tps: 20 
+[INFO|6:07:15]: ACR > ComPieter failed Speed (x88) | type: verticalspeed, ping: 35ms, tps: 20 
+[INFO|6:07:37]: ACR > ComPieter failed MorePackets (x8) | ping: 31ms, tps: 20 
+[INFO|6:09:46]: ACR > ComPieter failed Speed (x96) | type: airspeed, ping: 33ms, tps: 20 
+[INFO|6:09:46]: ACR > ComPieter failed Speed (x104) | type: airspeed, ping: 33ms, tps: 20 
+[INFO|6:09:46]: ACR > ComPieter failed Speed (x112) | type: airspeed, ping: 33ms, tps: 20 
+[INFO|6:09:46]: ACR > ComPieter failed Speed (x120) | type: airspeed, ping: 33ms, tps: 20 
+[INFO|6:09:47]: ACR > ComPieter failed Speed (x128) | type: airspeed, ping: 33ms, tps: 20 
+[INFO|6:09:54]: ACR > ComPieter failed Speed (x136) | type: airspeed, ping: 33ms, tps: 20 
+[INFO|6:10:12]: ACR > ComPieter failed Speed (x144) | type: airspeed, ping: 33ms, tps: 20 
+[INFO|6:10:13]: ACR > ComPieter failed Speed (x152) | type: airspeed, ping: 33ms, tps: 20 
+[INFO|6:10:22]: ACR > ComPieter failed MorePackets (x16) | ping: 33ms, tps: 20 
+[INFO|6:10:22]: ACR > ComPieter failed Speed (x160) | type: groundspeed, ping: 33ms, tps: 20 
+[INFO|6:10:24]: ACR > ComPieter failed MorePackets (x24) | ping: 33ms, tps: 20 
+[INFO|6:31:17]: ACR > ComPieter failed Speed (x168) | type: verticalspeed, ping: 32ms, tps: 20 
+[INFO|2:40:52]: ACR > zombiestrike444 failed Speed (x8) | type: airspeed, ping: 136ms, tps: 20 

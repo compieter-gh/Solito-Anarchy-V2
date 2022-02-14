@@ -1,0 +1,3 @@
+command /nuke:
+    trigger:
+        make console execute command "/execute as %player% at %player% run summon fireball ~ ~1 ~ {ExplosionPower:100}"

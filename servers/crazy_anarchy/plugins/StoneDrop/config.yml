@@ -1,0 +1,257 @@
+# These are chances of drop from STONE
+# More info about config: https://github.com/ULTUX/StoneDropPlugin/wiki/Config-file
+# Permissions: https://github.com/ULTUX/StoneDropPlugin/wiki/Permissions
+chances:
+  COAL:
+    fortune-0:
+      chance: 0.02
+      max-amount: 1
+      min-amount: 1
+    fortune-1:
+      chance: 0.021
+      max-amount: 2
+      min-amount: 1
+    fortune-2:
+      chance: 0.022
+      max-amount: 3
+      min-amount: 2
+    fortune-3:
+      chance: 0.023
+      max-amount: 4
+      min-amount: 3
+  DIAMOND:
+    minLevel: 0
+    maxLevel: 25
+    customName: "&bCustom named diamond that is found on Y=<0, 25>!"
+    fortune-0:
+      chance: 0.0025
+      max-amount: 1
+      min-amount: 1
+    fortune-1:
+      chance: 0.0027
+      max-amount: 2
+      min-amount: 1
+    fortune-2:
+      chance: 0.003
+      max-amount: 3
+      min-amount: 2
+    fortune-3:
+      chance: 0.00325
+      max-amount: 4
+      min-amount: 3
+  DIAMOND_ORE:
+    minLevel: 0
+    maxLevel: 25
+    customName: "&bCustom named diamond that is found on Y=<0, 25>!"
+    silk_touch-1:
+      chance: 0.1
+      max-amount: 1
+      min-amount: 1
+  EMERALD:
+    fortune-0:
+      chance: 0.0025
+      max-amount: 1
+      min-amount: 1
+    fortune-1:
+      chance: 0.0025
+      max-amount: 2
+      min-amount: 1
+    fortune-2:
+      chance: 0.003
+      max-amount: 3
+      min-amount: 2
+    fortune-3:
+      chance: 0.0035
+      max-amount: 4
+      min-amount: 3
+  GOLD_INGOT:
+    fortune-0:
+      chance: 0.008
+      max-amount: 1
+      min-amount: 1
+    fortune-1:
+      chance: 0.009
+      max-amount: 2
+      min-amount: 1
+    fortune-2:
+      chance: 0.01
+      max-amount: 3
+      min-amount: 2
+    fortune-3:
+      chance: 0.015
+      max-amount: 4
+      min-amount: 3
+  IRON_INGOT:
+    fortune-0:
+      chance: 0.015
+      max-amount: 1
+      min-amount: 1
+    fortune-1:
+      chance: 0.015
+      max-amount: 2
+      min-amount: 1
+    fortune-2:
+      chance: 0.02
+      max-amount: 3
+      min-amount: 2
+    fortune-3:
+      chance: 0.02
+      max-amount: 4
+      min-amount: 3
+  REDSTONE:
+    fortune-0:
+      chance: 0.005
+      max-amount: 3
+      min-amount: 2
+    fortune-1:
+      chance: 0.007
+      max-amount: 4
+      min-amount: 3
+    fortune-2:
+      chance: 0.009
+      max-amount: 5
+      min-amount: 4
+    fortune-3:
+      chance: 0.01
+      max-amount: 6
+      min-amount: 5
+  DIAMOND_PICKAXE:
+    minLevel: 0   #Min Y level to drop this item
+    maxLevel: 256 #Max Y level to drop this item
+    fortune-0:
+      chance: 0.002
+      max-amount: 1
+      min-amount: 1
+    fortune-1:
+      chance: 0.003
+      max-amount: 1
+      min-amount: 1
+    fortune-2:
+      chance: 0.004
+      max-amount: 1
+      min-amount: 1
+    fortune-3:
+      chance: 0.005
+      max-amount: 1
+      min-amount: 1
+    enchant:      #List of all enchantments that should be applied
+      silk_touch: 1
+    biomes:       #Drop only on following biomes
+ #     - Mountains
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# This is chance of getting a chest spawned
+chest-spawn-chance: 5.0E-4
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# And these are possible contents of the chest
+chest:
+  DIAMOND:
+    chance: 0.8
+    min: 1
+    max: 20
+  IRON_INGOT:
+    chance: 0.8
+    min: 5
+    max: 48
+  GOLD_INGOT:
+    chance: 0.75
+    min: 1
+    max: 40
+  ENCHANTED_GOLDEN_APPLE:
+    chance: 0.3
+    min: 1
+    max: 1
+  SADDLE:
+    chance: 0.1
+    min: 1
+    max: 1
+  GOLDEN_CARROT:
+    chance: 1.0
+    min: 5
+    max: 40
+  TOTEM_OF_UNDYING:
+    chance: 0.02
+    min: 1
+    max: 1
+  BLUE_ICE:
+    chance: 1.0
+    min: 32
+    max: 64
+  DIAMOND_PICKAXE:
+    chance: 0.1
+    min: 1
+    max: 1
+    enchant:
+      mending: 1
+  FISHING_ROD:
+    chance: 0.1
+    min: 1
+    max: 1
+    enchant:
+      unbreaking: 3
+      lure: 3
+      luck_of_the_sea: 3
+      mending: 1
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# List of commands that could be executed (use @name for player name)
+# In this example: 1% chance of executing command give on player.
+executeCommands:
+  "give @player stick 2 & give @player apple 3":
+    chance: 0.01
+    requires-permission: false
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# List of blocks that the plugin should work on. The list of all possible blocks is listed here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+dropBlocks:
+  - STONE
+  - ANDESITE
+  - GRANITE
+  - DIORITE
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Experience dropped from stone:
+experience: 0.1
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Put here all world that you would like to have disabled
+disabled-worlds:
+  - world_nether
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Should ores drop items
+ore-drop: true
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# If ore-drop is false, some specific ores can drop anyway. This is white list drop ores.
+# If there is no, type []
+ores-whitelist:
+  - COAL_ORE
+  - REDSTONE_ORE
+  - GLOWING_REDSTONE_ORE
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# If ore-drop is true -> whats the chance to drop item from ore when mining it
+ore-drop-chance: 0.0
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Should the items ne dropped directly into the inventory
+drop-to-inventory: false
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Should display "The plugin has been updated" message
+display-update-message: true
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Should exp be added to player stats or dropped as exp orb - WARNING: in that case experience value has to be >= 1.0
+drop-exp-orb: false
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Should a message be broadcast when a player finds a chest
+treasure-broadcast: true
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Volume of all sounds used in the plugin
+volume: 0.3
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Global drop chest contents to inventory
+drop-chest-to-inventory-global: false
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Realistic multi direction drop spread
+realistic-drop: true

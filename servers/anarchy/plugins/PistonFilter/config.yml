@@ -1,0 +1,14 @@
+verbose: true
+message-sender: true
+banned-text:
+  - "http"
+  - "https"
+  - "://"
+  - ".org"
+  - ".com"
+  - ".net"
+  - ".org"
+  - ".co"
+  - ".cc"
+  - ".tk"
+  - ".ga"

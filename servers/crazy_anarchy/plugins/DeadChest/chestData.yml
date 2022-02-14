@@ -1,0 +1,403 @@
+chestData:
+- ==: ChestData
+  playerUUID: 3f25210c-d7d8-495f-b19a-8d1b1041ef1b
+  holographicTimer: world;-1245.5;64.79999995231628;-3680.5
+  worldName: world
+  as_timer_id: 9266c090-bc72-4ee3-8f8b-e50d3c13fbba
+  playerName: HMS_DUNCAN
+  isInfinity: false
+  as_owner_id: 5f6f362d-9231-4704-841d-a1958b079dd7
+  chestDate: 2021-08-21T21:58:06.864Z
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: IRON_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 56
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: IRON_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 169
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: BREAD
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: CRAFTING_TABLE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: WHITE_BED
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: SPRUCE_BOAT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: APPLE
+    amount: 6
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: BONE_MEAL
+    amount: 27
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: COBBLESTONE
+    amount: 11
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: LEATHER
+    amount: 2
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: ARROW
+    amount: 27
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: FLINT_AND_STEEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: COBBLED_DEEPSLATE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: FURNACE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: FIRE_CHARGE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: SUGAR_CANE
+    amount: 10
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: SAND
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: IRON_INGOT
+    amount: 5
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: OBSIDIAN
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: BONE_BLOCK
+    amount: 26
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: MOSSY_COBBLESTONE
+    amount: 5
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: DISPENSER
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: BEEF
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: GRANITE
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: ROTTEN_FLESH
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: OAK_PLANKS
+    amount: 48
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: STICKY_PISTON
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: REDSTONE
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: COBBLESTONE
+    amount: 8
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: REPEATER
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: GOLD_BLOCK
+    amount: 18
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Slimefun
+        Guide "},{"italic":false,"color":"gray","text":"(Chest GUI)"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Right
+        Click "},{"italic":false,"color":"dark_gray","text":"⇨ "},{"italic":false,"color":"gray","text":"Browse
+        Items"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Shift
+        + Right Click "},{"italic":false,"color":"dark_gray","text":"⇨ "},{"italic":false,"color":"gray","text":"Open
+        Settings / Credits"}],"text":""}'
+      PublicBukkitValues:
+        slimefun:slimefun_guide_mode: SURVIVAL_MODE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: CHEST
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: POTATO
+    amount: 12
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: STICK
+    amount: 18
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: GOLDEN_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 17
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 21
+  - null
+  - null
+  chestLocation: world;-1246.0;64.0;-3681.0
+- ==: ChestData
+  playerUUID: 3f25210c-d7d8-495f-b19a-8d1b1041ef1b
+  holographicTimer: world_nether;-179.5;97.79999995231628;-65.5
+  worldName: world_nether
+  as_timer_id: b6d131c8-dae6-473e-a931-55f3b8a53362
+  playerName: HMS_DUNCAN
+  isInfinity: false
+  as_owner_id: 3dc425fe-c947-4a75-9721-09b1c30b0e75
+  chestDate: 2021-08-22T18:51:03.415Z
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 270
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 740
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 125
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: BIRCH_PLANKS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:water
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: NETHERRACK
+    amount: 9
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: SMITHING_TABLE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: WATER_BUCKET
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: WHITE_BED
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: LEATHER
+    amount: 24
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: NETHERITE_INGOT
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: NETHERITE_BLOCK
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: BONE_MEAL
+    amount: 17
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:water
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: STICK
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: GLASS_BOTTLE
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:water
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:water
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: DIAMOND_BLOCK
+    amount: 8
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Slimefun
+        Guide "},{"italic":false,"color":"gray","text":"(Chest GUI)"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Right
+        Click "},{"italic":false,"color":"dark_gray","text":"⇨ "},{"italic":false,"color":"gray","text":"Browse
+        Items"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Shift
+        + Right Click "},{"italic":false,"color":"dark_gray","text":"⇨ "},{"italic":false,"color":"gray","text":"Open
+        Settings / Credits"}],"text":""}'
+      PublicBukkitValues:
+        slimefun:slimefun_guide_mode: SURVIVAL_MODE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: GOLDEN_CARROT
+    amount: 7
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:water
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:water
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: IRON_BLOCK
+    amount: 9
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: IRON_INGOT
+    amount: 30
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: TNT
+    amount: 9
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: GOLD_BLOCK
+    amount: 6
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: SPRUCE_BOAT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: BONE_BLOCK
+    amount: 17
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:water
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: GOLD_INGOT
+    amount: 18
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: SADDLE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: FLINT_AND_STEEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: WHITE_BED
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 70
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 86
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 70
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 70
+  - null
+  chestLocation: world_nether;-180.0;97.0;-66.0

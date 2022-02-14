@@ -1,0 +1,87 @@
+change-nametag-prefix-suffix: false
+change-tablist-prefix-suffix: false
+enable-header-footer: true
+header:
+- ''
+- '&b&l&oSolito &a&l&oAnarchy'
+- ''
+- '&c&oKnown issue''s elytra''s are buggy & '
+- '&c&oGhost items when on lower than 1.17.1'
+- ''
+footer:
+- ''
+- '&7tps: %server_tps_1_colored% &7ping: &f%player_colored_ping%  &7player(s): &f%online%
+  &7uptime: &f%server_uptime%'
+- ''
+- '&7contact: ComPieter#0001'
+- '&7discussion: solitomc.nl/discord'
+- '&7website: solitomc.nl'
+- '&7These are the only official solitomc websites and contacts.'
+- ''
+yellow-number-in-tablist: ''
+group-sorting-priority-list: {}
+Groups: {}
+Users: {}
+classic-vanilla-belowname:
+  enabled: false
+  number: '%health%'
+  text: Health
+enable-collision: true
+revert-collision-rule-in-worlds: {}
+do-not-move-spectators: false
+allow-spectator-bypass-permission: false
+unlimited-nametag-prefix-suffix-mode:
+  enabled: false
+  modify-npc-names: false
+  use-marker-tag-for-1-8-x-clients: false
+  disable-on-boats: true
+per-world-settings: {}
+placeholders:
+  afk-yes: ' &4*&4&lAFK&4*&r'
+  afk-no: ''
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  remove-strings:
+  - '[]'
+  - < >
+rank-aliases: {}
+disable-features-in-worlds:
+  header-footer:
+  - disabledworld
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 100
+  server:
+    '%server_uptime%': 1000
+    '%server_tps_1_colored%': 1000
+  player:
+    '%player_health%': 200
+    '%player_ping%': 1000
+    '%vault_prefix%': 1000
+  relational:
+    '%rel_factionsuuid_relation_color%': 500
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+sort-players-by-permissions: false
+fix-pet-names: false
+use-primary-group: true
+primary-group-finding-list:
+- default
+assign-groups-by-permissions: false
+anti-override:
+  scoreboard-teams: true
+  scoreboard-objectives: true
+ping-spoof:
+  enabled: false
+debug: false

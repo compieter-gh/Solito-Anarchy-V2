@@ -1,0 +1,205 @@
+# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
+header-footer:
+  enabled: true
+  header:
+  - ''
+  - '&b&l&oSolito &a&l&oAnarchy'
+  - ''
+  - '&c&oKnown issue''s!'
+  - '&c&oGhost items on version''s lower than 1.17'
+  - ''
+  footer:
+  - ''
+  - '&7tps: %server_tps_1_colored% &7ping: &f%player_colored_ping% &7player(s): &f%server_online%
+    &7uptime: &f%server_uptime%'
+  - ''
+  - '&7contact: ComPieter#0001'
+  - '&7discussion: solitomc.nl/discord'
+  - '&7website: solitomc.nl'
+  - '&7These are the only official solitomc websites and contacts.'
+  - ''
+  disable-in-worlds:
+  - disabledworld
+  disable-in-servers:
+  - disabledserver
+  per-server:
+    server1:
+      header:
+      - an example of world with custom
+      footer:
+      - header/footer and prefix/suffix
+    server2;server3:
+      header:
+      - This is a shared header for
+      - server2 and server3
+tablist-name-formatting:
+  enabled: true
+  anti-override: true
+  disable-in-worlds:
+  - disabledworld
+  disable-in-servers:
+  - disabledserver
+  align-tabsuffix-on-the-right: false
+  character-width-overrides: {}
+scoreboard-teams:
+  enabled: false
+  invisible-nametags: false
+  anti-override: true
+  enable-collision: true
+  disable-in-worlds:
+  - disabledworld
+  disable-in-servers:
+  - disabledserver
+  case-sensitive-sorting: true
+  unlimited-nametag-mode:
+    dynamic-lines:
+    - abovename
+    - nametag
+    - belowname
+    - another
+    static-lines:
+      myCustomLine: 0.66
+  sorting-types:
+  - GROUPS:owner,admin,mod,helper,builder,premium,player,default
+  - PLACEHOLDER_A_TO_Z:%player%
+yellow-number-in-tablist:
+  enabled: false
+  value: ''
+  disable-in-worlds:
+  - disabledworld
+yellow-number:
+  disable-in-servers:
+  - disabledserver
+belowname-objective:
+  enabled: true
+  number: '%ping%'
+  text: Ping
+  disable-in-worlds:
+  - disabledworld
+  disable-in-servers:
+  - Crazy Anarchy
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  disable-in-servers:
+  - disabledserver
+  bars:
+    ServerInfo:
+      style: PROGRESS
+      color: '%animation:barcolors%'
+      progress: '100'
+      text: '&fWebsite: &bwww.domain.com'
+      announcement-bar: false
+    test:
+      display-condition: permission:tab.bossbar.test;%server%=testworld
+      style: PROGRESS
+      color: WHITE
+      progress: '100'
+      text: test
+      announcement-bar: false
+scoreboard:
+  enabled: false
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 0
+  delay-on-join-milliseconds: 0
+  respect-other-plugins: true
+  disable-in-worlds:
+  - disabledworld
+  disable-in-servers:
+  - disabledserver
+  scoreboards:
+    admin:
+      display-condition: permission:tab.scoreboard.admin
+      title: Admin scoreboard
+      lines:
+      - '%animation:MyAnimation1%'
+      - '&6Online:'
+      - '* &eOnline&7: &f%online%&7/&4%maxplayers%'
+      - '* &eCurrent World&7: &f%worldonline%'
+      - '* &eStaff&7: &f%staffonline%'
+      - ' '
+      - '&6Server Info:'
+      - '* &bTPS&7: %tps%'
+      - '* &bUptime&7: &f%server_uptime%'
+      - '* &bMemory&7: &f%memory-used%&7/&4%memory-max%'
+      - '%animation:MyAnimation1%'
+    scoreboard1:
+      title: Default
+      lines:
+      - '%animation:MyAnimation1%'
+      - '&6My Stats:'
+      - '* &eKills&7: &f%statistic_player_kills%'
+      - '* &eDeaths&7: &f%statistic_deaths%'
+      - '* &eHealth&7: &f%health%'
+      - ' '
+      - '&6Personal Info:'
+      - '* &bRank&7: &f%group%'
+      - '* &bPing&7: &f%ping%&7ms'
+      - '* &bWorld&7: &f%world%'
+      - '%animation:MyAnimation1%'
+ping-spoof:
+  enabled: false
+  value: 0
+prevent-spectator-effect:
+  enabled: false
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+conditions:
+  nick:
+    conditions:
+    - '%player%=%essentials_nickname%'
+    'yes': '%player%'
+    'no': ~%essentials_nickname%
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 500
+  server:
+    '%server_uptime%': 1000
+    '%server_tps_1_colored%': 1000
+  player:
+    '%player_health%': 200
+    '%player_ping%': 1000
+    '%vault_prefix%': 1000
+  relational:
+    '%rel_factionsuuid_relation_color%': 500
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- Owner
+- Admin
+- Helper
+- default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+global-playerlist:
+  enabled: false
+  display-others-as-spectators: false
+  display-vanished-players-as-spectators: true
+  isolate-unlisted-servers: false
+  spy-servers:
+  - spyserver1
+  - spyserver2
+  server-groups:
+    lobbies:
+    - lobby1
+    - lobby2
+    group2:
+    - server1
+    - server2
+  update-latency: false
+use-bukkit-permissions-manager: false

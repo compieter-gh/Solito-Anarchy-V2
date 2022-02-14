@@ -1,0 +1,47 @@
+#
+# Language-File translated by:		mani123
+#
+  
+  
+  
+Plugin:
+  
+  plugin-enabled: "[P]&a Плагин успешно включен."
+  plugin-hook: "[P]&a Успешно подключено к&6 %Link%&a!"
+  plugin-update: "[P]&a Вышла новая версия:&6 %NewVersion%&a!\n[P] &aУ вас:&6 %Version%&a!\n[P] &aСкачайте последнюю версию:\n[P]&6 %Path%"
+  plugin-disabled: "[P]&a Плагин успешно выключен."
+  plugin-prefix: "&7[&6GSit&7]"
+  
+  
+  
+Messages:
+  
+  command-reload: "[P]&a Кфг успешно перезагружены."
+  command-permission-error: "[P]&c У вас нет прав на &4это!"
+  command-console-error: "[P]&c Эта команда только для игроков!"
+  
+  command-gsittoggle-on: "[P]&a Теперь вы можете сесть."
+  command-gsittoggle-off: "[P]&a Вы больше не можете сесть."
+  command-gemote-use-error: "[P]&c Command: /emote <Emote>"
+  command-gemote-emote-error: "[P]&c The Emote&6 %Emote%&c does not exists!"
+  
+  action-sit-water-error: "[P]&c Здесь слишком мокро, чтобы сидеть!"
+  action-sit-location-error: "[P]&c Ты не можешь здесь сидеть!"
+  action-sit-area-error: "[P]&c Вы не можете сидеть &4тут!"
+  action-sit-ground-error: "[P]&c Вы можете сидеть только на земле!"
+  action-sit-already-error: "[P]&c Вы уже сидите!"
+  action-sit-safe-error: "[P]&c Здесь сидеть небезопасно!"
+  action-sit-world-error: "[P]&c Вы не можете сидеть в этом мире!"
+  action-sit-info: "&aИспользуйте&6 %Key%&a чтобы встать!"
+  
+  action-lay-location-error: "[P]&c Вы не можете здесь лежать!"
+  action-lay-area-error: "[P]&c Вы не можете лежать &4тут!"
+  action-lay-ground-error: "[P]&c Вы можете лежать только на земле!"
+  action-lay-already-error: "[P]&c Ты уже лежишь!"
+  action-lay-world-error: "[P]&c Вы не можете лежать в этом мире!"
+  action-lay-info: "&aИспользуйте&6 %Key%&a чтобы встать!"
+  
+  action-crawl-location-error: "[P]&c You can't crawl here!"
+  action-crawl-world-error: "[P]&c You can't crawl in this World!"
+  
+  action-blocked-error: "[P]&c Вам не разрешено выполнять эту команду сейчас!"

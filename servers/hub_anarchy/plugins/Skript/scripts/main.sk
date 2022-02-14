@@ -1,0 +1,291 @@
+options:
+	skript_version: 1.5.0-(14-11-2021)
+	skript_prefix: &b&lSolito &f&lNetwork &r»
+	skript_command_prefix: &b&lSolito &f&lNetwork
+	supported_protocol_versions: &f1.8 - 1.18
+	discord_link: https://discord.gg/Ju7pEqWcCv
+	server_ip: "play.solitomc.nl"
+	website_ip: "www.solitomc.nl"
+	shop_ip: "shop.solitomc.nl"
+
+on placeholderapi placeholder request for the prefix "solito":
+	if the identifier is "supported_protocol_versions":
+		set the result to "{@supported_protocol_versions}"
+	if the identifier is "discord_link":
+		set the result to "{@discord_link}"
+	if the identifier is "server_ip":
+		set the result to {@server_ip}
+	if the identifier is "website_ip":
+		set the result to {@website_ip}
+	if the identifier is "shop_ip":
+		set the result to {@shop_ip}
+	if the identifier is "rank":
+		set {_vault_rank} to placeholder "vault_rank" from player
+		if {_vault_rank} is "default":
+			set the result to "&c✘"
+		else:
+			set {_vault_prefix} to placeholder "vault_prefix" from player
+			set the result to "%{_vault_prefix}%"
+	if the identifier is "account_status":
+		set {_fastlogin_status} to placeholder "fastlogin_status" from player
+		if {_fastlogin_status} is "Unknown":
+			set the result to "&cCracked"
+		if {_fastlogin_status} is "Premium":
+			set the result to "&aPremium"
+
+command /solito [<text>] [<text>]:
+	description: Command for solito's main skript.
+	usage: /solito (commands)
+	executable by: players
+	trigger:
+		if arg-1 is not set:
+			send "&f&l&m-------------|&r {@skript_command_prefix} &f&l&m|-------------"
+			send ""
+			send "/solito announcements on/off"
+			send "/solito rules"
+			send "/solito hacks"
+			send "/solito debug (WIP)"
+			send "/solito version"
+			send ""
+			send "&f&l&m---------------------------------"
+		
+		if arg-1 is "rules":
+			send "&f&l&m----------|&r {@skript_command_prefix}&f (Rules) &l&m|----------"
+			send ""
+			send "&f&nThese rules apply to non"
+			send "&f&nAnarchy servers only."
+			send ""
+			send "&fDon't hack"
+			send "&fDon't grief"
+			send "&fDon't swear"
+			send ""
+			send "&f&l&m---------------------------------"
+
+		if arg-1 is "hacks":
+			kick the player due to "{@skript_prefix}&fYeah in anarchy you dumbass.%newline%%newline%Join using &nanarchy.solitomc.nl &rfor anarchy."
+			broadcast "{@skript_prefix} &f%player% Typed ""/solito hacks"" And got kicked."
+
+		if arg-1 is "version":
+			send "{@skript_prefix} &fSkript version is: {@skript_version}"
+			set {_server_version} to placeholder "server_version" from player
+			send "{@skript_prefix} &fServer version is: %{_server_version}%"
+			set {_player_version} to placeholder "viaversion_player_protocol_version" from player
+			send "{@skript_prefix} &fPlayer version is: %{_player_version}%"
+			send "{@skript_prefix} &fSupported versions: {@supported_protocol_versions}"
+
+on script load:
+	clear {textgui_page::*}
+	clear {textgui_loop::*}
+	clear {textgui_timer::*}
+	clear {textgui_timer_cancelled::*}
+
+#on join:		
+#	title(player)
+
+#on connect:
+
+on disconnect:
+	clear player's inventory
+	clear {textgui_page::%player%}
+	clear {textgui_loop::%player%}
+	clear {textgui_timer::%player%}
+	clear {textgui_timer_cancelled::%player%}
+
+# on damage:
+# 	if attacker or victim has permission "admin.anarchy":
+# 		stop
+# 	if world is "world_the_end_2" or "queue":
+# 		stop
+# 	else:
+# 		cancel event
+
+# on chat:
+# 	if player has permission "admin.anarchy":
+# 		stop
+# 	if world is "world_the_end_2" or "queue":
+# 		stop
+# 	else:
+# 		cancel event
+
+#on any move:
+#	if player has permission "admin.anarchy":
+#		stop
+#	if world is "world_the_end_2" or "queue":
+#		stop
+#	else:
+#		cancel event
+
+function clearChat(p: player):
+    loop 100 times:
+        send "" to {_p}
+
+function timer(p: player , t: number):
+	loop {_t} times:
+		set {_cd} to {_t} -1
+		set {textgui_timer::%{_p}%} to {_cd}
+		if {textgui_server_preffered::%{_p}%} is not set:
+			#set {textgui_server_preffered::%{_p}%} to "&aAnarchy"
+			set {textgui_timer::%{_p}%} to 0
+			stop loop
+		if {_cd} > 0:
+			if {textgui_timer_cancelled::%{_p}%} is true:
+				set {textgui_timer::%{_p}%} to 0
+				stop loop
+		if {_cd} <= 0:
+			if {textgui_server_preffered::%{_p}%} is "&aAnarchy":
+				set {textgui_server_preffered::%{_p}%} to "&aAnarchy"
+				clear {textgui_loop::%{_p}%}
+				clearChat({_p})
+				make {_p} execute "textgui connect anarchy"
+				stop loop
+			if {textgui_server_preffered::%{_p}%} is "&3Creative &aAnarchy":
+				set {textgui_server_preffered::%{_p}%} to "&3Creative &aAnarchy"
+				clear {textgui_loop::%{_p}%}
+				clearChat({_p})
+				make {_p} execute "textgui connect creative_anarchy"
+				stop loop
+			if {textgui_server_preffered::%{_p}%} is "&3Crazy &aAnarchy":
+				set {textgui_server_preffered::%{_p}%} to "&3Crazy &aAnarchy"
+				clear {textgui_loop::%{_p}%}
+				clearChat({_p})
+				make {_p} execute "textgui connect crazy_anarchy"
+				stop loop
+		remove 1 from {_t}
+		wait 1 second
+
+function title(p: player):
+	send title "&fWelcome to &b&lSolito &a&lAnarchy &f" to {_p} for 1 seconds
+	wait 3 seconds
+	send title "&fMake sure you have the chat enabled" with subtitle "&fto see the servers" to {_p} for 5 seconds
+
+function p_refresh(p:player):
+	while {_p} is online:
+		set {players_hub_anarchy} to placeholder "pinger_players_172.18.0.1:25500"
+		set {players_anarchy} to placeholder "pinger_players_172.18.0.1:25501"
+		set {players_creative_anarchy} to placeholder "pinger_players_172.18.0.1:25502"
+		set {players_crazy_anarchy} to placeholder "pinger_players_172.18.0.1:25503"
+		wait 1 second
+
+command /textgui [<text>] [<text>] [<text>]:
+	trigger:
+		if arg-1 is not set:
+			if {textgui_loop::%player%} is true:
+				stop
+			else:
+				p_refresh(player)
+				set {textgui_loop::%player%} to true
+				timer(player , 11)
+				while {textgui_loop::%player%} is true:
+					if {textgui_page::%player%} is not set:
+						set {textgui_page::%player%} to 1
+					clearChat(player)
+					if {textgui_page::%player%} is 1:
+						send "&7-----------------------------------------------------" to player
+						send "&fServer's: &f[<command:/textgui connect anarchy>Anarchy<reset>]&f / [<command:/textgui connect creative_anarchy>Creative Anarchy<reset>]&f / [<command:/textgui connect crazy_anarchy>Crazy Anarchy<reset>]&f" to player
+						send "&f" to player
+						send "&fAuto connecting to: %{textgui_server_preffered::%player%}%&f in &c%{textgui_timer::%player%}%&f seconds &f[<command:/textgui timer cancel>Cancel<reset>]" to player
+						send "&f" to player
+						send "&fCompatible/Tested Clients:" to player
+						send "&f<link:https://meteorclient.com/>&f&nMeteor<reset> / <link:https://bleachhack.org/>&f&nBleachHack<reset>" to player
+						send "&f<link:https://inertiaclient.com/>&f&nInertia<reset>" to player
+						send "&f" to player
+						#send "&fPlayer(s) &aAnarchy: &f%{players_anarchy}% / &3Creative &aAnarchy: &f%{players_creative_anarchy}% / &3Crazy &aAnarchy: &f%{players_crazy_anarchy}%" to player
+						#send "&fQueue &aAnarchy: &fN/A / &3Creative &aAnarchy: &fN/A / &3Crazy &aAnarchy: &fN/A" to player
+						send "&7---&f[<command:/textgui exit>Exit<reset>]&7--------------------------------------&f[<command:/textgui 2>Next<reset>]&7---" to player
+					if {textgui_page::%player%} is 2:
+						send "&7-----------------------------------------------------" to player
+						send "&f" to player
+						send "&f[<command:/music>GMusic<reset>]" to player
+						send "&fMusic for queue/hub" to player
+						send "&f" to player
+						send "&f" to player
+						send "&f" to player
+						send "&f" to player
+						send "&7---&f[<command:/textgui 1>Prev<reset>]&7-------------------------------------&f[<command:/textgui 3>Next<reset>]&7---" to player
+					if {textgui_page::%player%} is 3:
+						send "&7-----------------------------------------------------" to player
+						send "&f" to player
+						send "&f" to player
+						send "&f" to player
+						send "&f" to player
+						send "&f" to player
+						send "&f" to player
+						send "&f" to player
+						send "&f" to player
+						send "&7---&f[<command:/textgui 2>Prev<reset>]&7---------------------------------------------" to player
+					if world is "world_the_end_2" or "queue":
+						clearChat(player)
+						clear {textgui_loop::%player%}
+					wait 1 seconds
+		if arg-1 is "exit":
+			clear {textgui_loop::%player%}	
+		if arg-1 is "1":
+			set {textgui_page::%player%} to 1
+		if arg-1 is "2":
+			set {textgui_page::%player%} to 2
+		if arg-1 is "3":
+			set {textgui_page::%player%} to 3
+		if arg-1 is "connect":
+			if arg-2 is "anarchy":
+				set {textgui_server_preffered::%player%} to "&aAnarchy"
+				clear {textgui_loop::%player%}
+				clearChat(player)
+				set {_online_anarchy} to placeholder "pinger_online_172.18.0.1:25501"
+				make player execute "textgui exit"
+				if {_online_anarchy} is "&aOnline":
+					send "&aServer is online! &fConnecting..."
+					wait 3 seconds
+					connect player to "anarchy"
+				else:
+					send "&cServer is offline! &fReturning to textgui..."
+					wait 3 seconds
+					make player execute "textgui timer cancel"
+					make player execute "textgui"
+
+			if arg-2 is "creative_anarchy":
+				set {textgui_server_preffered::%player%} to "&3Creative &aAnarchy"
+				clear {textgui_loop::%player%}
+				clearChat(player)
+				set {_online_creative_anarchy} to placeholder "pinger_online_172.18.0.1:25502"
+				make player execute "textgui exit"
+				if {_online_creative_anarchy} is "&aOnline":
+					send "&aServer is online! &fConnecting..."
+					wait 1 seconds
+					send "&fLoading withers..."
+					wait 1 seconds
+					send "&fLoading broken terain..."
+					wait 1 seconds
+					send "&fTime to go BOOM!"
+					wait 1 seconds
+					connect player to "creative_anarchy"
+				else:
+					send "&cServer is offline! &fReturning to textgui..."
+					wait 3 seconds
+					make player execute "textgui timer cancel"
+					make player execute "textgui"
+
+			if arg-2 is "crazy_anarchy":
+				set {textgui_server_preffered::%player%} to "&3Crazy &aAnarchy"
+				clear {textgui_loop::%player%}
+				clearChat(player)
+				set {_online_crazy_anarchy} to placeholder "pinger_online_172.18.0.1:25503"
+				make player execute "textgui exit"
+				if {_online_crazy_anarchy} is "&aOnline":
+					send "&aServer is online! &fConnecting..."
+					wait 1 seconds
+					send "&fLoading crazyness..."
+					wait 1 seconds
+					send "&fLoading crazy chunks..."
+					wait 1 seconds
+					send "&fTime to go crazy!"
+					wait 1 seconds
+					connect player to "crazy_anarchy"
+				else:
+					send "&cServer is offline! &fReturning to textgui..."
+					wait 3 seconds
+					make player execute "textgui timer cancel"
+					make player execute "textgui"
+
+		if arg-1 is "timer":
+			if arg-2 is "cancel":
+				set {textgui_timer_cancelled::%player%} to true

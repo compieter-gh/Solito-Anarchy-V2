@@ -1,0 +1,130 @@
+general:
+  world_guard_protection: true
+  min_timer: 600
+  disasters: true
+  level_six: true
+  event_broadcast: true
+  blacklisted_worlds: []
+  blacklisted_blocks:
+  - bedrock
+  - end_portal_frame
+  - end_portal
+  - spawner
+  version: 3.0
+table:
+  Level 1: 30
+  Level 2: 25
+  Level 3: 20
+  Level 4: 15
+  Level 5: 9
+  Level 6: 1
+events:
+  sinkholes: true
+  caveins: true
+  tornados: true
+  geysers: true
+  earthquakes: true
+  acidstorms: true
+  extremewinds: true
+  soulstorms: true
+  blizzards: true
+  sandstorms: true
+  plagues: true
+  tsunamis: true
+messages:
+  console_error_message: '&cUnable to execute command from console!'
+  permission_error: '&cYou do not have permission to use that!'
+  destructive:
+    level 1: '&aLevel: 1 %disaster% &6event starting at: &a%location% &e(%player%)'
+    level 2: '&2Level: 2 %disaster% &6event starting at: &a%location% &e(%player%)'
+    level 3: '&bLevel: 3 %disaster% &6event starting at: &a%location% &e(%player%)'
+    level 4: '&eLevel: 4 %disaster% &6event starting at: &a%location% &e(%player%)'
+    level 5: '&cLevel: 5 %disaster% &6event starting at: &a%location% &e(%player%)'
+    level 6: '&4&lLevel: 6 %disaster% &6event starting at: &a%location% &e(%player%)'
+  weather:
+    level 1: '&6A &2very short %disaster% &6is about to begin &a(%world%)'
+    level 2: '&6A &ashort %disaster% &6is about to begin &a(%world%)'
+    level 3: '&6A &blong %disaster% &6is about to begin &a(%world%)'
+    level 4: '&6A &every long %disaster% &6is about to begin &a(%world%)'
+    level 5: '&6An &cextremely long %disaster% &6is about to begin &a(%world%)'
+    winds:
+      level 1: '&aVery light &fWinds &6are approaching'
+      level 2: '&bLight &fWinds &6are approaching'
+      level 3: '&9Strong &fWinds &6are approaching'
+      level 4: '&eVery strong &fWinds &6are approaching'
+      level 5: '&cExtremely strong &fWinds &6are approaching'
+      level 6: '&4&lSeverely strong &fWinds &6are approaching'
+  misc:
+    plague:
+      started: '&eA mob has contracted the &0Black Plague'
+sinkhole:
+  speed: 5
+  size: 1.0
+  allow_in_nether: true
+  allow_in_end: true
+earthquake:
+  size: 1.0
+  allow_in_nether: true
+  allow_in_end: true
+geyser:
+  water_damage: 1.5
+tsunami:
+  minimum_depth: 15
+  size: 1.0
+  damage: 3.0
+  remove_water: true
+sandstorm:
+  start_delay: 5
+  time:
+    level 1: 30
+    level 2: 60
+    level 3: 120
+    level 4: 200
+    level 5: 300
+  mobs_drop_skulls: true
+  wither_effect: true
+blizzard:
+  start_delay: 5
+  time:
+    level 1: 30
+    level 2: 60
+    level 3: 120
+    level 4: 200
+    level 5: 300
+  freeze_entities: true
+  leather_armor_protection: true
+acidstorm:
+  start_delay: 5
+  time:
+    level 1: 30
+    level 2: 60
+    level 3: 120
+    level 4: 200
+    level 5: 300
+  melt_dropped_items: true
+  melt_armor: true
+soulstorm:
+  start_delay: 5
+  time:
+    level 1: 30
+    level 2: 60
+    level 3: 120
+    level 4: 200
+    level 5: 300
+  spawn_vex: true
+extremewinds:
+  start_delay: 5
+  time:
+    level 1: 30
+    level 2: 60
+    level 3: 80
+    level 4: 100
+    level 5: 120
+    level 6: 120
+  force:
+    level 1: 0.02
+    level 2: 0.04
+    level 3: 0.075
+    level 4: 0.175
+    level 5: 0.3
+    level 6: 3

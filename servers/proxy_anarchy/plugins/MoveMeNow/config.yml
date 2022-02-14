@@ -1,0 +1,9 @@
+message: "%kickmsg%"
+servername: "hub_anarchy"
+mode: blacklist
+list:
+- ban
+- banned
+- kick
+- kicked
+- rules

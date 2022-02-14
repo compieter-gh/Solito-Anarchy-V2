@@ -1,0 +1,47 @@
+#
+# Language-File translated by:		Gecolay
+#
+  
+  
+  
+Plugin:
+  
+  plugin-enabled: "[P]&a The Plugin was successfully enabled."
+  plugin-hook: "[P]&a Hooked successfully with&6 %Link%&a!"
+  plugin-update: "[P]&a New Version available:&6 %NewVersion%&a!\n[P]&a You are currently running Version:&6 %Version%&a!\n[P]&a Download the latest Version at:\n[P]&6 %Path%"
+  plugin-disabled: "[P]&a The Plugin was successfully disabled."
+  plugin-prefix: "&7[&6GSit&7]"
+  
+  
+  
+Messages:
+  
+  command-reload: "[P]&a The Settings were successfully reloaded."
+  command-permission-error: "[P]&c You don't have Permission to use this Command!"
+  command-console-error: "[P]&c This Command is only for Players!"
+  
+  command-gsittoggle-on: "[P]&a You can now sit down by clicking."
+  command-gsittoggle-off: "[P]&a You can no longer sit down by clicking."
+  command-gemote-use-error: "[P]&c Command: /emote <Emote>"
+  command-gemote-emote-error: "[P]&c The Emote&6 %Emote%&c does not exists!"
+  
+  action-sit-water-error: "[P]&c It's too wet to sit here!"
+  action-sit-location-error: "[P]&c You can't sit here!"
+  action-sit-area-error: "[P]&c You can't sit in this Area!"
+  action-sit-ground-error: "[P]&c You can only sit on the Ground!"
+  action-sit-already-error: "[P]&c You are already seated!"
+  action-sit-safe-error: "[P]&c It's not safe to sit here!"
+  action-sit-world-error: "[P]&c You can't sit in this World!"
+  action-sit-info: "&aUse your&6 %Key%&a Key to get up!"
+  
+  action-lay-location-error: "[P]&c You can't lay here!"
+  action-lay-area-error: "[P]&c You can't lay in this Area!"
+  action-lay-ground-error: "[P]&c You can only lay on the Ground!"
+  action-lay-already-error: "[P]&c You are already lying down!"
+  action-lay-world-error: "[P]&c You can't lay in this World!"
+  action-lay-info: "&aUse your&6 %Key%&a Key to get up!"
+  
+  action-crawl-location-error: "[P]&c You can't crawl here!"
+  action-crawl-world-error: "[P]&c You can't crawl in this World!"
+  
+  action-blocked-error: "[P]&c You are not allowed to execute this Command right now!"

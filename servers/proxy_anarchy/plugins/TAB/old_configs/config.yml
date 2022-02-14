@@ -1,0 +1,165 @@
+# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
+use-bukkit-permissions-manager: false
+change-nametag-prefix-suffix: false
+change-tablist-prefix-suffix: true
+enable-header-footer: true
+global-playerlist:
+  enabled: false
+  display-others-as-spectators: false
+  display-vanished-players-as-spectators: true
+  isolate-unlisted-servers: false
+  spy-servers:
+  - spyserver1
+  - spyserver2
+  server-groups:
+    lobbies:
+    - lobby1
+    - lobby2
+    group2:
+    - server1
+    - server2
+header:
+- ''
+- '&b&l&oSolito &a&l&oAnarchy'
+- ''
+- '&c&oKnown issue''s!'
+- '&c&oGhost items on version''s lower than 1.17'
+- ''
+footer:
+- ''
+- '&7tps: %server_tps_1_colored% &7ping: &f%player_colored_ping% &7player(s): &f%server_online%
+  &7uptime: &f%server_uptime%'
+- ''
+- '&7contact: ComPieter#0001'
+- '&7discussion: solitomc.nl/discord'
+- '&7website: solitomc.nl'
+- '&7These are the only official solitomc websites and contacts.'
+- ''
+yellow-number-in-tablist: ''
+group-sorting-priority-list:
+- owner
+- admin
+- mod
+- helper
+- builder
+- premium
+- player
+- default
+Groups:
+  Owner:
+    tabprefix: '&4'
+    tagprefix: ''
+  Admin:
+    tabprefix: ''
+    tagprefix: ''
+  Player:
+    tabprefix: ''
+    tagprefix: ''
+  example_group:
+    header:
+    - This is an example of per-group header/footer
+    footer:
+    - applied to a group
+  _OTHER_:
+    tabprefix: ''
+    tagprefix: ''
+Users:
+  _NEZNAMY_:
+    tabprefix: '&6&lTAB Author &a'
+    tagprefix: '&6&lTAB &r&a'
+classic-vanilla-belowname:
+  enabled: true
+  number: '%ping%'
+  text: Ping
+enable-collision: true
+revert-collision-rule-in-servers:
+- revertedserver
+do-not-move-spectators: false
+allow-spectator-bypass-permission: false
+per-server-settings:
+  server1:
+    header:
+    - an example of world with custom
+    footer:
+    - header/footer and prefix/suffix
+    Groups:
+      Owner:
+        tabprefix: '&0&l[&a&lOwner&0&l] &a'
+        tagprefix: '&2&lOwner &a'
+  server2-server3:
+    header:
+    - This is a shared header for
+    - server2 and server3
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  remove-strings:
+  - '[]'
+  - < >
+server-aliases:
+  hub: '&eHub'
+  survival: '&bSurvival'
+  plot: '&cPlot'
+rank-aliases:
+  Admin: '&4&lADMIN'
+  Mod: '&b&lMOD'
+  Premium: '&6&lPREMIUM'
+  Ultra: '&b&lULTRA'
+  Legend: '&a&lLEGEND'
+  Titan: '&c&lTITAN'
+  Youtuber: '&c&lYOUTUBE'
+  _OTHER_: '&7No Rank'
+disable-features-in-servers:
+  header-footer:
+  - disabledserver
+  tablist-names:
+  - disabledserver
+  nametag:
+  - disabledserver
+  yellow-number:
+  - disabledserver
+  bossbar:
+  - disabledserver
+  belowname:
+  - Crazy Anarchy
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 500
+  server:
+    '%server_uptime%': 1000
+    '%server_tps_1_colored%': 1000
+  player:
+    '%player_health%': 200
+    '%player_ping%': 1000
+    '%vault_prefix%': 1000
+  relational:
+    '%rel_factionsuuid_relation_color%': 500
+sort-players-by-permissions: false
+use-primary-group: true
+primary-group-finding-list:
+- Owner
+- Admin
+- Helper
+- default
+assign-groups-by-permissions: false
+anti-override:
+  scoreboard-teams: true
+  scoreboard-objectives: true
+  tablist-names: true
+  usernames: true
+invisible-nametags: false
+ping-spoof:
+  enabled: false
+  value: 0
+debug: false
+disable-features-in-worlds:
+  header-footer:
+  - disabledworld
+  tablist-names:
+  - disabledworld
+  nametag:
+  - disabledworld
+  yellow-number:
+  - disabledworld
+  belowname:
+  - disabledworld

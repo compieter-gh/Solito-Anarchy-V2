@@ -1,0 +1,39 @@
+# ThankYou for useing BetterBroadcaster!
+# in minutes, how long should the delay between messages be? ("delay: 3" = 3 minutes)
+delay: 15
+# should messages be broadcast in a random order? (yes/no)
+randomize: true
+#
+#             --->   COLOR CODES   <---
+#  BetterBroadcast uses the $ symbol for color codes, This 
+# makes it easier to use the & symbol in your announcements.
+#
+#      ╔════╦════════════╗ ╔════╦══════════════╗
+#      ║ $0 ║ Black      ║ ║ $k ║ Ender Text   ║
+#      ║ $1 ║ Dark Blue  ║ ║ $l ║ Bold         ║
+#      ║ $2 ║ Dark Green ║ ║ $m ║ Strikethrough║
+#      ║ $3 ║ Dark Aqua  ║ ║ $n ║ Underline    ║
+#      ║ $4 ║ Dark Red   ║ ║ $o ║ Italic       ║
+#      ║ $5 ║ Purple     ║ ║ $r ║ Reset        ║
+#      ║ $6 ║ Gold       ║ ╚════╩══════════════╝
+#      ║ $7 ║ Gray       ║
+#      ║ $8 ║ Dark Gray  ║ 
+#      ║ $9 ║ Indigo     ║
+#      ║ $a ║ Lime Green ║ 
+#      ║ $b ║ Aqua Blue  ║ 
+#      ║ $c ║ Light Red  ║ 
+#      ║ $d ║ Pink       ║ 
+#      ║ $e ║ Yellow     ║ 
+#      ║ $f ║ White      ║ 
+#      ╚════╩════════════╝ 
+#
+# messages to send
+messages:
+- $f$o<$3$o$nTIP$f$o>$r$o Dont run with Scissors! #(Take damage while holding scissors)
+- $f$o<$3$o$nTIP$f$o>$r$o Shulkers boxes drop their contents when destroyed.
+- $f$o<$3$o$nTIP$f$o>$r$o You can ride certain mobs. #(You can ride Withers, Axolotls, Bats, Bees, Blazes, Cats and chickens)
+- $f$o<$3$o$nTIP$f$o>$r$o Dont forget to hydrate! #(Thirst)
+- $f$o<$3$o$nTIP$f$o>$r$o If you kill someone you will slice of their head. #(PlayerHeadDrops)
+- $f$o<$3$o$nTIP$f$o>$r$o Theres a chance you can get mending in a enchantment table.
+- $f$o<$3$o$nTIP$f$o>$r$o Try right clicking some stone with bonemeal. #(BoneMealAnything)
+- $f$o<$3$o$nTIP$f$o>$r$o Be aware for disapearing ground!

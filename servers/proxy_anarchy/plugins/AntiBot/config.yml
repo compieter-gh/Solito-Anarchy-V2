@@ -1,0 +1,212 @@
+### AntiBot by LinsaFTW ###
+# Please help by donating, we require funds to continue with the development.
+# https://paypal.me/LinsaFTW
+
+### Condition System ###
+#
+# PPS means Pings/second (Connections that pinged the server in the last second)
+# CPS means Connections/second (Connections that are trying to connect in the last second)
+# JPS means Joins/second (Connections that fully joined the server in the last second)
+#
+# When the threshold is true the module will start working.
+# If the threshold is false, the module won't work.
+# This is made so we can save performance when there is no attack.
+#
+# Setting all threshold to 0 keeps the module always active.
+
+# This is used to reset configuration file automatically. (Don't touch it)
+version: 1
+
+# Default plugin language. (This changes depending on the client language if possible)
+lang: "en"
+
+# Checks if there are too many different nicknames from the same IP.
+accounts:
+  enabled: true
+
+  threshold:
+    pps: 0
+    cps: 6
+    jps: 1
+
+  # Max different nicknames a player can login while the check is active.
+  limit: 2
+
+  commands:
+    - "disconnect %kick_accounts%"
+
+# This blocks Blacklisted addresses if threshold is achieved.
+# Addresses are blacklisted when they fail RateLimit and other checks.
+blacklist:
+  enabled: true
+
+  threshold:
+    pps: 0
+    cps: 2
+    jps: 0
+
+  commands:
+    - "disconnect %kick_blacklist%"
+
+# Checks if players chat too fast or in invalid moments.
+fastchat:
+  enabled: true
+
+  threshold:
+    pps: 0
+    cps: 3
+    jps: 2
+
+  # Time players have to wait to type commands since joined. (In milliseconds)
+  time: 1000
+
+  commands:
+    - "disconnect %kick_fastchat%"
+
+# Checks if incoming connections have bot nicknames.
+nickname:
+  enabled: true
+
+  threshold:
+    pps: 0
+    cps: 4
+    jps: 0
+
+  # Checks if the nickname contains any of this strings.
+  blacklist:
+    - "mcspam"
+    - "mcstorm"
+    - "mcdrop"
+
+  commands:
+    - "disconnect %kick_nickname%"
+
+# Notifies console and players with permission about punishments made.
+# Permission node: antibot.notify
+notifications:
+  enabled: true
+
+  # Logs notifications on the console.
+  console: true
+
+# Checks if connections are being established too fast from the same address.
+ratelimit:
+  enabled: true
+
+  # If an address reachs any of this values it will get blocked.
+  threshold:
+    pps: 8
+    cps: 3
+    jps: 2
+
+  # Minimum time forced between connections from the same IP. (In milliseconds)
+  # This replaces BungeeCord connection throttle so we can blacklist addreses.
+  throttle: 1000
+
+  # Max players that can be online at the same time from the same IP.
+  max_online: 3
+
+  commands:
+    - "disconnect %kick_ratelimit%"
+
+# Asks players to reconnect/reping the first time they join the server.
+reconnect:
+  enabled: true
+
+  # The amount of times a player has to connect/ping the server to be allowed.
+  times:
+    ping: 1
+    connect: 3
+
+  threshold:
+    pps: 0
+    cps: 3
+    jps: 0
+
+  # Time to wait to reconnect for the first time. (In milliseconds)
+  throttle: 1250
+
+  commands:
+    - "disconnect %kick_reconnect%"
+
+# Checks if different connections try to register/login with the same password.
+# We take the second argument used in the command as the "password" to compare.
+password:
+  enabled: true
+
+  threshold:
+    pps: 0
+    cps: 0
+    jps: 0
+
+  # Commands that AntiBot will monitor as register/login.
+  auth_commands:
+    - "/reg "
+    - "/register "
+    - "/l "
+    - "/login "
+
+  commands:
+    - "disconnect %kick_password%"
+
+# Runs Linux commands when an address is blacklisted.
+runtime:
+  enabled: false
+
+  # Time to automatically remove all added addresses. (In milliseconds)
+  # You can set this value to -1 to keep addresses permanently firewalled.
+  time: 20000
+
+  # Placeholders: %address%, %time%
+  # If you don't want to run any commands on remove/add set the value to []
+  #
+  # IPSet (Optional)
+  # You can optionally use IPSet, it is like IPTables but faster.
+  # You can use: "ipset add blacklist %address% timeout %time%" to add with timeout.
+  # REMEMBER: Install IPSet and create the blacklist with "ipset create blacklist hash:ip hashsize 4096"
+  #
+  add:
+    - "iptables -A INPUT -s %address% -j DROP"
+
+  remove:
+    - "iptables -D INPUT -s %address% -j DROP"
+
+# Blocks connections that didnt send the Settings packet.
+# WARNING: If you have false positives try increasing the threshold or disabling the module.
+settings:
+  enabled: true
+
+  # Blocks connections if they didn't send the settings packet before switching servers.
+  switching: false
+
+  threshold:
+    pps: 0
+    cps: 0
+    jps: 0
+  
+  # Delay after joining to check if player sent Settings packet. (In milliseconds)
+  delay: 10000
+  
+  commands:
+    - "disconnect %kick_settings%"
+
+# Adds real players to a list when they quit so they can bypass the checks.
+# If threshold is achieved Lockout will activate and only Whitelisted will be able to join.
+# Lockout was made for security measures and its not intended to be used normally.
+whitelist:
+  enabled: true
+
+  threshold:
+    pps: 40
+    cps: 0
+    jps: 20
+
+  time:
+    # Time in milliseconds the player has to be online to get whitelisted.
+    whitelist: 15000
+
+    # Time in milliseconds the lockout runs active after threshold is met.
+    lockout: 20000
+
+  commands:
+    - "disconnect %kick_whitelist%"

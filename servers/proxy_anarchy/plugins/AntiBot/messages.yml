@@ -1,0 +1,238 @@
+#
+### Messages Module ###
+#
+# The language is automatically selected depending on the client language.
+#
+# Every message shown here is converted into a placeholder. (You can make your own!)
+# Example: %discord%
+#
+### Placeholder system ###
+#
+# Current: The amount in this current second.
+# Last: The amount in the last second. (static)
+# Address: The amount in this current second from a specific address.
+#
+# Available Placeholders:
+# %version% %addresspps% %addresscps% %addressjps% %lastpps% %lastcps% %lastjps%
+# %currentpps% %currentcps% %currentjps% %currentincoming% %totalblocked% %totalbls% %totalwls%
+#
+
+discord: "https://solitomc.nl/discord"
+stats: "&c&lAB: &e%currentpps% PPS &7> &e%currentcps% CPS &7> &e%currentjps% JPS &7> &e%totalbls% BLS &7> &e%totalwls% WLS"
+notification:
+  message: "&c&lAB: &e%address% &7> &6%check% &7> &c%currentincoming% Incoming &7> &c%totalblocked% Blocked"
+
+en:
+  reload: "&c&lAB: &aFiles successfully reloaded!"
+  help: |-
+    &aAntiBot&b %version% &aby&b LinsaFTW&a.
+    &e /ab notify &7> &bActivates AntiBot notifications!
+    &e /ab stats &7> &bShows the stats of the plugin!
+    &e /ab reload &7> &bReloads the plugin configuration!
+    &e /ab blacklist <add/remove> <IP> &7> &bAdds or removes a IP from the blacklist!
+    &e /ab blacklist <save/load> &7> &bSaves or loads the blacklist file!
+    &e /ab whitelist <add/remove> <IP> &7> &bAdds or removes a IP from the whitelist!
+    &e /ab whitelist <save/load> &7> &bSaves or loads the whitelist file!
+  error:
+    command: "&cInvalid argument! Use /ab help to see available commands!"
+    console: "&cYou can't run this command from the console!"
+    permission: "&cInsufficent permissions!"
+  notification:
+    enabled: "&aYou enabled notifications!"
+    disabled: "&cYou disabled notifications!"
+    error: "&cNotifications are disabled in the configuration file!"
+  kick:
+    blocked: "&cYou are temporally blocked from this server!\n\n&7Reason:"
+    accounts: "%kick_blocked% &fToo many accounts. [Accounts]\n&7Discord: &b&n%discord%&r"
+    whitelist: "%kick_blocked% &fThe server is under attack. [Whitelist]\n&7Discord: &b&n%discord%&r"
+    blacklist: "%kick_blocked% &fBot algorithm detected. [Blacklist]\n&7Discord: &b&n%discord%&r"
+    fastchat: "%kick_blocked% &fBot algorithm detected. [FastChat]\n&7Discord: &b&n%discord%&r"
+    ratelimit: "%kick_blocked% &fToo many connections. [RateLimit]\n&7Discord: &b&n%discord%&r"
+    nickname: "%kick_blocked% &fBot algorithm detected. [NickName]\n&7Discord: &b&n%discord%&r"
+    settings: "%kick_blocked% &fBot algorithm detected. [Settings]\n&7Discord: &b&n%discord%&r"
+    password: "%kick_blocked% &fBot algorithm detected. [Password]\n&7Discord: &b&n%discord%&r"
+    reconnect: "&cAdd the server to the serverlist and refresh it!\n&cRefresh and reconnect %reconnect_times% more times to join!\n\n&7Reason: &fVerify that you are not a bot.\n&7Discord: &b&n%discord%&r"
+es:
+  reload: "&c&lAB: &aArchivos recargados correctamente!"
+  help: |-
+    &aAntiBot&b %version% &apor&b LinsaFTW&a.
+    &e /ab notify &7> &bActiva las notificaciones de bots!
+    &e /ab stats &7> &bMuestra estadisticas del plugin!
+    &e /ab reload &7> &bRecarga la configuracion del plugin!
+    &e /ab blacklist <add/remove> <IP> &7> &bAgrega o quita una IP de la blacklist!
+    &e /ab blacklist <save/load> &7> &bGuarda o carga la blacklist!
+    &e /ab whitelist <add/remove> <IP> &7> &bAgrega o quita una IP de la whitelist!
+    &e /ab whitelist <save/load> &7> &bGuarda o carga la whitelist!
+  error:
+    command: "&cArgumento invalido! Usa /ab help para ver comandos!"
+    console: "&cNo puedes usar ese comando desde la consola!"
+    permission: "&cPermisos insuficientes!"
+  notification:
+    enabled: "&aHabilitaste las notificaciones!"
+    disabled: "&cDeshabilitaste las notificaciones!"
+    error: "&cLas notificaciones estan desactivadas en la configuracion!"
+  kick:
+    blocked: "&cEstas bloqueado temporalmente!\n\n&7Razon:"
+    accounts: "%kick_blocked% &fMuchas cuentas. [Accounts]\n&7Discord: &b&n%discord%&r"
+    whitelist: "%kick_blocked% &fServidor bajo ataque. [Whitelist]\n&7Discord: &b&n%discord%&r"
+    blacklist: "%kick_blocked% &fAlgoritmo de bots. [Blacklist]\n&7Discord: &b&n%discord%&r"
+    fastchat: "%kick_blocked% &fAlgoritmo de bots. [FastChat]\n&7Discord: &b&n%discord%&r"
+    ratelimit: "%kick_blocked% &fDemaciadas conexiones. [RateLimit]\n&7Discord: &b&n%discord%&r"
+    nickname: "%kick_blocked% &fAlgoritmo de bots. [NickName]\n&7Discord: &b&n%discord%&r"
+    settings: "%kick_blocked% &fAlgoritmo de bots. [Settings]\n&7Discord: &b&n%discord%&r"
+    password: "%kick_blocked% &fAlgoritmo de bots. [Password]\n&7Discord: &b&n%discord%&r"
+    reconnect: "&cAgrega el server a la lista y refrescala!\n&cRefresca y reconecta %reconnect_times% veces para entrar!\n\n&7Razon: &fVerifica que no eres un robot.\n&7Discord: &b&n%discord%&r"
+de:
+  reload: "&c&lAB: &aDateien erfolgreich neu geladen!"
+  help: |-
+    &aAntiBot&b %version% &avon&b LinsaFTW&a.
+    &e /ab notify &7> &bAktiviert AntiBot Benachrichtigungen!
+    &e /ab stats &7> &bZeigt die Statistiken des Plugins an!
+    &e /ab reload &7> &bLädt das Plugin neu!
+    &e /ab blacklist <add/remove> <IP> &7> &bFügt eine IP hinzu oder entfernt sie von der Blacklist!
+    &e /ab blacklist <save/load> &7> &bSpeichert oder lädt die Blacklist-Datei!
+    &e /ab whitelist <add/remove> <IP> &7> &bFügt eine IP hinzu oder entfernt sie aus der Whitelist!
+    &e /ab whitelist <save/load> &7> &bSpeichert oder lädt die Whitelist-Datei!
+  error:
+    command: "&cUngültiges Argument! Benutze /ab help um alle Befehle anzuzeigen!"
+    console: "&cdieser Befehl kann nicht über die Konsole ausgeführt werden!"
+    permission: "&cUnzureichende Berechtigungen!"
+  notification:
+    enabled: "&aBenachrichtigungen aktiviert!"
+    disabled: "&cBenachrichtigungen deaktiviert!"
+    error: "&cMeldingen zijn uitgeschakeld in het configuratiebestand!"
+  kick:
+    blocked: "&c vorübergehend vom Server gesperrt!!\n\n&7Grund:"
+    accounts: "%kick_blocked% &fZu viele Accounts. [Accounts]\n&7Discord: &b&n%discord%&r"
+    whitelist: "%kick_blocked% &fDer Server wird angegriffen. [Whitelist]\n&7Discord: &b&n%discord%&r"
+    blacklist: "%kick_blocked% &fBot-Algorithmus erkannt. [Blacklist]\n&7Discord: &b&n%discord%&r"
+    fastchat: "%kick_blocked% &fBot-Algorithmus erkannt. [FastChat]\n&7Discord: &b&n%discord%&r"
+    ratelimit: "%kick_blocked% &fzu viele Verbindungen. [RateLimit]\n&7Discord: &b&n%discord%&r"
+    nickname: "%kick_blocked% &fBot-Algorithmus erkannt. [NickName]\n&7Discord: &b&n%discord%&r"
+    settings: "%kick_blocked% &fBot-Algorithmus erkannt. [Settings]\n&7Discord: &b&n%discord%&r"
+    password: "%kick_blocked% &fBot-Algorithmus erkannt. [Password]\n&7Discord: &b&n%discord%&r"
+    reconnect: "&cFüge den Server zur Serverliste hinzu und aktualisiere ihn!\n&cAktualisieren und erneut verbinden %reconnect_times% mal mehr beitreten!\n\n&7Grund: &fsicherstellen dass Sie kein Bot sind.\n&7Discord: &b&n%discord%&r"
+# Credits: xion87
+it:
+  reload: "&c&lAB: &aFile ricaricati con successo!"
+  help: |-
+    &aAntiBot&b %version% &adi&b LinsaFTW&a.
+    &e /ab notify &7> &bMostra le notifiche del Antibot!
+    &e /ab stats &7> &bMostra le statistiche del plugin!
+    &e /ab reload &7> &bRicarica la configurazione del plugin!
+    &e /ab blacklist <add/remove> <IP> &7> &bAggiungi o rimuovi un IP dalla blacklist!
+    &e /ab blacklist <save/load> &7> &bSalva o ricarica il file blacklist!
+    &e /ab whitelist <add/remove> <IP> &7> &bAggiunto o rimuovi un IP dalla whitelist!
+    &e /ab whitelist <save/load> &7> &bSalva o ricarica il filde whitelist!
+  error:
+    command: "&cArgomento invalido! Usa /ab help per vedere i commandi disponibili!"
+    console: "&cNon puoi eseguire questo comando dalla console!"
+    permission: "&cPermessi insufficienti!"
+  notification:
+    enabled: "&aHai abilitato le notifiche!"
+    disabled: "&cHai disabilitato le notifiche!"
+    error: "&cLe notifiche sono disabilitate nel file di configurazione!"
+  kick:
+    blocked: "&cSei temporaneamente bloccato da questo server!\n\n&7Motivo:"
+    accounts: "%kick_blocked% &fTropppi account. [Accounts]\n&7Discord: &b&n%discord%&r"
+    whitelist: "%kick_blocked% &fIl server è sotto attacco. [Whitelist]\n&7Discord: &b&n%discord%&r"
+    blacklist: "%kick_blocked% &fAlgoritmo Bot rilevato. [Blacklist]\n&7Discord: &b&n%discord%&r"
+    fastchat: "%kick_blocked% &fAlgoritmo Bot rilevato. [FastChat]\n&7Discord: &b&n%discord%&r"
+    ratelimit: "%kick_blocked% &fTroppe connessioni. [RateLimit]\n&7Discord: &b&n%discord%&r"
+    nickname: "%kick_blocked% &fAlgoritmo Bot rilevato. [NickName]\n&7Discord: &b&n%discord%&r"
+    settings: "%kick_blocked% &fAlgoritmo Bot rilevato. [Settings]\n&7Discord: &b&n%discord%&r"
+    password: "%kick_blocked% &fAlgoritmo Bot rilevato. [Password]\n&7Discord: &b&n%discord%&r"
+    reconnect: "&cAggiungi il server alla lista dei server e aggiornala lentamente!\n&cAggiorna e ricollegati %reconnect_times% volte per entrare!\n\n&7Motivo: &fVerifica che non sei un bot.\n&7Discord: &b&n%discord%&r" 
+# Credits: LLIcocoman
+fr:
+  reload: "&c&lAB: &aFichiers rechargés avec succès!"
+  help: |-
+    &aAntiBot&b %version% &apar&b LinsaFTW&a.
+    &e /ab notify &7> &bActive les notifications!
+    &e /ab stats &7> &bAffiche les statistiques!
+    &e /ab reload &7> &Recharge les paramètres du plugin!
+    &e /ab blacklist <add/remove> <IP> &7> &bAjoute ou supprime une IP de la liste noire!
+    &e /ab blacklist <save/load> &7> &bSauvegarde ou charge le fichier de liste noire!
+    &e /ab whitelist <add/remove> <IP> &7> &bAjoute une supprime une IP de la liste blanche!
+    &e /ab whitelist <save/load> &7> &bSauvegarde ou charge le fichier de list blanche!
+  error:
+    command: "&cArgument invalide! Utilise /ab help pour afficher la liste des commandes!"
+    console: "&cVous ne pouvez utiliser cette commande depuis la console!"
+    permission: "&cVous n'avez pas la permission de faire ceci!"
+  notification:
+    enabled: "&aVous avez activé les notifications!"
+    disabled: "&cVous avez désactivé les notifications!"
+    error: "&cLes notifications sont désactivées dans le fichier de configuration!"
+  kick:
+    blocked: "&cVous êtes temporairement bloqué du serveur!\n\n&7Raison:"
+    accounts: "%kick_blocked% &fTrop de comptes detectés. [Accounts]\n&7Discord: &b&n%discord%&r"
+    whitelist: "%kick_blocked% &fAttaque de Bot detectée. [Whitelist]\n&7Discord: &b&n%discord%&r"
+    blacklist: "%kick_blocked% &fBot detecté. [Blacklist]\n&7Discord: &b&n%discord%&r"
+    fastchat: "%kick_blocked% &fBot detecté. [FastChat]\n&7Discord: &b&n%discord%&r"
+    ratelimit: "%kick_blocked% &fTrop de connexion detectée. [RateLimit]\n&7Discord: &b&n%discord%&r"
+    nickname: "%kick_blocked% &fBot detecté. [NickName]\n&7Discord: &b&n%discord%&r"
+    settings: "%kick_blocked% &fBot detecté. [Settings]\n&7Discord: &b&n%discord%&r"
+    password: "%kick_blocked% &fBot detecté. [Password]\n&7Discord: &b&n%discord%&r"
+    reconnect: "&cAjoutez le serveur à votre liste de serveurs et raffraichissez là!\n&cReconnectez-vous plus de %reconnect_times% fois pour rejoindre!\n\n&7Raison: &fNous vérifions que vous n'êtes pas un Bot.\n&7Discord: &b&n%discord%&r"
+# Credits: gabrielmottadev
+pt-BR:
+  reload: "&c&lAB: &aArquivos recarregados com sucesso!"
+  help: |-
+    &aAntiBot&b %version% &apor&b LinsaFTW&a.
+    &e /ab notify &7> &bAtiva as notificações do AntiBot!
+    &e /ab stats &7> &bMostra os status do plugin!
+    &e /ab reload &7> &bRecarrega as configurações do plugin!
+    &e /ab blacklist <add/remove> <IP> &7> &bAdiciona ou remove um IP da blacklist!
+    &e /ab blacklist <save/load> &7> &bSalva ou carrega o arquivo da blacklist!
+    &e /ab whitelist <add/remove> <IP> &7> &bAdiciona ou remove um IP da whitelist!
+    &e /ab whitelist <save/load> &7> &bSalva ou carrega o arquivo da whitelist!
+  error:
+    command: "&cArgumento inválido! Use /ab help para ver os comandos disponíveis!"
+    console: "&cVocê não pode usar o comando pelo console!"
+    permission: "&cPermissões insuficientes!"
+  notification:
+    enabled: "&aVocê habilitou as notificações!"
+    disabled: "&cVocê desabilitou as notificações!"
+    error: "&cAs notificações estão desativadas no arquivo de configuração!"
+  kick:
+    blocked: "&cVocê está temporariamente bloqueado deste servidor!\n\n&7Motivo:"
+    accounts: "%kick_blocked% &fMuitas contas. [Accounts]\n&7Discord: &b&n%discord%&r"
+    whitelist: "%kick_blocked% &fO server está sob ataque. [Whitelist]\n&7Discord: &b&n%discord%&r"
+    blacklist: "%kick_blocked% &fAlgorítimo de bot detectado. [Blacklist]\n&7Discord: &b&n%discord%&r"
+    fastchat: "%kick_blocked% &fAlgorítimo de bot detectado. [FastChat]\n&7Discord: &b&n%discord%&r"
+    ratelimit: "%kick_blocked% &fMuitas conexões. [RateLimit]\n&7Discord: &b&n%discord%&r"
+    nickname: "%kick_blocked% &fAlgorítimo de bot detectado. [NickName]\n&7Discord: &b&n%discord%&r"
+    settings: "%kick_blocked% &fAlgorítimo de bot detectado. [Settings]\n&7Discord: &b&n%discord%&r"
+    password: "%kick_blocked% &fAlgorítimo de bot detectado. [Password]\n&7Discord: &b&n%discord%&r"
+    reconnect: "&cAdicione o server na lista de servidores e recarregue!\n&cRecarregue e reconecte mais %reconnect_times% vezes para entrar!\n\n&7Motivo: &fVerifique que você não é um bot.\n&7Discord: &b&n%discord%&r"
+# Credits: gabrielmottadev and frostytomas
+pt-PT:
+  reload: "&c&lAB: &aArquivos recarregados com sucesso!"
+  help: |-
+    &aAntiBot&b %version% &apor&b LinsaFTW&a.
+    &e /ab notify &7> &bAtiva as notificações do AntiBot!
+    &e /ab stats &7> &bMostra as status do plugin!
+    &e /ab reload &7> &bRecarrega as configurações do plugin!
+    &e /ab blacklist <add/remove> <IP> &7> &bAdiciona ou remove um IP da blacklist!
+    &e /ab blacklist <save/load> &7> &bGuarda ou carrega o arquivo da blacklist!
+    &e /ab whitelist <add/remove> <IP> &7> &bAdiciona ou remove um IP da whitelist!
+    &e /ab whitelist <save/load> &7> &bGuarda ou carrega o arquivo da whitelist!
+  error:
+    command: "&cArgumento inválido! Utiliza /ab help para ver os comandos disponíveis!"
+    console: "&cNão podes usar o comando pela consola!"
+    permission: "&cPermissões insuficientes!"
+  notification:
+    enabled: "&aHabilitas-te as notificações!"
+    disabled: "&cDesabilitas-te as notificações!"
+    error: "&cAs notificações estão desactivadas no ficheiro de configuração!"
+  kick:
+    blocked: "&cEstás temporariamente bloqueado deste servidor!\n\n&7Motivo:"
+    accounts: "%kick_blocked% &fMuitas contas. [Accounts]\n&7Discord: &b&n%discord%&r"
+    whitelist: "%kick_blocked% &fO servidor está sob ataque. [Whitelist]\n&7Discord: &b&n%discord%&r"
+    blacklist: "%kick_blocked% &fAlgorítimo de bot detectado. [Blacklist]\n&7Discord: &b&n%discord%&r"
+    fastchat: "%kick_blocked% &fAlgorítimo de bot detectado. [FastChat]\n&7Discord: &b&n%discord%&r"
+    ratelimit: "%kick_blocked% &fMuitas conexões. [RateLimit]\n&7Discord: &b&n%discord%&r"
+    nickname: "%kick_blocked% &fAlgorítimo de bot detectado. [NickName]\n&7Discord: &b&n%discord%&r"
+    settings: "%kick_blocked% &fAlgorítimo de bot detectado. [Settings]\n&7Discord: &b&n%discord%&r"
+    password: "%kick_blocked% &fAlgorítimo de bot detectado. [Password]\n&7Discord: &b&n%discord%&r"
+    reconnect: "&cAdiciona o server na lista de servidores e recarregua!\n&cRecarregua e reconecta mais %reconnect_times% vezes para entrares!\n\n&7Motivo: &fVerifica que  não és um bot.\n&7Discord: &b&n%discord%&r"

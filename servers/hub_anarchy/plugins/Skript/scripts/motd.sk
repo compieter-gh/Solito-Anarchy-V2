@@ -1,0 +1,12 @@
+command /motd:
+    trigger:
+        send "==========================================="
+        send "Welcome to Solito Anarchy!"
+        send "This is an open-source server"
+        send ""
+        send "If you wanna contribute go to:"
+        send "<link:https://github.com/compieter-gh/Solito-Anarchy-V2>&f&nhttps://github.com/compieter-gh/Solito-Anarchy-V2<reset>"
+        send ""
+        send "People that contribute will get a rank"
+        send "Besides Github & Discord, There are no rules!"
+        send "==========================================="

@@ -1,0 +1,47 @@
+#
+# Language-File translated by:		P4ND4_1100010
+#
+  
+  
+  
+Plugin:
+  
+  plugin-enabled: "[P]&a El plugin ha sido habilitado con éxito."
+  plugin-hook: "[P]&a ¡Éxito al enlazar con&6 %Link%&a!"
+  plugin-update: "[P]&a Nueva versión disponible:&6 %NewVersion%&a!\n[P]&a Estás usando la versión:&6 %Version%&a!\n[P]&a Descarga la última versión en:\n[P]&6 %Path%"
+  plugin-disabled: "[P]&a El plugin ha sido deshabilitado con exito."
+  plugin-prefix: "&7[&6GSit&7]"
+  
+  
+  
+Messages:
+  
+  command-reload: "[P]&a La configuración fue recargada con éxito."
+  command-permission-error: "[P]&c ¡No tienes permisos para ejecutar este comando!"
+  command-console-error: "[P]&c ¡Este comando es solo para jugadores!"
+  
+  command-gsittoggle-on: "[P]&a Ahora podrás sentarte haciendo clic."
+  command-gsittoggle-off: "[P]&a Ya no podrás sentarte haciendo clic."
+  command-gemote-use-error: "[P]&c Command: /emote <Emote>"
+  command-gemote-emote-error: "[P]&c The Emote&6 %Emote%&c does not exists!"
+  
+  action-sit-water-error: "[P]&c ¡Demasido húmedo para sentarte aquí!"
+  action-sit-location-error: "[P]&c ¡No puedes sentarte aquí!"
+  action-sit-area-error: "[P]&c ¡No puedes sentarte en esta área!"
+  action-sit-ground-error: "[P]&c ¡Sólo puedes sentarte en el suelo!"
+  action-sit-already-error: "[P]&c ¡Ya estás sentado!"
+  action-sit-safe-error: "[P]&c ¡No es un lugar seguro para sentarse!"
+  action-sit-world-error: "[P]&c ¡No puedes sentarte en este mundo!"
+  action-sit-info: "&a¡Usa &6 %Key%&a para levantarte!"
+  
+  action-lay-location-error: "[P]&c ¡No puedes tumbarte aquí!"
+  action-lay-area-error: "[P]&c ¡No puedes tumbarte en esta área!"
+  action-lay-ground-error: "[P]&c ¡Sólo puedes tumbarte en el suelo!"
+  action-lay-already-error: "[P]&c ¡Ya estás tumbado!"
+  action-lay-world-error: "[P]&c ¡No puedes tumbarte en este mundo!"
+  action-lay-info: "&a¡Usa &6 %Key%&a para levantarte!"
+  
+  action-crawl-location-error: "[P]&c You can't crawl here!"
+  action-crawl-world-error: "[P]&c You can't crawl in this World!"
+  
+  action-blocked-error: "[P]&c ¡No puedes ejecutar este comando ahora!"

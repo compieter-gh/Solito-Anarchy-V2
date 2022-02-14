@@ -1,0 +1,238 @@
+############ Custom Item names, recipes & lore ##############
+
+##custom item names for bandages and cures
+
+bandageName: Bandage
+bandageLore: Woollen Bandage
+
+splintCureName: LegSplint
+splintCureLore: Wooden Splint for broken leg
+
+syringeName: Syringe
+syringeLore: For extracting blood and injecting vaccines
+
+
+##custom names and lore for all the disease cures
+
+yellowFeverCureName: Sweetwort
+yellowFeverCureLore: Potent potion that cures Yellow Fever
+yellowFeverCureCraftDescription: Mix gunpowder, egg and sugar in a water bottle.
+yellowFeverCureRecipe:
+  1: GUNPOWDER
+  2: EGG
+  3: SUGAR
+  4: AIR
+  5: AIR
+  6: AIR
+  7: AIR
+  8: POTION
+  9: AIR
+
+
+plagueCureName: Bitterwort
+plagueCureLore: Potent potion that cures the plague
+plagueCureCraftDescription: Mix brown and red mushroom and coal in a water bottle.
+plagueCureRecipe:
+  1: BROWN_MUSHROOM
+  2: RED_MUSHROOM
+  3: COAL
+  4: AIR
+  5: AIR
+  6: AIR
+  7: AIR
+  8: POTION
+  9: AIR
+
+
+choleraCureName: Brightwater
+choleraCureLore: Curative water curing cholera
+choleraCureCraftDescription: Mix brown mushroom a glowstone dust and gunpowder in a water bottle.
+choleraCureRecipe:
+  1: BROWN_MUSHROOM
+  2: GLOWSTONE_DUST
+  3: GUNPOWDER
+  4: AIR
+  5: AIR
+  6: AIR
+  7: AIR
+  8: POTION
+  9: AIR
+
+
+swampFeverCureName: Blackbrew
+swampFeverCureLore: black murky liquid curing swamp fever
+swampFeverCureCraftDescription: Mix bone, coal and clay in a water bottle.
+swampFeverCureRecipe:
+  1: BONE
+  2: COAL
+  3: CLAY_BALL
+  4: AIR
+  5: AIR
+  6: AIR
+  7: AIR
+  8: POTION
+  9: AIR
+
+pneumoniaCureName: WarmGel
+pneumoniaCureLore: warming gel that cures pneumonia
+pneumoniaCureCraftDescription: Heat magma cream in a furnace
+pneumoniaCureRecipe:
+  1: MAGMA_CREAM
+
+whoopingCoughCureName: Smoothwater
+whoopingCoughCureLore: Potent potion that cures Whooping Cough
+whoopingCoughCureCraftDescription: Mix sugar, clay and glowstone dust in a water bottle.
+whoopingCoughCureRecipe:
+  1: SUGAR
+  2: CLAY_BALL
+  3: GLOWSTONE_DUST
+  4: AIR
+  5: AIR
+  6: AIR
+  7: AIR
+  8: POTION
+  9: AIR
+
+
+tempCureName: SoothingPotion
+tempCureLore: Potion to temporarily sooth disease effects
+tempCureCraftDescription: Mix sugar into a water bottle.
+tempCureRecipe:
+  1: SUGAR
+  2: AIR
+  3: AIR
+  4: AIR
+  5: AIR
+  6: AIR
+  7: AIR
+  8: POTION
+  9: AIR
+
+rabiesCureName: LycanPotion
+rabiesCureLore: Potion to cure the effects of rabies
+rabiesCureCraftDescription: Mix melon, nether wart and bone in a water bottle.
+rabiesCureRecipe:
+  1: NETHER_WART
+  2: MELON
+  3: BONE
+  4: AIR
+  5: AIR
+  6: AIR
+  7: AIR
+  8: POTION
+  9: AIR
+
+
+poxCureName: SweetBrine
+poxCureLore: Potion to cure the effects of the pox
+poxCureCraftDescription: Mix wheat seeds, an egg and spider eye with a water bottle
+poxCureRecipe:
+  1: WHEAT_SEEDS
+  2: EGG
+  3: SPIDER_EYE
+  4: AIR
+  5: AIR
+  6: AIR
+  7: AIR
+  8: POTION
+  9: AIR
+
+
+
+
+
+
+###### Disease temperature & sickness Level Messages ########
+
+
+##messages for each temperature level
+warmMessage: You are feeling very warm.
+hotMessage: You are feeling very hot, something isn't right
+feverMessage: You are very hot and sweating, you feel feverish
+coldMessage: You start to feel very cold
+chilledMessage: You start to shiver and feel very chilled
+hypothermicMessage: You stop shivering, your hands start to turn blue
+
+
+##messages for each sickness level
+unwellMessage: You are not feeling well
+queasyMessage: you are feeling ill
+sickMessage: You are feeling very sick
+
+###evironment messages
+tempIsHotMessage: This area is hot find shelter from the sun
+tempIsBoilingMessage: This area is boiling  hot find shelter from the sun
+tempIsColdMessage: This area is very Cold find shelter or light a fire to keep warm
+tempIsFeezingMessage: This area is freezing find shelter, wear warm armour or light a fire to keep warm
+
+
+
+
+################ Disease Contract Messages ################
+
+
+contractYellowFever: You feel a little bite on the back of your leg which starts to tingle
+
+contractWhoopingCough: Your throat seems very dry and tickly all of a sudden
+
+contractCholera: That water tasted very odd and stale
+
+contractPox: You skin feels very itchy and spots are appearing
+
+contractPlague: The scratch the zombie caused feels sore and red
+
+contractPneumonia: You feel very cold, and your lungs rasp as you breath
+
+contractFleshWound: You catch your hand on a sharp edge, blood starts to drip from a wound.
+
+contractBrokenLeg: Your leg buckles under you as you hit the ground with a crack.
+
+contractOpenWound: You feel the blade slash your skin open, blood pours from the wound.
+
+contractSwampFever: The muddy water spashes up onto your fleshwound, making it sting and turn red
+
+contractChoking: A bit of food gets stuck at the back of your throat, you start to choke!
+
+contractArrowWound: The head of the arrow breaks off inside your wound!
+
+
+contractRabies: The bite from the wolf starts to itch.
+
+infectedByCommandMessage: You have been infected with
+
+
+
+########################### Heal Messages ####################
+
+
+
+cureFromCommandMessage: You have been miraculously cured
+
+bandageWoundMessage: You have bandaged your wound
+
+bandageNoWoundMessage: You do not have a flesh wound
+
+splintWoundMessage: You apply the splint to your broken leg
+
+splintNoWoundMessage: You do not have a broken limb
+
+potionCureMessage: The brew has cured you of
+
+vaccineCureMessage: The vaccine injection has increased your immunity to 
+
+arrowWoundCureMessage: The arrow head is worked free and drops out of the wound. 
+
+chokeCureMessage: The food is dislodged from your throat, you can breath again.
+
+tempCureMessage: The temporary cure has eased the effects of
+
+hospitalCureMessage: You have been cured by the hospital
+
+
+
+################### Miscellaneous Messages ################### 
+
+
+wrongCurePotionMessage: can only cure
+
+wrongTempCureMessage: can only ease the effects of
