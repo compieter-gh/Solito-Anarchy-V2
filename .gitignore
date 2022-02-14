@@ -1,8 +1,8 @@
 #base:
 
 .auth
-**/proxy.jar.old
-**/server.jar.old
+**/proxy.jar*
+**/server.jar*
 **/.console_history
 **/banned-ips.json
 **/banned-players.json
