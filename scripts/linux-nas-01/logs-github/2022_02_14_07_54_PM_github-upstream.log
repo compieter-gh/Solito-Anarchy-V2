@@ -24,3 +24,13 @@ receiving file list ... done
 
 sent 113 bytes  received 139,350 bytes  278,926.00 bytes/sec
 total size is 290,251,319  speedup is 2,081.21
+[main a2cca64] Updated Upstream (servers)
+ 9 files changed, 1536 insertions(+), 5801 deletions(-)
+ create mode 100644 scripts/linux-nas-01/logs-github/2022_02_14_07_54_PM_github-upstream.log
+ delete mode 100644 servers/anarchy/hs_err_pid1.log
+ delete mode 100644 servers/anarchy/replay_pid1.log
+ delete mode 100644 servers/anarchy/server.jar.old
+ rewrite servers/hub_anarchy/queue/level.dat (100%)
+ rewrite servers/hub_anarchy/queue/level.dat_old (100%)
+To github.com:compieter-gh/Solito-Anarchy-V2.git
+   2ead016..a2cca64  main -> main

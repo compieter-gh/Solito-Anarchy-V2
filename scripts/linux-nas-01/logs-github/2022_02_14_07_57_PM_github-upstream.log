@@ -1,0 +1,32 @@
+Already up to date.
+receiving file list ... done
+
+sent 113 bytes  received 13,134 bytes  8,831.33 bytes/sec
+total size is 55,889,936  speedup is 4,219.06
+receiving file list ... done
+plugins/Citizens/
+plugins/Citizens/saves.yml
+plugins/Skript/backups/
+plugins/Skript/backups/variables_2022-02-14_19-56-40.csv
+queue/
+queue/level.dat
+queue/level.dat_old
+queue/data/raids.dat
+
+sent 361 bytes  received 50,882 bytes  102,486.00 bytes/sec
+total size is 397,102,433  speedup is 7,749.40
+receiving file list ... done
+plugins/GSit/data/t.data
+plugins/Skript/backups/
+plugins/Skript/backups/variables_2022-02-14_19-56-33.csv
+
+sent 170 bytes  received 326,733 bytes  217,935.33 bytes/sec
+total size is 424,784,033  speedup is 1,299.42
+receiving file list ... done
+
+sent 113 bytes  received 133,397 bytes  267,020.00 bytes/sec
+total size is 387,033,364  speedup is 2,898.91
+receiving file list ... done
+
+sent 113 bytes  received 139,350 bytes  92,975.33 bytes/sec
+total size is 290,251,319  speedup is 2,081.21
