@@ -1,0 +1,96 @@
+# Give all wands
+command /giveallwands:
+    aliases: aw
+    permission: admin
+    trigger:
+         #Fireball Wand
+        give player 1 stick named "Fireball Wand"
+         #Levitation wand
+        give player 1 stick named "Levitation Wand"
+         #Lightning Sword
+        give player 1 netherite sword named "&f&lLightning Sword" with lore "&7Summons lightning when you shift+right_click"
+         #Blaze
+        give player 1 stick named "Blaze"
+         #ETEN
+        give player 1 stick named "ETEN"
+
+
+
+
+# FIREBALL WAND {7s delay}
+command youwontfindthiscmdnamefireball:
+    cooldown: 1 seconds
+    cooldown message: &cWait until you can use this ability again!
+    trigger:
+        make player shoot a fireball at speed 2
+on right click:
+    if player's tool is stick named "Fireball Wand":
+        make player execute command "youwontfindthiscmdnamefireball"
+  
+  
+# Levitation wand {30s delay}
+command /youwontfindthiscmdnamelevitate: 
+    cooldown: 5 seconds
+    cooldown message: &cWait until you can use this ability again!
+    trigger:
+        apply potion of levitation of tier 10 to player for 1 seconds
+        apply potion of slow falling of tier 1 to player for 5 seconds
+        
+on right click:
+    if player's tool is stick named "Levitation Wand":
+        make player execute command "youwontfindthiscmdnamelevitate"
+  
+
+# Explosion wand # Exploses where you look
+
+
+
+# Launcher wand # Launches other players
+  
+  
+  
+# Lightning Sword {10s delay}
+command /lightningwand:
+    aliases: lw
+    permission: lw.give
+    trigger:
+        give player 1 netherite sword named "&f&lLightning Sword" with lore "&7Summons lightning when you shift+right_click"
+               
+command /youwontfindthiscmdnamelightning: 
+    cooldown: 1 seconds
+    cooldown message: &cWait until you can use this ability again!
+    trigger:
+        strike lightning at the targeted block
+        
+on right click:
+    if check [player's tool is netherite sword named "&f&lLightning Sword" with lore "&7Summons lightning when you shift+right_click"]->[player is sneaking]:
+        make player execute command "youwontfindthiscmdnamelightning"
+        
+        
+# Blaze        
+on right click:
+    if player's tool is stick named "Blaze":
+        make player execute command "youwontfindthiscmdnameblaze"
+        
+command /youwontfindthiscmdnameblaze: 
+    cooldown: 1 seconds
+    cooldown message: &cWait until you can use this ability again!
+    trigger:
+        apply potion of fire resistance of tier 1 to player for 30 seconds
+        play sound "entity.lightning.impact" with volume 100 and pitch 1 at player for player
+        loop all blocks in radius 10 of player:
+            loop-block is air
+            set loop-block to fire
+            
+            
+# ETEN
+
+on right click:
+    if player's tool is stick named "ETEN":
+        make player execute command "youwontfindthiscmdnameeten"
+        
+command /youwontfindthiscmdnameeten: 
+    cooldown: 1 seconds
+    cooldown message: &cWait until you can use this ability again!
+    trigger:
+        apply potion of saturation of tier 10 to player for 30 seconds

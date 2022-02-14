@@ -1,0 +1,48 @@
+# Events
+on chat:
+	cancel event
+	set {_fc} to first character of message
+	loop all players:
+		if {chat::toggled::*} contains loop-player:
+			remove loop-player from chat recipients
+		if {chat::toggled::*} doesn't contain loop-player:
+			add loop-player to {_t::*}
+	if {_fc} = ">":
+		send "<%player%> &a%message%" to {_t::*}
+		stop
+	send "<%player%> %message%" to {_t::*}
+    
+on join:
+	set join message to ""
+	loop all players:
+		if {connections::toggled::*} doesn't contain loop-player:
+			add loop-player to {_t::*}
+	send "&e%player% &ehas joined the game" to {_t::*}
+
+on quit:
+	set quit message to ""
+	loop all players:
+		if {connections::toggled::*} doesn't contain loop-player:
+			add loop-player to {_t::*}
+	send "&e%player% &ehas left the game" to {_t::*}
+
+
+#Commands
+
+command /togglechat:
+	trigger:
+		if {chat::toggled::*} doesn't contain player:
+			add player to {chat::toggled::*}
+			send "&cYou have disabled chat!"
+		else:
+			remove player from {chat::toggled::*}
+			send "&aYou have enabled chat!"
+            
+command /toggleconnections:
+	trigger:
+		if {connections::toggled::*} doesn't contain player:
+			add player to {connections::toggled::*}
+			send "&cYou have disabled connections!"
+		else:
+			remove player from {connections::toggled::*}
+			send "&aYou have enabled connections!"

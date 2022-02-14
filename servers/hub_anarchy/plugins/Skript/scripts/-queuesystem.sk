@@ -1,0 +1,86 @@
+options:
+    #CHANGE THIS ACCORDING TO YOUR SETTINGS
+    mainworld: world_the_end
+    queueworld: queue
+    maxamount: 100
+    
+
+
+
+
+
+
+
+
+
+
+# DO  NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING
+
+
+on join:
+    loop all players:
+        set {queue.command} to false
+        set {_amount} to size of all players in world("{@mainworld}")
+        set {_players_anarchy} to placeholder "pinger_players_172.18.0.1:25501"
+        if {_players_anarchy} >= {@maxamount}:
+            execute console command "/mvtp %player% {@queueworld}"
+            wait 2 seconds
+            send "&aDo /queue to queue!" to loop-player
+every 60 second in "{@queueworld}":
+    if {queue.command} is false:
+        loop all players:
+            if loop-player's world is "{@queueworld}":
+                send "&aDo /queue to queue!" to loop-player
+every 50 second in "{@mainworld}":
+    loop all players:
+        if loop-player's world is "{@queueworld}":
+            send "&4-------------------------------------" to loop-player
+            send "&cQueue commands" to loop-player
+            send "&a/queue Regular queue (free)" to loop-player
+            send "&6/pqueue Priority queue (you need to pay for this)" to loop-player
+            send "&4--------------------------------------" to loop-player
+            
+command /queue:
+    permission: queue.queue
+    permission message: &cno u
+    trigger:
+        set {queue.command} to true
+        if {queue::*} contains player:
+            remove player from {queue::*}
+            send "&cYou've Left the Queue!"
+            stop
+
+        if {queue::*} does not contain player:
+            add player to {queue::*}
+            send "&aYou've joined the Queue!"
+            messenger(player)
+            set {_players_anarchy} to placeholder "pinger_players_172.18.0.1:25501"
+            if {_players_anarchy} < {@maxamount}:
+                loop {queue::*}:
+                    set {queue.pass} to true
+                    remove player from {queue::*}
+                    send "debug connect" to player
+                    connect player to "anarchy"
+                    stop loop
+                
+function messenger(p: player):
+    while {queue::*} contains {_p}:
+        set {_i} to -1
+        loop {queue::*}:
+            set {_i} to loop-index if loop-value is {_p}
+
+        send "&6You are the %{_i}%&6th player in the queue" to {_p}
+        if {queue.pass} is true:
+            stop loop
+        else:
+            wait 5 seconds
+command /pqueue:
+    permission: queue.priority
+    trigger:
+        connect player to "anarchy"
+
+command /unqueue:
+    permission: queue.unqueue
+    trigger:
+        remove player from {Queuebegin::*}
+        send "&4You left the queue."

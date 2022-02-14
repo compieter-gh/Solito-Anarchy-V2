@@ -1,0 +1,15 @@
+command /restart:
+  permission: server.restart
+  permission message: &cNo permission!
+  trigger:
+    broadcast "&c&lSERVER RESTARTING IN &f5"
+    wait 1 second
+    broadcast "&c&lSERVER RESTARTING IN &f4"
+    wait 1 second
+    broadcast "&c&lSERVER RESTARTING IN &f3"
+    wait 1 second
+    broadcast "&c&lSERVER RESTARTING IN &f2"
+    wait 1 second
+    broadcast "&c&lSERVER RESTARTING IN &f1"
+    wait 1 second
+    execute console command "spigot:restart"

@@ -1,0 +1,144 @@
+options:
+	skript_version: 1.5.0-(11-11-2021)
+	skript_prefix: &b&lSolito &a&lAnarchy &r»
+	discord_link: https://www.solitomc.nl/discord
+	server_ip: anarchy.solitomc.nl
+
+on chat:
+	if player has permission "owner":
+		set displayname of player to "&4%player%"
+
+command /help [<text>]:
+	description: Shows the help menu
+	usage: /help <page>
+	executable by: players
+	trigger:
+		if arg-1 is not set:
+			send "&7---------------&fPage 1&7/&f4&7-&f[<command:/help 2>Next<reset>]&7---------------"
+			send "/deathmessages toggle - &3Toggle deathmessages on/off."
+			send "/deathmessages blacklist <player> - &3Hide a player's deathmessages."
+			send "/toggleconnectionmsgs - &3Toggle join/leave messages."
+			send "/togglewhispering - &3Prevent getting whispered to."
+			send "/togglechat - &3Prevent getting chat messages."
+			send "/msg <player> - &3Send a private message to a player."
+			send "/reply - &3Reply to the last private message."
+			send "&7--------------------------------------------"
+		if arg-1 is "2":
+			send "&7--------&f[<command:/help>Prev<reset>]&7-&fPage 2&7/&f4&7-&f[<command:/help 3>Next<reset>]&7----------------"
+			send "/ignore <player> - &3Ignore/unignore a player till the next restart."
+			send "/ignorehard <player> - &3Ignore/unignore a players chat messages permanently."
+			send "/ignorelist - &3List the ignored players."
+			send "/playerstats <player> - &3See the player statistics."
+			send "/stats - &3See the server statistics."
+			send "/kill - &3Kill yourself."
+			send "&7--------------------------------------------"
+		if arg-1 is "3":
+			send "&7--------&f[<command:/help 2>Prev<reset>]&7-&fPage 3&7/&f4&7-&f[<command:/help 4>Next<reset>]&7----------------"
+			send "/kick - &3Kick a player."
+			send "/rules - &3Show's the rules."
+			send "/tps - &3See the server ticks per second."
+			send "/vote - &3Help the server get more player's."
+			send "/discord - &3Show's the discord link."
+			send "/hub - &3Return to the hub."
+			send "/skin - &3Choose ur skin."
+			send "&7--------------------------------------------"
+		if arg-1 is "4":
+			send "&7--------&f[<command:/help 3>Prev<reset>]&7-&fPage 4&7/&f4&7----------------------"
+			send "/nuke - Get a nuke to blow stuff up."
+			send "&7--------------------------------------------"
+
+command /playerstats [<player>]:
+	description: Shows the playerstats
+	usage: /playerstats <player>
+	executable by: players, console
+	trigger:
+		if arg-1 is not set:
+			send "&7--------&fPlayer stats (%player%)&7--------"
+			set {_player_ping} to placeholder "player_ping" from player
+			message "Ping: &3%{_player_ping}%"
+			set {_player_first_join_date} to placeholder "player_first_join_date" from player
+			send "Join date: &3%{_player_first_join_date}%"
+			set {_statistic_time_played} to placeholder "statistic_time_played" from player
+			send "Time played: &3%{_statistic_time_played}%"
+			set {_statistic_deaths} to placeholder "statistic_deaths" from player
+			send "Deaths: &3%{_statistic_deaths}%"
+			set {_statistic_time_since_death} to placeholder "statistic_time_since_death" from player
+			send "Last death: &3%{_statistic_time_since_death}%"
+			set {_statistic_player_kills} to placeholder "statistic_player_kills" from player
+			send "Player kills: &3%{_statistic_player_kills}%"
+			set {_statistic_mine_block} to placeholder "statistic_mine_block" from player
+			message "Blocks mined: &3%{_statistic_mine_block}%"
+			set {_statistic_walk_one_cm} to placeholder "statistic_walk_one_cm" from player
+			send "Blocks walked: &3%{_statistic_walk_one_cm}%"
+			send "&7--------------------------------------------"
+		if arg-1 is a player:
+			send "&7--------&fPlayer stats (%arg-1%)&7--------"
+			set {_player_ping} to placeholder "player_ping" from arg-1
+			message "Ping: &3%{_player_ping}%"
+			set {_player_first_join_date} to placeholder "player_first_join_date" from arg-1
+			send "Join date: &3%{_player_first_join_date}%"
+			set {_statistic_time_played} to placeholder "statistic_time_played" from arg-1
+			send "Time played: &3%{_statistic_time_played}%"
+			set {_statistic_deaths} to placeholder "statistic_deaths" from arg-1
+			send "Deaths: &3%{_statistic_deaths}%"
+			set {_statistic_time_since_death} to placeholder "statistic_time_since_death" from arg-1
+			send "Last death: &3%{_statistic_time_since_death}%"
+			set {_statistic_player_kills} to placeholder "statistic_player_kills" from arg-1
+			send "Player kills: &3%{_statistic_player_kills}%"
+			set {_statistic_mine_block} to placeholder "statistic_mine_block" from arg-1
+			message "Blocks mined: &3%{_statistic_mine_block}%"
+			set {_statistic_walk_one_cm} to placeholder "statistic_walk_one_cm" from arg-1
+			send "Blocks walked: &3%{_statistic_walk_one_cm}%"
+			send "&7--------------------------------------------"
+
+command /kick [<player>] [<text>]:
+	description: Kick yourself
+	usage: /kick <player> [reason]
+	executable by: players
+	trigger:
+		if arg-1 is set:
+			if arg-2 is set:
+				kick the player due to "&7Lol you kicked yourself you dumbass (Players see this in the chat)"
+				broadcast "&7%player% tried to kick '%arg-1%' with reason '%arg-2%' but kicked himzelf what a dumbass"
+			else:
+				kick the player due to "&7Lol you kicked yourself you dumbass (Players see this in the chat)"
+				broadcast "&7%player% tried to kick '%arg-1%' but kicked himzelf what a dumbass"
+		else:
+			message "&7You must select a player that's online"
+
+command /kill [<player>]:
+	description: Kill yourself
+	usage: /kill [player]
+	executable by: players
+	trigger:
+		if arg-1 is not set:
+			kill the player
+
+		if arg-1 is set:
+			message "Did you really think ""%arg-1%"" would die? Meh ur gonna die :3"
+			wait 3 seconds
+			kill the player
+
+command /rules [<text>]:
+	trigger:
+		if arg-1 is not set:
+			#kick the player due to "{@skript_prefix}%newline%%newline%&7What the fuck is wrong with you? There are no fucking rules."
+			send "<link:https://www.youtube.com/watch?v=tgW7glOUgN4>&fhttps://www.youtube.com/watch?v=tgW7glOUgN4<reset>"
+
+command /discord:
+	trigger:
+		send "&b&n<link:{@discord_link}>{@discord_link}<reset>"
+
+command /vote:
+	trigger:
+		send "&7--------------------&fLinks&7-------------------"
+		send "<link:https://topminecraftservers.org/server/18595>&fLink 1 - &3topminecraftservers.org<reset>"
+		send "<link:https://minecraft-mp.com/server-s288522>&fLink 2 - &3minecraft-mp.com<reset>"
+		send "<link:https://minecraftservers.org/server/617918>&fLink 3 - &3minecraftservers.org<reset>"
+		send "<link:https://minecraft-server-list.com/server/478460/>&fLink 4 - &3minecraft-server-list.com<reset>"
+		send "<link:https://list-minecraft-server.com/server-solito-anarchy.878>&fLink 5 - &3list-minecraft-server.com"
+		send "&7-------------------------------------------"
+
+command /hub:
+	trigger:
+		connect player to "hub_anarchy"

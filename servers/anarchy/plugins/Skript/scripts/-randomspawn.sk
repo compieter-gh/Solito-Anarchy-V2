@@ -1,0 +1,47 @@
+options:
+#Minimum amount of blocks farm from X cord to tp to
+	min.x: -150
+#maximum amount of blocks farm from X cord to tp to
+	max.x: 150
+#Minimum amount of blocks farm from y cord to tp to
+	min.y: 64
+#maximum amount of blocks farm from y cord to tp to
+	max.y: 128
+#Minimum amount of blocks farm from Z cord to tp to
+	min.z: -150
+#maximum amount of blocks farm from Z cord to tp to
+	max.z: 150
+#Avoid spawning in lava, water and air
+	avoid: air or water or lava
+
+on respawn:
+	wait 2 seconds
+	bed of player exists:
+		teleport player to the player's bed
+	else:
+		set {_loc::old} to player's location
+		while player's location is {_loc::old}:
+			set {_loc::new} to location at random number between {@min.x} and {@max.x}, random number between {@min.y} and {@max.y}, random number between {@min.z} and {@max.z}
+			loop blocks above {_loc::new}:
+				if loop-block and block above loop-block are air:
+					if block under loop-block is not {@avoid}:
+						set {_loc::new} to location of loop-block
+						teleport player to {_loc::new}
+						# if light level at player <= 2:
+						# 	set block at location of player to torch
+						stop loop
+			wait 10 ticks
+
+on first join:
+	set {_loc::old} to player's location
+	while player's location is {_loc::old}:
+		set {_loc::new} to location at random number between {@min.x} and {@max.x}, random number between {@min.y} and {@max.y}, random number between {@min.z} and {@max.z}
+		loop blocks above {_loc::new}:
+			if loop-block and block above loop-block are air:
+				if block under loop-block is not {@avoid}:
+					set {_loc::new} to location of loop-block
+					teleport player to {_loc::new}
+					# if light level at player <= 2:
+					# 	set block at location of player to torch
+					stop loop
+		wait 10 ticks

@@ -1,0 +1,17 @@
+custom-motd:
+  enabled: false
+  motds:
+  - |-
+    &eDefault &cFlameCord&e custom motd!
+    &eChange me in &cflamecord.yml&e file!
+logger:
+  initialhandler: false
+  exceptions: false
+  dump: false
+  haproxy: false
+firewall:
+  enabled: true
+  notify: true
+  seconds: 60
+  names:
+  - mcspam

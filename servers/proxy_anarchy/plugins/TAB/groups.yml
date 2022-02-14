@@ -1,0 +1,22 @@
+Owner:
+  tabprefix: '&4'
+  tagprefix: ''
+Admin:
+  tabprefix: ''
+  tagprefix: ''
+Player:
+  tabprefix: ''
+  tagprefix: ''
+example_group:
+  header:
+  - This is an example of per-group header/footer
+  footer:
+  - applied to a group
+per-server:
+  server1:
+    Owner:
+      tabprefix: '&0&l[&a&lOwner&0&l] &a'
+      tagprefix: '&2&lOwner &a'
+_DEFAULT_:
+  tabprefix: ''
+  tagprefix: ''

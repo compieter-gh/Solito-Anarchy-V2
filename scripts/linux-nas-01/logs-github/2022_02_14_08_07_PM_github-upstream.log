@@ -1,0 +1,27 @@
+Already up to date.
+receiving file list ... done
+
+sent 1,703 bytes  received 3,526 bytes  3,486.00 bytes/sec
+total size is 17,299,867  speedup is 3,308.45
+receiving file list ... done
+
+sent 1,703 bytes  received 27,525 bytes  58,456.00 bytes/sec
+total size is 61,293,989  speedup is 2,097.10
+receiving file list ... done
+plugins/GSit/data/t.data
+
+sent 1,728 bytes  received 5,827 bytes  5,036.67 bytes/sec
+total size is 39,572,714  speedup is 5,237.95
+receiving file list ... done
+
+sent 1,703 bytes  received 5,425 bytes  14,256.00 bytes/sec
+total size is 39,640,514  speedup is 5,561.24
+receiving file list ... done
+
+sent 1,703 bytes  received 8,990 bytes  7,128.67 bytes/sec
+total size is 40,008,830  speedup is 3,741.59
+[main 543f2e4] Updated Upstream (servers)
+ 4 files changed, 119 insertions(+), 4 deletions(-)
+ create mode 100644 scripts/linux-nas-01/logs-github/2022_02_14_08_07_PM_github-upstream.log
+To github.com:compieter-gh/Solito-Anarchy-V2.git
+   11f0866..543f2e4  main -> main

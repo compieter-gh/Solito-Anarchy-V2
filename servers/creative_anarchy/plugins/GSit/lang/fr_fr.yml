@@ -1,0 +1,58 @@
+#
+# Language-File translated by:		Aurelien30000
+#
+  
+  
+  
+Plugin:
+  
+  plugin-enabled: "[P]&a Le Plugin a été activé avec succès."
+  plugin-link: "[P]&a Lien avec&6 %Link%&a établi avec succès !"
+  plugin-update: "[P]&a Une nouvelle version du Plugin est disponible :&6 %NewVersion%&a !\n[P]&a Vous utilisez une version obsolète :&6 %Version%&a !\n[P]&a Téléchargez la dernière version ici :\n[P]&6 %Path%"
+  plugin-disabled: "[P]&a Le Plugin a été désactivé avec succès."
+  plugin-prefix: "&7[&6GSit&7]"
+  
+  
+  
+Messages:
+  
+  command-reload: "[P]&a Les paramètres ont été rechargés avec succès."
+  command-permission-error: "[P]&c Vous n'avez pas la permission requise pour utiliser cette commande !"
+  command-console-error: "[P]&c Cette commande est uniquement accessible aux joueurs !"
+  
+  command-gsittoggle-on: "[P]&a Vous pouvez maintenant vous asseoir en cliquant."
+  command-gsittoggle-off: "[P]&a Vous ne pouvez maintenant plus vous asseoir en cliquant."
+  command-gemote-use-error: "[P]&c Commande : /emote <Emote>"
+  command-gemote-emote-error: "[P]&c L'émoticône&6 %Emote%&c n'existe pas !"
+  
+  command-gseat-use-error: "[P]&c Commande : /seat give <Joueur> <Matériau> [<Quantité>] [<DonnéesCustomisées>]"
+  command-gseat-give-use-error: "[P]&c Commande : /seat give <Joueur> <Matériau> [<Quandtité>] [<DonnéesCustomisées>]"
+  command-gseat-give-player-error: "[P]&c Le Joueur&6 %Player%&c est invalide !"
+  command-gseat-give-material-error: "[P]&c La Matériau&6 %Material%&c est invalide !"
+  command-gseat-give-amount-error: "[P]&c La quantité&b %Amount%&c est invalide !"
+  command-gseat-give-data-error: "[P]&c Les données&b %Data%&c ne sont pas valides !"
+  
+  action-seat-name: "&cS'asseoir"
+  
+  action-sit-water-error: "[P]&c Il y a trop d'humidité pour s'asseoir ici !"
+  action-sit-location-error: "[P]&c Vous ne pouvez pas vous asseoir ici !"
+  action-sit-area-error: "[P]&c Vous ne pouvez pas vous asseoir au sein de cette zone !"
+  action-sit-spawn-error: "[P]&c L'entité&6 %Entity%&c ne peut pas apparaître au sein de cette zone !"
+  action-sit-ground-error: "[P]&c Vous ne pouvez vous asseoir que sur le sol !"
+  action-sit-already-error: "[P]&c Vous êtes déjà assis(e) !"
+  action-sit-safe-error: "[P]&c Il est dangereux de s'asseoir ici !"
+  action-sit-world-error: "[P]&c Vous ne pouvez pas vous asseoir au sein de ce monde !"
+  action-sit-info: "&aUtilisez la touche &6 %Key%&a pour vous relever !"
+  
+  action-posesit-location-error: "[P]&c Vous ne pouvez pas vous allonger ici !"
+  action-posesit-area-error: "[P]&c Vous ne pouvez pas vous allonger au sein de cette zone !"
+  action-posesit-spawn-error: "[P]&c L'entité&6 %Entity%&c ne peut pas apparaître au sein de cette zone !"
+  action-posesit-ground-error: "[P]&c Vous ne pouvez vous allonger que sur le sol !"
+  action-posesit-already-error: "[P]&c Vous êtes déjà allongé(e) !"
+  action-posesit-world-error: "[P]&c Vous ne pouvez pas vous allonger au sein de ce monde !"
+  action-posesit-info: "&aUtilisez la touche &6 %Key%&a pour vous relever !"
+  
+  action-crawl-location-error: "[P]&c Vous ne pouvez pas nager ici !"
+  action-crawl-world-error: "[P]&c Vous ne pouvez pas nager au sein de ce monde !"
+  
+  action-blocked-error: "[P]&c Vous n'êtes pas autorisé(e) à utiliser cette commande pour le moment !"

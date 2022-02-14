@@ -1,0 +1,12 @@
+temperature: 0
+sickness: 0
+disease: none
+immunity:
+  plagueImmunity: 0
+  choleraImmunity: 0
+  poxImmunity: 0
+  rabiesImmunity: 0
+  whoopingCoughImmunity: 0
+  pneumoniaImmunity: 0
+  yellowFeverImmunity: 0
+  swampFeverImmunity: 0

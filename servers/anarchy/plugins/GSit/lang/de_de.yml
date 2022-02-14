@@ -1,0 +1,47 @@
+#
+# Language-File translated by:		Gecolay
+#
+  
+  
+  
+Plugin:
+  
+  plugin-enabled: "[P]&a Das Plugin wurde erfolgreich aktiviert."
+  plugin-hook: "[P]&a Erfolgreich mit&6 %Link%&a verbunden!"
+  plugin-update: "[P]&a Neue Version verfügbar:&6 %NewVersion%&a!\n[P]&a Aktuell verwendete Version:&6 %Version%&a!\n[P]&a Laden Sie die neuste Version von:\n[P]&6 %Path%"
+  plugin-disabled: "[P]&a Das Plugin wurde erfolgreich deaktiviert."
+  plugin-prefix: "&7[&6GSit&7]"
+  
+  
+  
+Messages:
+  
+  command-reload: "[P]&a Die Einstellungen wurden erfolgreich neu geladen."
+  command-permission-error: "[P]&c Sie haben keine Berechtigung, diesen Befehl zu verwenden!"
+  command-console-error: "[P]&c Dieser Befehl ist nur für Spieler!"
+  
+  command-gsittoggle-on: "[P]&a Du kannst dich jetzt durch Klicken hinsetzen."
+  command-gsittoggle-off: "[P]&a Du kannst dich nicht länger durch Klicken hinsetzen."
+  command-gemote-use-error: "[P]&c Befehl: /emote <Emote>"
+  command-gemote-emote-error: "[P]&c Das Emote&6 %Emote%&c existiert nicht!"
+  
+  action-sit-water-error: "[P]&c Es ist zu nass, um hier zu sitzen!"
+  action-sit-location-error: "[P]&c Du kannst hier nicht sitzen!"
+  action-sit-area-error: "[P]&c Du kannst in diesem Bereich nicht sitzen!"
+  action-sit-ground-error: "[P]&c Du kannst nur auf dem Boden sitzen!"
+  action-sit-already-error: "[P]&c Du sitzt schon!"
+  action-sit-safe-error: "[P]&c Es ist nicht sicher, hier zu sitzen!"
+  action-sit-world-error: "[P]&c Du kannst in dieser Welt nicht sitzen!"
+  action-sit-info: "&aNutze deine&6 %Key%&a Taste zum aufstehen!"
+  
+  action-lay-location-error: "[P]&c Du kannst hier nicht liegen!"
+  action-lay-area-error: "[P]&c Du kannst in diesem Bereich nicht liegen!"
+  action-lay-ground-error: "[P]&c Du kannst nur auf dem Boden liegen!"
+  action-lay-already-error: "[P]&c Du liegst schon!"
+  action-lay-world-error: "[P]&c Du kannst in dieser Welt nicht liegen!"
+  action-lay-info: "&aNutze deine&6 %Key%&a Taste zum aufstehen!"
+  
+  action-crawl-location-error: "[P]&c Du kannst hier nicht kriechen!"
+  action-crawl-world-error: "[P]&c Du kannst in dieser Welt nicht kriechen!"
+  
+  action-blocked-error: "[P]&c Sie dürfen diesen Befehl momentan nicht ausführen!"

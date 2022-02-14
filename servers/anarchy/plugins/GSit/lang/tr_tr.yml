@@ -1,0 +1,47 @@
+#
+# Language-File translated by:		RuzgarEng
+#
+  
+  
+  
+Plugin:
+  
+  plugin-enabled: "[P]&a GSit Eklentisi aktifleştirildi!"
+  plugin-hook: "[P]&a GSit Eklentisi &6 %Link%&a adlı eklenti ile bağlantı kurdu!"
+  plugin-update: "[P]&a Yeni versiyon yayında:&6 %NewVersion%&a!\n[P]&a Şuanda kullandığınız:&6 %Version%&a!\n[P]&a Son sürümü buradan yükleyin:\n[P]&6 %Path%"
+  plugin-disabled: "[P]&a The Plugin was successfully disabled."
+  plugin-prefix: "&7[&6GSit&7]"
+  
+  
+  
+Messages:
+  
+  command-reload: "[P]&a Ayarlar yeniden yüklendi."
+  command-permission-error: "[P]&c Bu komutu kullanmak için yeterli yetkiye sahip değilsiniz."
+  command-console-error: "[P]&c Bu komut sadece oyuncular için!"
+  
+  command-gsittoggle-on: "[P]&a Artık sağ-tıklayarak oturabilirsin."
+  command-gsittoggle-off: "[P]&a Artık sağ-tıklayarak oturamazsın."
+  command-gemote-use-error: "[P]&c Command: /emote <Emote>"
+  command-gemote-emote-error: "[P]&c The Emote&6 %Emote%&c does not exists!"
+  
+  action-sit-water-error: "[P]&c Oturmak için çok ıslak!"
+  action-sit-location-error: "[P]&c Buraya oturamazsın!"
+  action-sit-area-error: "[P]&c Bu alanın içerisine oturamazsın!"
+  action-sit-ground-error: "[P]&c Sadece zemine oturabilirsin!"
+  action-sit-already-error: "[P]&c Zaten oturuyorsun!"
+  action-sit-safe-error: "[P]&c Buraya oturmak için güvenli değil!"
+  action-sit-world-error: "[P]&c Bu dünyada oturamazsın!"
+  action-sit-info: "&a&6 %Key%&a Tuşunu kullanarak ayağı kalk!"
+  
+  action-lay-location-error: "[P]&c Burada uyuyamazsın!"
+  action-lay-area-error: "[P]&c Bu alanın içinde iken uyuyamazsın!"
+  action-lay-ground-error: "[P]&c Sadece zeminde uyuyabilirsin!"
+  action-lay-already-error: "[P]&c Zaten uyuyorsun!"
+  action-lay-world-error: "[P]&c Bu dünyada uyuyamazsın!"
+  action-lay-info: "&a&6 %Key%&a Tuşunu kullanarak ayağı kalk!"
+  
+  action-crawl-location-error: "[P]&c You can't crawl here!"
+  action-crawl-world-error: "[P]&c You can't crawl in this World!"
+  
+  action-blocked-error: "[P]&c Bu komutu şuan kullanamazsın!"

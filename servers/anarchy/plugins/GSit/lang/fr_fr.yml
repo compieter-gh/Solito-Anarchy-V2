@@ -1,0 +1,47 @@
+#
+# Language-File translated by:		Aurelien30000
+#
+  
+  
+  
+Plugin:
+  
+  plugin-enabled: "[P]&a Le Plugin a été activé avec succès."
+  plugin-hook: "[P]&a Lien avec&6 %Link%&a établi avec succès !"
+  plugin-update: "[P]&a Une nouvelle version du Plugin est disponible :&6 %NewVersion%&a !\n[P]&a Vous utilisez une version obsolète :&6 %Version%&a !\n[P]&a Téléchargez la dernière version ici :\n[P]&6 %Path%"
+  plugin-disabled: "[P]&a Le Plugin a été désactivé avec succès."
+  plugin-prefix: "&7[&6GSit&7]"
+  
+  
+  
+Messages:
+  
+  command-reload: "[P]&a Les paramètres ont été rechargés avec succès."
+  command-permission-error: "[P]&c Vous n'avez pas la permission requise pour utiliser cette commande !"
+  command-console-error: "[P]&c Cette commande est uniquement accessible aux joueurs !"
+  
+  command-gsittoggle-on: "[P]&a Vous pouvez maintenant vous asseoir en cliquant."
+  command-gsittoggle-off: "[P]&a Vous ne pouvez maintenant plus vous asseoir en cliquant."
+  command-gemote-use-error: "[P]&c Command: /emote <Emote>"
+  command-gemote-emote-error: "[P]&c The Emote&6 %Emote%&c does not exists!"
+  
+  action-sit-water-error: "[P]&c Il y a trop d'humidité pour s'asseoir ici !"
+  action-sit-location-error: "[P]&c Vous ne pouvez pas vous asseoir ici !"
+  action-sit-area-error: "[P]&c Vous ne pouvez pas vous asseoir au sein de cette zone !"
+  action-sit-ground-error: "[P]&c Vous ne pouvez vous asseoir que sur le sol !"
+  action-sit-already-error: "[P]&c Vous êtes déjà assis(e) !"
+  action-sit-safe-error: "[P]&c Il est dangereux de s'asseoir ici !"
+  action-sit-world-error: "[P]&c Vous ne pouvez pas vous asseoir au sein de ce monde !"
+  action-sit-info: "&aUtilisez la touche &6 %Key%&a pour vous relever !"
+  
+  action-lay-location-error: "[P]&c Vous ne pouvez pas vous allonger ici !"
+  action-lay-area-error: "[P]&c Vous ne pouvez pas vous allonger au sein de cette zone !"
+  action-lay-ground-error: "[P]&c Vous ne pouvez vous allonger que sur le sol !"
+  action-lay-already-error: "[P]&c Vous êtes déjà allongé(e) !"
+  action-lay-world-error: "[P]&c Vous ne pouvez pas vous allonger au sein de ce monde!"
+  action-lay-info: "&aUtilisez la touche &6 %Key%&a pour vous relever !"
+  
+  action-crawl-location-error: "[P]&c You can't crawl here!"
+  action-crawl-world-error: "[P]&c You can't crawl in this World!"
+  
+  action-blocked-error: "[P]&c Vous n'êtes pas autorisé(e) à utiliser cette commande pour le moment !"

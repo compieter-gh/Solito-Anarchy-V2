@@ -1,0 +1,87 @@
+#
+# World Queue
+# Written by Hyphens
+#
+
+# Permissions:
+# queue.access - Allows access to the queue
+
+# Dependencies:
+# Skript
+# Multiverse
+
+# !!!
+#
+# IMPORTANT!
+# This skript assumes that the world that players spawn into by default is the world which you want players to connect to from the queue
+#
+# !!!
+
+options:
+	# The world which you want to have the players connect to from queue
+	server_1: anarchy
+	server_2: creative_anarchy
+	# The world you are designating to be the queue
+	queueworld: queue
+	# The max amount of players the main world can hold before the queue activates
+	maxamount: 100
+
+# !!!
+#
+# It is crucial that you set the variable {queuespawn} with /setqueue (Below) for the queue can function!
+#
+# !!!
+
+command /setqueue:
+	permission: op
+	permission message: &cYou do not have access to this command!
+	trigger:
+		if player's world = "{@queueworld}":
+			send "&cSet queue spawn to your location!"
+			set {queuespawn} to player's location
+		else:
+			send "&cYou are not in the world which is set to be the Queue World. Are you sure you are in the right world?"
+
+#
+# DO NOT EDIT BELOW THIS LINE IF YOU DO NOT KNOW WHAT YOU ARE DOING!
+#
+
+every 3 seconds:
+	loop all players:
+		if loop-player has permission "queue.access":
+			if {queue::*} contains player:
+				set {_players_anarchy} to placeholder "pinger_players_172.18.0.1:25501"
+				if {_players_anarchy} < {@maxamount}:
+					send action bar "&6Connecting you to the main world.." to loop-player
+					connect loop-player to anarchy
+					remove loop-player from {queue::*}
+				else:
+					set {_i} to -1
+					set {_queuesize} to size of {queue::*}
+					loop {queue::*}:
+						set {_i} to loop-index
+						send action bar "&6Position in queue: &6%{_i}%&6/%{_queuesize}%" to loop-player
+						send "Debug %{_players_anarchy}%" to loop-player
+			else:
+				add loop-player to {queue::*}
+				send action bar "&6You have been added to the queue!" to loop-player
+				stop
+
+		else if loop-player does not have permission "queue.access":
+			if {queue::*} contains player:
+				set {_players_anarchy} to placeholder "pinger_players_172.18.0.1:25501"
+				if {_players_anarchy} < {@maxamount}:
+					send action bar "&6Connecting you to the main world.." to loop-player
+					connect loop-player to anarchy
+					remove loop-player from {queue::*}
+				else:
+					kick loop-player due to "&eQueue by ComPieter &8&l>> &fThe server is currently full."
+			else:
+				add loop-player to {queue::*}
+				send action bar "&6You have been added to the queue!" to loop-player
+				stop
+
+on disconnect:
+	remove player from {queue::*}
+
+command connect

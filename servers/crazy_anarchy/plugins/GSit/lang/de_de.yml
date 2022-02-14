@@ -1,0 +1,58 @@
+#
+# Language-File translated by:		Gecolay
+#
+  
+  
+  
+Plugin:
+  
+  plugin-enabled: "[P]&a Das Plugin wurde erfolgreich aktiviert."
+  plugin-link: "[P]&a Verknüpfung mit&6 %Link%&a erfolgreich!"
+  plugin-update: "[P]&a Neue Version verfügbar:&6 %NewVersion%&a!\n[P]&a Aktuell verwendete Version:&6 %Version%&a!\n[P]&a Laden Sie die neuste Version von:\n[P]&6 %Path%"
+  plugin-disabled: "[P]&a Das Plugin wurde erfolgreich deaktiviert."
+  plugin-prefix: "&7[&6GSit&7]"
+  
+  
+  
+Messages:
+  
+  command-reload: "[P]&a Die Einstellungen wurden erfolgreich neu geladen."
+  command-permission-error: "[P]&c Sie haben keine Berechtigung, diesen Befehl zu verwenden!"
+  command-console-error: "[P]&c Dieser Befehl ist nur für Spieler!"
+  
+  command-gsittoggle-on: "[P]&a Du kannst dich jetzt durch Klicken hinsetzen."
+  command-gsittoggle-off: "[P]&a Du kannst dich nicht länger durch Klicken hinsetzen."
+  command-gemote-use-error: "[P]&c Befehl: /emote <Emote>"
+  command-gemote-emote-error: "[P]&c Das Emote&6 %Emote%&c existiert nicht!"
+  
+  command-gseat-use-error: "[P]&c Befehl: /seat give <Spieler> <Material> [<Anzahl>] [<CustomModelData>]"
+  command-gseat-give-use-error: "[P]&c Befehl: /seat give <Spieler> <Material> [<Anzahl>] [<CustomModelData>]"
+  command-gseat-give-player-error: "[P]&c Der Spieler&6 %Player%&c ist ungültig!"
+  command-gseat-give-material-error: "[P]&c Das Material&6 %Material%&c ist ungültig!"
+  command-gseat-give-amount-error: "[P]&c Die Anzahl&b %Amount%&c ist ungültig!"
+  command-gseat-give-data-error: "[P]&c Die Angabe&b %Data%&c ist ungültig!"
+  
+  action-seat-name: "&cSitz"
+  
+  action-sit-water-error: "[P]&c Es ist zu nass, um hier zu sitzen!"
+  action-sit-location-error: "[P]&c Du kannst hier nicht sitzen!"
+  action-sit-area-error: "[P]&c Du kannst in diesem Bereich nicht sitzen!"
+  action-sit-spawn-error: "[P]&c Objekt&6 %Entity%&c kann in diesem Bereich nicht gespawnt werden!"
+  action-sit-ground-error: "[P]&c Du kannst nur auf dem Boden sitzen!"
+  action-sit-already-error: "[P]&c Du sitzt schon!"
+  action-sit-safe-error: "[P]&c Es ist nicht sicher, hier zu sitzen!"
+  action-sit-world-error: "[P]&c Du kannst in dieser Welt nicht sitzen!"
+  action-sit-info: "&aNutze deine&6 %Key%&a Taste zum aufstehen!"
+  
+  action-posesit-location-error: "[P]&c Du kannst hier nicht liegen!"
+  action-posesit-area-error: "[P]&c Du kannst in diesem Bereich nicht liegen!"
+  action-posesit-spawn-error: "[P]&c Objekt&6 %Entity%&c kann in diesem Bereich nicht gespawnt werden!"
+  action-posesit-ground-error: "[P]&c Du kannst nur auf dem Boden liegen!"
+  action-posesit-already-error: "[P]&c Du liegst schon!"
+  action-posesit-world-error: "[P]&c Du kannst in dieser Welt nicht liegen!"
+  action-posesit-info: "&aNutze deine&6 %Key%&a Taste zum aufstehen!"
+  
+  action-crawl-location-error: "[P]&c Du kannst hier nicht kriechen!"
+  action-crawl-world-error: "[P]&c Du kannst in dieser Welt nicht kriechen!"
+  
+  action-blocked-error: "[P]&c Sie dürfen diesen Befehl momentan nicht ausführen!"

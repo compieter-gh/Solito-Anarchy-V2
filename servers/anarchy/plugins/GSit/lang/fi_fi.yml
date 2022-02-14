@@ -1,0 +1,47 @@
+#
+# Language-File created by:		FabianAdrian
+#
+  
+  
+  
+Plugin:
+  
+  plugin-enabled: "[P]&a Käynnistyi onnistuneesti."
+  plugin-hook: "[P]&a Yhdistettiin onnistuneesti pluginiin&6 %Link%&a!"
+  plugin-update: "[P]&a Uusi versio on saatavilla:&6 %NewVersion%&a!\n[P]&a Sinulla on tällä hetkellä:&6 %Version%&a!\n[P]&a Löydät viimeisimmän tiedoston täältä:\n[P]&6 %Path%"
+  plugin-disabled: "[P]&a Sammui onnistuneesti."
+  plugin-prefix: "&7[&6GSit&7]"
+  
+  
+  
+Messages:
+  
+  command-reload: "[P]&a Asetukset ladattiin onnistuneesti uudelleen."
+  command-permission-error: "[P]&c Sinulla ei ole oikeutta tuohon komentoon!"
+  command-console-error: "[P]&c Vain pelaajat voivat käyttää tuota komentoa!"
+  
+  command-gsittoggle-off: "[P]&a Istuminen klikkaamalla on nyt pois käytöstä."
+  command-gsittoggle-on: "[P]&a Istuminen klikkaamalla on nyt käytössä."
+  command-gemote-use-error: "[P]&c Komento: /emote <Emote>"
+  command-gemote-emote-error: "[P]&6 %Emote%&c nimistä emotea ei löydy!"
+  
+  action-sit-water-error: "[P]&c Et voi istua tässä, housut kastuu!"
+  action-sit-location-error: "[P]&c Et voi istua tässä!"
+  action-sit-area-error: "[P]&c Et voi istua tällä alueella!"
+  action-sit-ground-error: "[P]&c Et voi istua ilmassa!"
+  action-sit-already-error: "[P]&c Olet jo istumassa!"
+  action-sit-safe-error: "[P]&c Tässä ei ole turvallista istua!"
+  action-sit-world-error: "[P]&c Et voi istua tässä maailmassa!"
+  action-sit-info: "&aNouse ylös painamalla&6 %Key%&a näppäintä!"
+  
+  action-lay-location-error: "[P]&c Et voi maata tässä!"
+  action-lay-area-error: "[P]&c Et voi maata tällä alueella!"
+  action-lay-ground-error: "[P]&c Et voi maata ilmassa!"
+  action-lay-already-error: "[P]&c Olet jo makaamassa!"
+  action-lay-world-error: "[P]&c Et voi maata tässä maailmassa!"
+  action-lay-info: "&aVoit nousta takaisin ylös painamallar&6 %Key%&a näppäintä!"
+  
+  action-crawl-location-error: "[P]&c Et voi ryömiä tässä!"
+  action-crawl-world-error: "[P]&c Et voi ryömiä tässä maailmassa!"
+  
+  action-blocked-error: "[P]&c Et voi käyttää tätä komentoa juuri nyt!"

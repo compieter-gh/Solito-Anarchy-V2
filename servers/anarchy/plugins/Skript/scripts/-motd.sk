@@ -1,0 +1,30 @@
+on join:
+#	set join message to ""
+	wait 10 ticks
+	send ""
+	send ""
+	send ""
+	send ""
+	send ""
+	send ""
+	send ""
+	send ""
+	send ""
+	send ""
+	send ""
+	send ""
+	send ""
+	send ""
+	send ""
+	send ""
+	send ""
+	send ""
+	send ""
+	send ""
+#	loop all players:
+#		send "&e%player% &ejoined the game" to loop-player
+
+#on quit:
+#	set leave message to ""
+#	loop all players:
+#		send "&e%player% &eleft the game" to loop-player

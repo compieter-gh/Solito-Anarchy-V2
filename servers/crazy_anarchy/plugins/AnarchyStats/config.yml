@@ -1,0 +1,33 @@
+# Some plugins use /info for things. This let's you change the plugins command so they don't override.
+# Default is /info.
+# This requires a whole server restart.
+info-command-override: "stats"
+
+# This is the start date of your world.
+# Format: MM/DD/YYYY. You must put zeros for single digits. Example: 06, 02, 01, etc.
+date: 08/15/2021 # This date is May 27th, 2019.
+
+# Change how the date is formatted on the command.
+# The default value will format the display like this: 05/27/2019 (MM/DD/YYYY).
+# You can find examples on how to custom this here: https://www.journaldev.com/17899/java-simpledateformat-java-date-format <- There is a chart at the bottom of the page.
+date-format: "M/dd/yyyy"
+
+# This let's you set which worlds will be included in the size calculation.
+# By default, it uses the default worlds.
+# You can add more or change the names.
+worlds-to-use:
+  - "world"
+  - "world_nether"
+  - "world_the_end"
+
+# This is where you can change what message is on the command.
+# {{STARTDATE}} - Displays the start date for the server. Uses the date above.
+# {{DAYS}} - Displays how many days since the start date for the server.
+# {{WORLDSIZE}} - Displays the world size.
+# {{TOTALJOINS}} - Displays the total unique players that have joined.
+command-message:
+  - "&7--------------------------------------------"
+  - "&b&oSolito **Crazy** &a&oAnarchy &3was created on &f{{STARTDATE}}&3. That was &f{{DAYS}} &3days ago."
+  - "&3The world is &f{{WORLDSIZE}}&3."
+  - "&3A total of &f{{TOTALJOINS}} &3players have joined."
+  - "&7--------------------------------------------"

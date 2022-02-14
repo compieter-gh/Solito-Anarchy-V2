@@ -1,0 +1,58 @@
+#
+# Language-File translated by:		Thaumiel9
+#
+  
+  
+  
+Plugin:
+  
+  plugin-enabled: "[P]&a 插件已成功启用"
+  plugin-link: "[P]&a 成功链接到&6 %Link%&a!"
+  plugin-update: "[P]&a 插件有新版本:&6 %NewVersion%&a!\n[P]&a 正在使用的版本:&6 %Version%&a!\n[P]&a 点击下载:\n[P]&6 %Path%"
+  plugin-disabled: "[P]&a 插件已成功禁用"
+  plugin-prefix: "&7[&6GSit&7]"
+  
+  
+  
+Messages:
+  
+  command-reload: "[P]&a 配置重载完成"
+  command-permission-error: "[P]&c 你不能执行此命令!"
+  command-console-error: "[P]&c 此命令仅适用于玩家!"
+  
+  command-gsittoggle-on: "[P]&a 你已经可以通过右键来坐下了"
+  command-gsittoggle-off: "[P]&a 你已经不能通过右键来坐下了"
+  command-gemote-use-error: "[P]&c 指令: /emote <Emote>"
+  command-gemote-emote-error: "[P]&c 表情&6 %Emote%&c 不存在!"
+  
+  command-gseat-use-error: "[P]&c 指令: /seat give <Player> <Material> [<Amount>] [<CustomModelData>]"
+  command-gseat-give-use-error: "[P]&c 指令: /seat give <Player> <Material> [<Amount>] [<CustomModelData>]"
+  command-gseat-give-player-error: "[P]&c &6%Player%&c 不是有效的玩家!"
+  command-gseat-give-material-error: "[P]&c &6%Material%&c 不是有效的物品/方块!"
+  command-gseat-give-amount-error: "[P]&c &b%Amount%&c 不是有效的数量!"
+  command-gseat-give-data-error: "[P]&c &b%Data%&c 不是有效的数据!"
+  
+  action-seat-name: "&c座位"
+  
+  action-sit-water-error: "[P]&c 你不能在太湿的地方坐下!"
+  action-sit-location-error: "[P]&c 你不能在这坐下!"
+  action-sit-area-error: "[P]&c 你不能在这个区域坐下!"
+  action-sit-spawn-error: "[P]&c 不能在这个区域生成实体&6 %Entity%&c!"
+  action-sit-ground-error: "[P]&c 你只能坐在地上!"
+  action-sit-already-error: "[P]&c 你已经坐下了!"
+  action-sit-safe-error: "[P]&c 你不能在不安全的地方坐下!"
+  action-sit-world-error: "[P]&c 你不能在这个世界坐下!"
+  action-sit-info: "&a使用&6 %Key%&a 键站起来!"
+  
+  action-posesit-location-error: "[P]&c 你不能在这躺下!"
+  action-posesit-area-error: "[P]&c 你不能在这个区域躺下!"
+  action-posesit-spawn-error: "[P]&c 不能在这个区域生成实体&6 %Entity%&c!"
+  action-posesit-ground-error: "[P]&c 你只能躺在地上!"
+  action-posesit-already-error: "[P]&c 你已经躺下了!"
+  action-posesit-world-error: "[P]&c 你不能在这个世界躺下!"
+  action-posesit-info: "&a使用&6 %Key%&a 键站起来!"
+  
+  action-crawl-location-error: "[P]&c 你不能在这爬行!"
+  action-crawl-world-error: "[P]&c 你不能在这个世界爬行!"
+  
+  action-blocked-error: "[P]&c 你现在不能执行此指令!"

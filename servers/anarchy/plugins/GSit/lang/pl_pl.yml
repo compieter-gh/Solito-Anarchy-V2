@@ -1,0 +1,47 @@
+#
+# Language-File translated by:		RavenskyPaul
+#
+  
+  
+  
+Plugin:
+  
+  plugin-enabled: "[P]&a Wtyczka została pomyślnie włączona."
+  plugin-hook: "[P]&a Pomyślnie interaktywny z &6 %Link%&a!"
+  plugin-update: "[P]&a Dostępna nowa wersja:&6 %NewVersion%&a!\n[P]&a Używasz nieaktualnej wersji:&6 %Version%&a!\n[P]&a Pobierz najnowszą wersję na:\n[P]&6 %Path%"
+  plugin-disabled: "[P]&a Wtyczka została pomyślnie wyłączona."
+  plugin-prefix: "&7[&6GSit&7]"
+  
+  
+  
+Messages:
+  
+  command-reload: "[P]&a Ustawienia zostały pomyślnie ponownie załadowane."
+  command-permission-error: "[P]&c Nie masz uprawnień do używania tego polecenia!"
+  command-console-error: "[P]&c To polecenie jest tylko dla graczy!"
+  
+  command-gsittoggle-on: "[P]&a Możesz teraz usiąść ponownie, klikając prawym przyciskiem myszy."
+  command-gsittoggle-off: "[P]&a Nie możesz już usiąść, klikając prawym przyciskiem myszy."
+  command-gemote-use-error: "[P]&c Command: /emote <Emote>"
+  command-gemote-emote-error: "[P]&c The Emote&6 %Emote%&c does not exists!"
+  
+  action-sit-water-error: "[P]&c Nie możesz usiąść w zalanych wodą blokach!"
+  action-sit-location-error: "[P]&c Nie możesz tu siedzieć!"
+  action-sit-area-error: "[P]&c Nie możesz siedzieć w tym obszarze!"
+  action-sit-ground-error: "[P]&c Możesz siedzieć tylko na twardym gruncie!"
+  action-sit-already-error: "[P]&c Już siedzisz!"
+  action-sit-safe-error: "[P]&c Nie jest bezpiecznie siedzenie tutaj!"
+  action-sit-world-error: "[P]&c Nie możesz siedzieć w tym świecie!"
+  action-sit-info: "&aUżyj swojego klawisza&6 %Key%&a, aby wstać!"
+  
+  action-lay-location-error: "[P]&c Nie możesz tu leżeć!"
+  action-lay-area-error: "[P]&c Nie możesz leżeć w tym obszarze!"
+  action-lay-ground-error: "[P]&c Możesz leżeć tylko na twardym gruncie!"
+  action-lay-already-error: "[P]&c Już leżysz!"
+  action-lay-world-error: "[P]&c Nie możesz leżeć w tym świecie!"
+  action-lay-info: "&aUżyj swojego klawisza&6 %Key%&a, aby wstać!"
+  
+  action-crawl-location-error: "[P]&c You can't crawl here!"
+  action-crawl-world-error: "[P]&c You can't crawl in this World!"
+  
+  action-blocked-error: "[P]&c Nie możesz teraz wykonać tego polecenia!"

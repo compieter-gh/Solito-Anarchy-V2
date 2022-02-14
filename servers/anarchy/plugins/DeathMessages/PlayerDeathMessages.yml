@@ -1,0 +1,1386 @@
+# DeathMessages by Joshb_ (Original DeathMessagesPrime by CosmoConsole)
+# All configs from this plugin has an auto updater. Meaning if I add a value in the config from updates,
+# the value will be automatically added without regenerating the configs.
+#
+# Player Death Messages Config
+#
+#Placeholders:
+# %player% - returns the player name
+# %player_display% - returns the custom display name of the player
+# %weapon% - returns a tooltip of the item name, lore, and enchantments
+# %killer% - returns the entity's name. If there is no name set, it will be the entity type.
+# %killer_display% - if the killer is a player, returns the display name of the player
+# %killer_type% - returns the entity type from Mobs.<Mob> in Messages.yml
+# %biome% - returns the biome the player was in
+# %world% - returns the world name
+# %world_environment% - returns the environment of the world (normal, nether, the_end) (These are configurable in Messages.yml (Environment))
+# %x% - returns the x position the player died at.
+# %y% - returns the y position the player died at.
+# %z% - returns the z position the player died at.
+#
+#Text components:
+#
+# Using "::" in the messages will create text components.
+# Format as followed: Base text::Hover text::Action
+# Actions must start with either COMMAND:, or SUGGEST_COMMAND:
+# You can add lines in the hover messages like so "line one\nLine Two....."
+# Examples:
+# "%player% was killed by %killer%::&cLocations: X:%x%, Y:%y%, Z:%z%::COMMAND:tppos %x% %y% %z%"
+# "%player% was killed by %killer%::&cLocations: X:%x%, Y:%y%, Z:%z%"
+# "%player% was killed by %killer%::&cLocations: X:%x%, Y:%y%, Z:%z%::SUGGEST_COMMAND:msg %player% lol noob"
+#
+# Permissions Based Messages
+#
+# For victims that have a specific permission set, EX: deathmessages.premium, the death message
+# will be sent that is formatted as followed:
+# PERMISSION[YOUR.PERM.HERE]%player% dead lol
+#
+# For killers that have a specific permission set, EX: deathmessages.premium, the death message
+# will be sent that is formatted as followed:
+# PERMISSION_KILLER[YOUR.PERM.HERE]%killer% REKT %player%
+#
+# Players that are in a region (With WorldGuard hook enabled) and is defined below, will be sending a custom
+# region messages.
+# Formatted as followed: "REGION[REGION_NAME]%player% died in a region"
+# Example:
+#
+# Mobs:
+#   player:
+#     Melee:
+#       - "%player% was slain by %killer%"
+#       - "PERMISSION[deathmessages.premium]&6Premium %player% &fdied to %killer%
+#       - "REGION[spawn]Idiot %player% died in spawn lol"
+#       If the player has permission and in a region
+#       - "REGION[spawn]PERMISSION[deathmessages.premium]Idiot premium %player% died in spawn lol"
+#
+# To completely remove the message for a certain death. Configure as followed:
+# Natrual-Death:
+#   Bed: []
+# or
+# Mobs:
+#   Creeper:
+#     Solo:
+#       Explosion: []
+
+# Due for there being no cure for laziness, this option ignores everything in the Mobs section and makes all messages
+# appear the same.
+
+Basic-Mode:
+  Enabled: false
+  Solo:
+    Projectile-Arrow:
+    - '&3%player%&4 was shot by a &3%killer%&4 using &b%weapon%'
+    Explosion:
+    - '&3%player%&4 was blown up by a &3%killer%&4'
+    Magic:
+    - '&3%player%&4 was killed by a &3%killer%&4 using magic'
+    Weapon:
+    - '&3%player%&4 was slain by a &3%killer%&4 using &b%weapon%'
+    Melee:
+    - '&3%player%&4 was slain by a &3%killer%&4'
+  Gang:
+    Projectile-Arrow:
+    - '&3%player%&4 was shot by a group of &3%killer%&4''s using &b%weapon%'
+    Magic:
+    - '&3%player%&4 was killed by a group of &3%killer%&4''s using magic'
+    Weapon:
+    - '&3%player%&4 was slain by a group of &3%killer%&4''s using &b%weapon%'
+    Melee:
+    - '&3%player%&4 was slain by a group of &3%killer%&4''s'
+Natural-Cause:
+  Bed:
+  - '&3%player%&4 tried sleeping in the %world_environment% :kappa:'
+  Respawn-Anchor:
+  - '&3%player%&4 tried using the respawn anchor in the %world_environment%!'
+  Contact:
+  - '&3%player%&4 was pricked to death'
+  Melee:
+  - '&3%player%&4 killed themselves'
+  Projectile-Unknown:
+  - '&3%player%&4 shot themselves'
+  Projectile-Arrow:
+  - '&3%player%&4 shot themselves with &b%weapon%'
+  Projectile-Egg:
+  - '&3%player%&4 egged themselves'
+  Projectile-EnderPearl:
+  - '&3%player%&4 shot themselves'
+  Projectile-Fireball:
+  - '&3%player%&4 fireballed themselves'
+  Projectile-FishHook:
+  - '&3%player%&4 got a fishhook caught in their head'
+  Projectile-Snowball:
+  - '&3%player%&4 shot themselves with snowball'
+  Projectile-Trident:
+  - '&3%player%&4 shot themselves with trident'
+  Suffocation:
+  - '&3%player%&4 was squished to death'
+  - PERMISSION[deathmessages.premium]&3%player%&4 was mashed up pretty good.
+  Fall:
+  - '&3%player%&4 tripped on a block and died'
+  - '&3%player%&4 fell and splattered to death'
+  - '&3%player%&4 tried to MLG waterbucket and failed'
+  Climbable:
+  - '&3%player%&4 tried climbing to greater heights and fell off %climbable%'
+  Fire:
+  - '&3%player%&4 thought standing in fire was a good idea'
+  Fire-Tick:
+  - '&3%player%&4 was burnt to a crisp'
+  - '&3%player%&4 turned into ash'
+  Melting:
+  - '&3%player%&4 melted away'
+  Lava:
+  - '&3%player%&4 thought lava was a hot tub'
+  - '&3%player%&4 thought that he could swim in lava'
+  Drowning:
+  - '&3%player%&4 thought they could swim forever'
+  Explosion:
+  - '&3%player%&4 blew up'
+  - '&3%player%&4 blew up into pieces'
+  TNT:
+  - '&3%player%&4 was playing with tnt'
+  - '&3%player%&4 was playing with tnt and got his head blown off'
+  Firework:
+  - '&3%player%&4 thought playing with fireworks was a good idea'
+  End-Crystal:
+  - '&3%player%&4 blew up! They were playing around with an end-crystal!'
+  Void:
+  - '&3%player%&4 fell into the void'
+  Lightning:
+  - '&3%player%&4 was struck by /lighting'
+  Suicide:
+  - '&3%player%&4 killed themselves'
+  Starvation:
+  - '&3%player%&4 ran out of food, and died'
+  - '&3%player%&4 died of starvation'
+  Poison:
+  - '&3%player%&4 was playing with poison'
+  Magic:
+  - '&3%player%&4 was playing with magic'
+  Wither:
+  - '&3%player%&4 withered away'
+  Falling-Block:
+  - '&3%player%&4 was squished by a %block%'
+  Dragon-Breath:
+  - '&3%player%&4 died to a lingering dragons breath'
+  Custom:
+  - '&3%player%&4 killed themselves'
+  Fly-Into-Wall:
+  - '&3%player%&4 flew into a wall'
+  Hot-Floor:
+  - '&3%player%&4 was playing on a magma block too long'
+  Cramming:
+  - '&3%player%&4 was killed in a heavily populated space'
+  Dryout:
+  - '&3%player%&4 belonged in the water. Not land'
+  Freeze:
+  - '&3%player%&4 did not put their snow suit on before they went to play.'
+  Unknown:
+  - '&3%player%&4 died'
+Mobs:
+  elderguardian:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  witherskeleton:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  stray:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  husk:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  zombievillager:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  skeletonhorse:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  zombiehorse:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  armorstand:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  donkey:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  mule:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  evoker:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Magic:
+      - '&3%player%&4 was killed by a &3%killer%&4 using da magic'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  vex:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  vindicator:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  illusioner:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  creeper:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Explosion:
+      - '&3%player%&4 was blown up by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  skeleton:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  spider:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  giant:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  zombie:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  slime:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  ghast:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  pigzombie:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  enderman:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  cavespider:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  silverfish:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  blaze:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  magmacube:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  enderdragon:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  wither:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Explosion:
+      - '&3%player%&4 stood too close to a &3%killer%&4 while it was spawning'
+      Projectile-Fireball:
+      - '&3%player%&4 died to a wither skull'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  bat:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  witch:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  endermite:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  guardian:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  shulker:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  pig:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  sheep:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  cow:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  chicken:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  squid:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  wolf:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  mushroomcow:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  snowman:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  ocelot:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  irongolem:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  horse:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  rabbit:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  polarbear:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  llama:
+    Solo:
+      Projectile-LlamaSpit:
+      - '&3%player%&4 was spat on by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  parrot:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  villager:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  turtle:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  phantom:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  cod:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  salmon:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  pufferfish:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  tropicalfish:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  drowned:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  dolphin:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  cat:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  panda:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  pillager:
+    Solo:
+      Contact:
+      - '&3%player%&4 was pushed into a cactus by &3%killer%&4'
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  ravager:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  traderllama:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  wanderingtrader:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  fox:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  bee:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was stung by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was stung by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  hoglin:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  piglin:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  strider:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  zoglin:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  piglinbrute:
+    Solo:
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by a &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+      Melee:
+      - '&3%player%&4 was slain by a &3%killer%&4'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  player:
+    Solo:
+      Bed:
+      - '&3%player%&4 stood too close to &3%killer%&4''s bed in the %world_environment%'
+      Respawn-Anchor:
+      - '&3%player%&4 stood too close to &3%killer%&4''s respawn anchor in the %world_environment%'
+      Contact:
+      - '&3%player%&4 was pushed into a cactus by &3%killer%&4'
+      Projectile-Unknown:
+      - '&3%player%&4 was shot by &3%killer%&4'
+      Projectile-Arrow:
+      - '&3%player%&4 was shot by &3%killer%&4 using &b%weapon%'
+      Projectile-Fireball:
+      - '&3%player%&4 was fireballed by &3%killer%&4'
+      Projectile-Snowball:
+      - '&3%player%&4 was hit in the head with a snowball thrown by &3%killer%&4'
+      Weapon:
+      - '&3%player%&4 was slain by &3%killer%&4 using &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by &3%killer%&4'
+      Suffocation:
+      - '&3%player%&4 suffocated in a wall while fighting %killer_display%'
+      Fall:
+      - '&3%player%&4 was pushed off a high place by &3%killer%&4'
+      Lava:
+      - '&3%player%&4 was pushed into lava by &3%killer%&4'
+      Explosion:
+      - '&3%killer%&4 blew up &3%player%&4'
+      TNT:
+      - '&3%killer%&4 blew up &3%player%&4 with tnt'
+      Firework:
+      - '&3%player%&4 stood too close to &3%killer%&4''s fireworks'
+      End-Crystal:
+      - '&3%killer%&4 killed &3%player%&4 by blowing up an end-crystal!'
+      Void:
+      - '&3%player%&4 was pushed into the void by &3%killer%&4'
+      Wither:
+      - '&3%player%&4 withered away from &3%killer%&4''s magic'
+      Thorns:
+      - '&3%player%&4 tried playing with &3%killer%&4''s armor with thorns'
+    Gang:
+      Projectile-Arrow:
+      - '&3%player%&4 was ganged up on by some &3%killer%&4! One shot them with &b%weapon%'
+      Weapon:
+      - '&3%player%&4 was ganed up on by some &3%killer%&4''s! One wacked them with
+        &b%weapon%'
+      Melee:
+      - '&3%player%&4 was slain by a bunch of &3%killer%&4''s'
+  goat:
+    Solo:
+      Melee:
+      - '&3%player%&4 was knocked by a &3%killer%&4'
+    Gang:
+      Melee:
+      - '&3%player%&4 was knocked by a bunch of &3%killer%&4''s'
+Custom-Mobs:
+  Mythic-Mobs:
+    SkeletalMinion:
+      Solo:
+        Projectile-Arrow:
+        - '%player% was shot by %killer%'

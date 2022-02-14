@@ -1,0 +1,100 @@
+command /setrank [<offline player>] <text>:
+	aliases: /rank , /updaterank , /grant
+	permission: setrank.use
+	permission message: &f[&9Solito&f] > &4No Permission
+	trigger:
+		if arg-1 is not set:
+			send "/setrank <player> [rank]"
+			stop
+		else if arg-2 is not set:
+			send "/setrank <player> [rank]"
+			stop
+		if executor is console:
+			make console execute command "lp user %arg-1% parent set %arg-2%"
+		if executor is player:
+			make player execute command "lp user %arg-1% parent set %arg-2%"
+			
+command /setprefix [<offline player>] <text> [<text>] [<text>]:
+	aliases: /prefix , /updateprefix
+	permission: setprefix.use
+	permission message: &f[&9Solito&f] > &4No Permission
+	trigger:
+		if arg-1 is not set:
+			send "/setprefix <player> [prefix] <server> <world>"
+			stop
+		if arg-2 is not set:
+			send "/setprefix <player> [prefix] <server> <world>"
+			stop
+		if executor is console:
+			if arg-4 is set:
+				make console execute command "/lp user %arg-1% meta setprefix 10 ""%arg-2%"" %arg-3% %arg-4%"
+				stop
+			if arg-3 is set:
+				make console execute command "/lp user %arg-1% meta setprefix 10 ""%arg-2%"" %arg-3%"
+				stop
+			if arg-2 is set:
+				make console execute command "/lp user %arg-1% meta setprefix 10 ""%arg-2%"""
+		if executor is player:
+			if arg-4 is set:
+				make player execute command "/lp user %arg-1% meta setprefix 10 ""%arg-2%"" %arg-3% %arg-4%"
+				stop
+			if arg-3 is set:
+				make player execute command "/lp user %arg-1% meta setprefix 10 ""%arg-2%"" %arg-3%"
+				stop
+			if arg-2 is set:
+				make player execute command "/lp user %arg-1% meta setprefix 10 ""%arg-2%"""
+			
+command /setsuffix [<offline player>] <text> [<text>] [<text>]:
+	aliases: /suffix , /updatesuffix
+	permission: setsuffix.use
+	permission message: &f[&9Solito&f] > &4No Permission
+	trigger:
+		if arg-1 is not set:
+			send "/setsuffix <player> [prefix] <server> <world>"
+			stop
+		if arg-2 is not set:
+			send "/setsuffix <player> [prefix] <server> <world>"
+			stop
+		if executor is console:
+			if arg-4 is set:
+				make console execute command "/lp user %arg-1% meta setsuffix 10 ""%arg-2%"" %arg-3% %arg-4%"
+				stop
+			if arg-3 is set:
+				make console execute command "/lp user %arg-1% meta setsuffix 10 ""%arg-2%"" %arg-3%"
+				stop
+			if arg-2 is set:
+				make console execute command "/lp user %arg-1% meta setsuffix 10 ""%arg-2%"""
+		if executor is player:
+			if arg-4 is set:
+				make player execute command "/lp user %arg-1% meta setsuffix 10 ""%arg-2%"" %arg-3% %arg-4%"
+				stop
+			if arg-3 is set:
+				make player execute command "/lp user %arg-1% meta setsuffix 10 ""%arg-2%"" %arg-3%"
+				stop
+			if arg-2 is set:
+				make player execute command "/lp user %arg-1% meta setsuffix 10 ""%arg-2%"""
+				
+command /removeprefix [<offline player>]:
+	permission: removeprefix.use
+	permission message: &f[&9Solito&f] > &4No Permission
+	trigger:
+		if arg-1 is not set:
+			send "/removeprefix <player>"
+			stop
+		if executor is console:
+			make console execute command "/lp user %arg-1% meta removeprefix 10"
+		if executor is player:
+			make player execute command "/lp user %arg-1% meta removeprefix 10"
+			
+command /removesuffix [<offline player>]:
+	permission: removesuffix.use
+	permission message: &f[&9Solito&f] > &4No Permission
+	trigger:
+		if arg-1 is not set:
+			send "/removesuffix <player>"
+			stop
+		if executor is console:
+			make console execute command "/lp user %arg-1% meta removesuffix 10"
+		if executor is player:
+			make player execute command "/lp user %arg-1% meta removesuffix 10"
+			

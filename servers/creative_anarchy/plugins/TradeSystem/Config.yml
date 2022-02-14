@@ -1,0 +1,112 @@
+TradeSystem:
+  Prefix: '&8[&cTrade&8] &r'
+  Language: ENG
+  # Permissions:
+  #   "tradesystem.trade": Can accept/deny/toggle trade requests
+  #   "tradesystem.trade.initiate": Can invite players for trades
+  # If permissions are disabled, every player is able to accept/deny/toggle/initiate trades
+  Permissions: true
+  
+  # Both traders have to add an item/money to finish the trade
+  Trade_Both: true
+  # The GUI type which will be used to enter the money amount. Available options: SIGN, ANVIL
+  Input_GUI: ANVIL
+  Trade_Distance:
+    enabled: false
+    distance_in_blocks: 50
+  Allowed_GameModes:
+  - SURVIVAL
+  Blocked_Worlds:
+  - ExampleWorld-1
+  - ExampleWorld-2
+  Blacklist:
+  - '{"Material":"AIR","Data":0}'
+  - '{"Displayname":"&cExample","Material":"AIR","Data":0}'
+  - '{"Displayname":"&cExample, which blocks all items with this strange name!"}'
+  
+  Trade_Countdown:
+    Enabled: true
+    # in ticks (20 ticks = 1 second)
+    Interval: 20
+    Repetitions: 3
+  
+  # true: After finishing a trade all overflowing items will be dropped, if the inventory is full
+  # false: Prevent the trade partner to put too much items into the gui
+  Trade_Drop_Items: true
+  
+  # In seconds (e.g. after <60> seconds the request will be expired)
+  Trade_Request_Expiration_Time: 60
+  
+  Action_To_Cancel:
+    Player_get_damaged: true
+  
+  Action_To_Request:
+    Shift_Rightclick: false
+  
+  Easy_Money_Selection:
+    Enabled: true
+    # Do NOT use special symbols (e.g. '$') here.
+    # Use characters only!
+    Shortcuts:
+    - Keys:
+      - k
+      Value: 1000
+    - Keys:
+      - m
+      - mio
+      Value: 1000000
+  
+  # Warning: The aliases will not be validated. Make sure they are correct.
+  Commands:
+    Trade:
+    - trade
+    Accept:
+    - accept
+    Deny:
+    - deny
+    Toggle:
+    - toggle
+  
+  # BETA - Please post issues on my GitHub Issue-Tracker: https://github.com/CodingAir/TradeSystem/issues
+  # WARNING - This log does not remove files automatically after some time, so you have to do it yourself.
+  Tradelog:
+    Enabled: false
+    Database:
+      # Values: SQLITE, MYSQL
+      Type: MYSQL
+      Db_host: localhost
+      Db_port: 3306
+      Db_name: tradelog
+      Db_user: root
+      Db_password: password
+  
+  # Sound names can be found here: https://github.com/CodingAir/CodingAPI/tree/master/src/main/java/de/codingair/codingapi/server/sounds/Sound.java
+  Sounds:
+    Trade_Started:
+      Name: LEVEL_UP
+      Volume: 0.6
+      Pitch: 1.0
+    Trade_Finished:
+      Name: LEVEL_UP
+      Volume: 0.6
+      Pitch: 1.0
+    Trade_Blocked:
+      Name: NOTE_BASS
+      Volume: 0.8
+      Pitch: 0.6
+    Trade_Cancelled:
+      Name: ITEM_BREAK
+      Volume: 0.6
+      Pitch: 1.0
+    Trade_Request:
+      Name: ORB_PICKUP
+      Volume: 0.6
+      Pitch: 1.0
+    Countdown_Tick:
+      Name: ORB_PICKUP
+      Volume: 0.6
+      Pitch: 1.0
+    Countdown_Stop:
+      Name: ITEM_BREAK
+      Volume: 0.6
+      Pitch: 1.0
