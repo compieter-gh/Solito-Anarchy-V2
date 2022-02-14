@@ -51,6 +51,8 @@ cd ${ROOT_PATH}
 
 git pull
 
+rm -rf ${ROOT_PATH}/servers/*
+
 for (( i=0; i<${#SRV_IP_LIST[@]}; i++ ));
 do 
     rsync -avm --include-from=${INCLUDE_GITHUB} --exclude-from=${EXCLUDE_GITHUB} --delete --delete-excluded -e ssh ${USER}@${SRV_IP_LIST[$i]}:${SRV_SRC_LIST[$i]}/* ${SRV_DEST_LIST[$i]}; 
