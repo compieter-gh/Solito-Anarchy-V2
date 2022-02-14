@@ -135,7 +135,7 @@ This is only the plugins ofc the map will be the same as always.
    ```
 4. Put Waterfall in the following folder
    ```sh
-   "proxy" (named "proxy.jar")
+   "proxy_anarchy" (named "proxy.jar")
    ```
 5. Start the servers by running the start.sh
 
