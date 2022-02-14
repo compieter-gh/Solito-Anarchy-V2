@@ -131,11 +131,11 @@ This is only the plugins ofc the map will be the same as always.
    ```
 3. Put Paper in the following folder(s)
    ```sh
-   hub (named "server.jar")
+   "hub_anarchy" "anarchy" "crazy_anarchy" "creative_anarchy" (named "server.jar")
    ```
 4. Put Waterfall in the following folder
    ```sh
-   proxy (named "proxy.jar")
+   "proxy" (named "proxy.jar")
    ```
 5. Start the servers by running the start.sh
 
