@@ -13,7 +13,6 @@ LOG_FILE=${ROOT_PATH}/scripts/${HOSTNAME}/logs-github/${DATE}
 SRCDIR_1="/srv/daemon-data/" #legacy
 SRCDIR_2="/var/lib/pterodactyl/volumes/"
 
-
 #Server SRC DIRS
 PROXY_ANARCHY_UUID="${SRCDIR_2}/38041d33-5b50-4dde-962e-95709f1d73be"
 HUB_ANARCHY_UUID="${SRCDIR_2}/73056572-85e8-4979-b304-f6c247d0a599"
@@ -47,11 +46,11 @@ cd ${ROOT_PATH}
 exec 1>${LOG_FILE}"github-downstream"${EXTENSION} 2>&1
 
 #Make sure source is updated
-git checkout main
-git pull
+#git checkout main
+#git pull
 
 #Sync all servers
 for (( i=0; i<${#SRV_IP_LIST[@]}; i++ ));
 do 
-    rsync -av --include-from=${INCLUDE_GITHUB} -e ssh ${USER}@${SRV_IP_LIST[$i]}:${SRV_DEST_LIST[$i]}/* ${SRV_SRC_LIST[$i]}; 
+    rsync -av --delete --existing -e ssh ${SRV_DEST_LIST[$i]}/* ${USER}@${SRV_IP_LIST[$i]}:${SRV_SRC_LIST[$i]};
 done
