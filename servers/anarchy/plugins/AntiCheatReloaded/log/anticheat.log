@@ -366,3 +366,30 @@
 [INFO|1:52:39]: ACR > zombiestrike444 failed Speed (x16) | type: verticalspeed, ping: 133ms, tps: 20 
 [INFO|1:55:42]: ACR > king_sato failed Speed (x32) | type: verticalspeed, ping: 179ms, tps: 20 
 [INFO|1:57:03]: ACR > zombiestrike444 failed KillAura (x32) | type: packetorder, ping: 136ms, tps: 20 
+[INFO|1:28:16]: ACR > vilamano failed Flight (x8) | type: groundflight, ping: 28ms, tps: 20 
+[INFO|1:28:17]: ACR > vilamano failed Flight (x16) | type: groundflight, ping: 28ms, tps: 20 
+[INFO|1:28:18]: ACR > vilamano failed Flight (x24) | type: groundflight, ping: 28ms, tps: 20 
+[INFO|1:37:52]: ACR > vilamano failed Flight (x32) | type: groundflight, ping: 0ms, tps: 20 
+[INFO|1:37:53]: ACR > vilamano failed Flight (x40) | type: groundflight, ping: 0ms, tps: 20 
+[INFO|1:37:53]: ACR > vilamano failed Flight (x48) | type: groundflight, ping: 0ms, tps: 20 
+[INFO|1:41:50]: ACR > vilamano failed Flight (x56) | type: groundflight, ping: 0ms, tps: 20 
+[INFO|1:41:51]: ACR > vilamano failed Flight (x64) | type: groundflight, ping: 0ms, tps: 20 
+[INFO|1:41:52]: ACR > vilamano failed Flight (x72) | type: groundflight, ping: 0ms, tps: 20 
+[INFO|1:43:32]: ACR > vilamano failed Flight (x80) | type: groundflight, ping: 0ms, tps: 20 
+[INFO|1:43:33]: ACR > vilamano failed Flight (x88) | type: groundflight, ping: 0ms, tps: 20 
+[INFO|1:43:34]: ACR > vilamano failed Flight (x96) | type: groundflight, ping: 0ms, tps: 20 
+[INFO|1:43:35]: ACR > vilamano failed Flight (x104) | type: groundflight, ping: 0ms, tps: 20 
+[INFO|1:46:41]: ACR > vilamano failed Flight (x112) | type: groundflight, ping: 42ms, tps: 20 
+[INFO|1:46:42]: ACR > vilamano failed Flight (x120) | type: groundflight, ping: 42ms, tps: 20 
+[INFO|1:46:43]: ACR > vilamano failed Flight (x128) | type: groundflight, ping: 42ms, tps: 20 
+[INFO|1:46:44]: ACR > vilamano failed Flight (x136) | type: groundflight, ping: 42ms, tps: 20 
+[INFO|1:48:29]: ACR > vilamano failed Speed (x8) | type: verticalspeed, ping: 31ms, tps: 20 
+[INFO|1:48:39]: ACR > vilamano failed NoFall (x8) | ping: 27ms, tps: 20 
+[INFO|1:48:46]: ACR > vilamano failed NoFall (x16) | ping: 27ms, tps: 20 
+[INFO|1:48:48]: ACR > vilamano failed NoFall (x24) | ping: 23ms, tps: 20 
+[INFO|1:50:33]: ACR > vilamano failed NoFall (x32) | ping: 26ms, tps: 20 
+[INFO|1:50:33]: ACR > vilamano failed Flight (x144) | type: groundflight, ping: 28ms, tps: 20 
+[INFO|1:50:34]: ACR > vilamano failed Flight (x152) | type: groundflight, ping: 28ms, tps: 20 
+[INFO|1:50:35]: ACR > vilamano failed Flight (x160) | type: groundflight, ping: 28ms, tps: 20 
+[INFO|9:35:07]: ACR > ShaddowBlades failed Flight (x8) | type: airclimb, ping: 129ms, tps: 20 
+[INFO|9:35:39]: ACR > ShaddowBlades failed Flight (x16) | type: airclimb, ping: 136ms, tps: 20 

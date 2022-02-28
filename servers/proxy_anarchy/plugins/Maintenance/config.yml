@@ -10,7 +10,7 @@
 # If you need any other help/support, you can also join my Discord server: https://discord.gg/vGCUzHq
 
 # Enables maintenance mode.
-maintenance-enabled: true
+maintenance-enabled: false
 
 # Enables maintenance on certain servers managed by your Bungee instance(s).
 proxied-maintenance-servers:
