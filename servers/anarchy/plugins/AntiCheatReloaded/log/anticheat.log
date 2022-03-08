@@ -393,3 +393,137 @@
 [INFO|1:50:35]: ACR > vilamano failed Flight (x160) | type: groundflight, ping: 28ms, tps: 20 
 [INFO|9:35:07]: ACR > ShaddowBlades failed Flight (x8) | type: airclimb, ping: 129ms, tps: 20 
 [INFO|9:35:39]: ACR > ShaddowBlades failed Flight (x16) | type: airclimb, ping: 136ms, tps: 20 
+[INFO|2:26:55]: ACR > zombiestrike444 failed Speed (x8) | type: verticalspeed, ping: 123ms, tps: 20 
+[INFO|2:41:01]: ACR > zombiestrike444 failed Speed (x16) | type: verticalspeed, ping: 122ms, tps: 20 
+[INFO|6:24:27]: ACR > rik2201 failed Speed (x8) | type: airspeed, ping: 0ms, tps: 20 
+[INFO|6:24:30]: ACR > rik2201 failed Speed (x16) | type: groundspeed, ping: 0ms, tps: 20 
+[INFO|6:24:33]: ACR > rik2201 failed Speed (x24) | type: airacceleration, ping: 0ms, tps: 20 
+[INFO|6:25:53]: ACR > rik2201 failed Speed (x32) | type: airacceleration, ping: 16ms, tps: 20 
+[INFO|6:27:12]: ACR > rik2201 failed Speed (x40) | type: airspeed, ping: 19ms, tps: 20 
+[INFO|6:27:13]: ACR > rik2201 failed Speed (x48) | type: verticalspeed, ping: 19ms, tps: 20 
+[INFO|6:27:15]: ACR > rik2201 failed Speed (x56) | type: verticalspeed, ping: 19ms, tps: 20 
+[INFO|11:27:01]: ACR > zombiestrike444 failed Speed (x24) | type: verticalspeed, ping: 134ms, tps: 20 
+[INFO|11:33:32]: ACR > zombiestrike444 failed Speed (x32) | type: airspeed, ping: 128ms, tps: 20 
+[INFO|11:35:20]: ACR > zombiestrike444 failed Flight (x8) | type: airflight, ping: 237ms, tps: 20 
+[INFO|11:42:56]: ACR > zombiestrike444 failed Speed (x40) | type: verticalspeed, ping: 140ms, tps: 20 
+[INFO|11:46:48]: ACR > zombiestrike444 failed Flight (x16) | type: airclimb, ping: 127ms, tps: 20 
+[INFO|12:00:19]: ACR > zombiestrike444 failed Speed (x48) | type: verticalspeed, ping: 130ms, tps: 20 
+[INFO|12:01:25]: ACR > zombiestrike444 failed Speed (x56) | type: airspeed, ping: 128ms, tps: 20 
+[INFO|1:59:27]: ACR > Sanskar_123456 failed MorePackets (x8) | ping: 2496ms, tps: 20 
+[INFO|1:59:34]: ACR > Sanskar_123456 failed MorePackets (x16) | ping: 2496ms, tps: 20 
+[INFO|1:59:52]: ACR > Sanskar_123456 failed MorePackets (x24) | ping: 584ms, tps: 20 
+[INFO|2:00:02]: ACR > Sanskar_123456 failed MorePackets (x32) | ping: 2583ms, tps: 20 
+[INFO|11:34:11]: ACR > zombiestrike444 failed Flight (x24) | type: gravity, ping: 124ms, tps: 20 
+[INFO|11:46:48]: ACR > zombiestrike444 failed KillAura (x8) | type: packetorder, ping: 124ms, tps: 20 
+[INFO|11:47:25]: ACR > zombiestrike444 failed Speed (x64) | type: verticalspeed, ping: 126ms, tps: 20 
+[INFO|11:51:09]: ACR > zombiestrike444 failed KillAura (x16) | type: packetorder, ping: 122ms, tps: 20 
+[INFO|11:53:37]: ACR > zombiestrike444 failed Speed (x72) | type: verticalspeed, ping: 127ms, tps: 20 
+[INFO|11:54:05]: ACR > zombiestrike444 failed Flight (x32) | type: airclimb, ping: 124ms, tps: 20 
+[INFO|12:02:14]: ACR > zombiestrike444 failed Speed (x80) | type: airspeed, ping: 124ms, tps: 20 
+[INFO|12:37:23]: ACR > zombiestrike444 failed MorePackets (x8) | ping: 121ms, tps: 20 
+[INFO|12:37:44]: ACR > zombiestrike444 failed MorePackets (x16) | ping: 124ms, tps: 20 
+[INFO|12:41:33]: ACR > zombiestrike444 failed KillAura (x24) | type: packetorder, ping: 136ms, tps: 20 
+[INFO|12:01:54]: ACR > dmedinab failed Speed (x8) | type: airacceleration, ping: 0ms, tps: 20 
+[INFO|5:22:54]: ACR > EpiclyPlays failed Speed (x8) | type: airspeed, ping: 90ms, tps: 20 
+[INFO|5:23:46]: ACR > EpiclyPlays failed MorePackets (x8) | ping: 83ms, tps: 20 
+[INFO|5:24:23]: ACR > EpiclyPlays failed NoFall (x8) | ping: 83ms, tps: 20 
+[INFO|5:28:01]: ACR > EpiclyPlays failed MorePackets (x16) | ping: 83ms, tps: 20 
+[INFO|5:28:03]: ACR > EpiclyPlays failed MorePackets (x24) | ping: 81ms, tps: 20 
+[INFO|5:28:06]: ACR > EpiclyPlays failed MorePackets (x32) | ping: 81ms, tps: 20 
+[INFO|5:28:09]: ACR > EpiclyPlays failed MorePackets (x40) | ping: 81ms, tps: 20 
+[INFO|5:28:11]: ACR > EpiclyPlays failed MorePackets (x48) | ping: 81ms, tps: 20 
+[INFO|5:28:14]: ACR > EpiclyPlays failed MorePackets (x56) | ping: 81ms, tps: 20 
+[INFO|5:28:17]: ACR > EpiclyPlays failed MorePackets (x64) | ping: 87ms, tps: 20 
+[INFO|5:28:19]: ACR > EpiclyPlays failed MorePackets (x72) | ping: 87ms, tps: 20 
+[INFO|5:28:22]: ACR > EpiclyPlays failed MorePackets (x80) | ping: 87ms, tps: 20 
+[INFO|5:28:25]: ACR > EpiclyPlays failed MorePackets (x88) | ping: 87ms, tps: 20 
+[INFO|5:28:27]: ACR > EpiclyPlays failed MorePackets (x96) | ping: 87ms, tps: 20 
+[INFO|5:28:30]: ACR > EpiclyPlays failed MorePackets (x104) | ping: 87ms, tps: 20 
+[INFO|5:30:01]: ACR > EpiclyPlays failed MorePackets (x112) | ping: 84ms, tps: 20 
+[INFO|5:34:32]: ACR > EpiclyPlays failed MorePackets (x120) | ping: 80ms, tps: 20 
+[INFO|5:34:59]: ACR > EpiclyPlays failed MorePackets (x128) | ping: 83ms, tps: 20 
+[INFO|5:37:45]: ACR > EpiclyPlays failed MorePackets (x136) | ping: 81ms, tps: 20 
+[INFO|5:41:31]: ACR > EpiclyPlays failed Flight (x8) | type: airflight, ping: 75ms, tps: 20 
+[INFO|5:41:35]: ACR > EpiclyPlays failed Flight (x16) | type: airflight, ping: 75ms, tps: 20 
+[INFO|5:41:40]: ACR > EpiclyPlays failed Flight (x24) | type: airflight, ping: 88ms, tps: 20 
+[INFO|5:42:01]: ACR > EpiclyPlays failed Speed (x16) | type: airspeed, ping: 0ms, tps: 20 
+[INFO|5:42:06]: ACR > EpiclyPlays failed Flight (x32) | type: airflight, ping: 0ms, tps: 20 
+[INFO|5:42:10]: ACR > EpiclyPlays failed Flight (x40) | type: airflight, ping: 0ms, tps: 20 
+[INFO|5:42:14]: ACR > EpiclyPlays failed Flight (x48) | type: airflight, ping: 85ms, tps: 20 
+[INFO|5:42:19]: ACR > EpiclyPlays failed Flight (x56) | type: airflight, ping: 85ms, tps: 20 
+[INFO|5:42:22]: ACR > EpiclyPlays failed Flight (x64) | type: airflight, ping: 85ms, tps: 20 
+[INFO|6:06:34]: ACR > vilamano failed Speed (x8) | type: verticalspeed, ping: 25ms, tps: 20 
+[INFO|6:06:36]: ACR > vilamano failed Speed (x16) | type: verticalspeed, ping: 25ms, tps: 20 
+[INFO|6:06:37]: ACR > vilamano failed Flight (x8) | type: airclimb, ping: 25ms, tps: 20 
+[INFO|6:11:55]: ACR > vilamano failed Speed (x24) | type: verticalspeed, ping: 26ms, tps: 20 
+[INFO|6:11:57]: ACR > vilamano failed Speed (x32) | type: verticalspeed, ping: 26ms, tps: 20 
+[INFO|6:11:58]: ACR > vilamano failed Flight (x16) | type: airclimb, ping: 26ms, tps: 20 
+[INFO|6:12:43]: ACR > vilamano failed Speed (x40) | type: verticalspeed, ping: 25ms, tps: 20 
+[INFO|6:12:46]: ACR > vilamano failed Speed (x48) | type: verticalspeed, ping: 25ms, tps: 20 
+[INFO|10:04:21]: ACR > zombiestrike444 failed Speed (x8) | type: airspeed, ping: 130ms, tps: 20 
+[INFO|10:04:48]: ACR > zombiestrike444 failed KillAura (x8) | type: packetorder, ping: 124ms, tps: 20 
+[INFO|10:26:08]: ACR > zombiestrike444 failed KillAura (x16) | type: angle, ping: 124ms, tps: 20 
+[INFO|10:30:00]: ACR > zombiestrike444 failed KillAura (x24) | type: angle, ping: 127ms, tps: 20 
+[INFO|11:28:01]: ACR > zombiestrike444 failed Flight (x8) | type: airflight, ping: 123ms, tps: 20 
+[INFO|11:38:22]: ACR > zombiestrike444 failed KillAura (x32) | type: packetorder, ping: 128ms, tps: 20 
+[INFO|12:02:15]: ACR > zombiestrike444 failed Speed (x16) | type: verticalspeed, ping: 124ms, tps: 20 
+[INFO|12:06:04]: ACR > zombiestrike444 failed KillAura (x40) | type: packetorder, ping: 128ms, tps: 20 
+[INFO|12:07:23]: ACR > zombiestrike444 failed Speed (x24) | type: verticalspeed, ping: 127ms, tps: 20 
+[INFO|12:07:54]: ACR > zombiestrike444 failed Speed (x32) | type: verticalspeed, ping: 126ms, tps: 20 
+[INFO|12:10:40]: ACR > zombiestrike444 failed Speed (x40) | type: airspeed, ping: 126ms, tps: 20 
+[INFO|12:21:11]: ACR > zombiestrike444 failed Flight (x16) | type: airflight, ping: 124ms, tps: 20 
+[INFO|12:21:54]: ACR > zombiestrike444 failed Speed (x48) | type: verticalspeed, ping: 122ms, tps: 20 
+[INFO|9:40:44]: ACR > zombiestrike444 failed KillAura (x48) | type: packetorder, ping: 131ms, tps: 20 
+[INFO|9:43:13]: ACR > zombiestrike444 failed MorePackets (x8) | ping: 128ms, tps: 20 
+[INFO|9:43:17]: ACR > zombiestrike444 failed MorePackets (x16) | ping: 128ms, tps: 20 
+[INFO|9:43:23]: ACR > zombiestrike444 failed MorePackets (x24) | ping: 128ms, tps: 20 
+[INFO|9:43:29]: ACR > zombiestrike444 failed MorePackets (x32) | ping: 128ms, tps: 20 
+[INFO|9:43:35]: ACR > zombiestrike444 failed MorePackets (x40) | ping: 128ms, tps: 20 
+[INFO|9:43:41]: ACR > zombiestrike444 failed MorePackets (x48) | ping: 129ms, tps: 20 
+[INFO|9:43:47]: ACR > zombiestrike444 failed MorePackets (x56) | ping: 129ms, tps: 20 
+[INFO|9:43:59]: ACR > zombiestrike444 failed MorePackets (x64) | ping: 471ms, tps: 20 
+[INFO|9:44:09]: ACR > zombiestrike444 failed MorePackets (x72) | ping: 471ms, tps: 20 
+[INFO|9:44:19]: ACR > zombiestrike444 failed MorePackets (x80) | ping: 129ms, tps: 20 
+[INFO|9:44:25]: ACR > zombiestrike444 failed MorePackets (x88) | ping: 129ms, tps: 20 
+[INFO|9:44:31]: ACR > zombiestrike444 failed MorePackets (x96) | ping: 132ms, tps: 20 
+[INFO|9:44:37]: ACR > zombiestrike444 failed MorePackets (x104) | ping: 132ms, tps: 20 
+[INFO|9:44:46]: ACR > zombiestrike444 failed MorePackets (x112) | ping: 130ms, tps: 20 
+[INFO|9:44:52]: ACR > zombiestrike444 failed MorePackets (x120) | ping: 130ms, tps: 20 
+[INFO|9:44:58]: ACR > zombiestrike444 failed MorePackets (x128) | ping: 125ms, tps: 20 
+[INFO|9:45:04]: ACR > zombiestrike444 failed MorePackets (x136) | ping: 125ms, tps: 20 
+[INFO|9:45:10]: ACR > zombiestrike444 failed MorePackets (x144) | ping: 125ms, tps: 20 
+[INFO|9:46:49]: ACR > zombiestrike444 failed MorePackets (x152) | ping: 125ms, tps: 20 
+[INFO|9:47:01]: ACR > zombiestrike444 failed MorePackets (x160) | ping: 141ms, tps: 20 
+[INFO|9:47:10]: ACR > zombiestrike444 failed MorePackets (x168) | ping: 141ms, tps: 20 
+[INFO|9:47:16]: ACR > zombiestrike444 failed MorePackets (x176) | ping: 129ms, tps: 20 
+[INFO|9:47:23]: ACR > zombiestrike444 failed MorePackets (x184) | ping: 129ms, tps: 20 
+[INFO|9:47:29]: ACR > zombiestrike444 failed MorePackets (x192) | ping: 141ms, tps: 20 
+[INFO|9:47:35]: ACR > zombiestrike444 failed MorePackets (x200) | ping: 141ms, tps: 20 
+[INFO|9:47:41]: ACR > zombiestrike444 failed MorePackets (x208) | ping: 141ms, tps: 20 
+[INFO|9:47:48]: ACR > zombiestrike444 failed MorePackets (x216) | ping: 666ms, tps: 20 
+[INFO|9:47:54]: ACR > zombiestrike444 failed MorePackets (x224) | ping: 666ms, tps: 20 
+[INFO|9:48:03]: ACR > zombiestrike444 failed MorePackets (x232) | ping: 128ms, tps: 20 
+[INFO|9:48:09]: ACR > zombiestrike444 failed MorePackets (x240) | ping: 128ms, tps: 20 
+[INFO|9:48:15]: ACR > zombiestrike444 failed MorePackets (x248) | ping: 126ms, tps: 20 
+[INFO|9:48:21]: ACR > zombiestrike444 failed MorePackets (x256) | ping: 126ms, tps: 20 
+[INFO|9:48:27]: ACR > zombiestrike444 failed MorePackets (x264) | ping: 129ms, tps: 20 
+[INFO|9:48:33]: ACR > zombiestrike444 failed MorePackets (x272) | ping: 129ms, tps: 20 
+[INFO|10:02:02]: ACR > zombiestrike444 failed Flight (x24) | type: airclimb, ping: 127ms, tps: 20 
+[INFO|10:05:26]: ACR > zombiestrike444 failed Speed (x56) | type: verticalspeed, ping: 124ms, tps: 20 
+[INFO|10:46:41]: ACR > zombiestrike444 failed MorePackets (x280) | ping: 408ms, tps: 20 
+[INFO|12:29:36]: ACR > iuciumO failed Speed (x8) | type: airspeed, ping: 0ms, tps: 20 
+[INFO|1:56:30]: ACR > Arnisna failed Speed (x8) | type: verticalspeed, ping: 52ms, tps: 20 
+[INFO|1:56:35]: ACR > Arnisna failed Speed (x16) | type: verticalspeed, ping: 52ms, tps: 20 
+[INFO|1:56:51]: ACR > Arnisna failed Speed (x24) | type: verticalspeed, ping: 59ms, tps: 20 
+[INFO|1:57:09]: ACR > Arnisna failed Speed (x32) | type: verticalspeed, ping: 51ms, tps: 20 
+[INFO|1:57:39]: ACR > Arnisna failed Flight (x8) | type: airclimb, ping: 58ms, tps: 20 
+[INFO|1:57:42]: ACR > Arnisna failed Flight (x16) | type: airclimb, ping: 58ms, tps: 20 
+[INFO|1:57:48]: ACR > Arnisna failed Speed (x40) | type: airspeed, ping: 58ms, tps: 20 
+[INFO|1:57:50]: ACR > Arnisna failed Speed (x48) | type: airspeed, ping: 58ms, tps: 20 
+[INFO|1:57:53]: ACR > Arnisna failed Speed (x56) | type: airspeed, ping: 58ms, tps: 20 
+[INFO|1:57:54]: ACR > Arnisna failed Speed (x64) | type: airacceleration, ping: 58ms, tps: 20 
+[INFO|1:57:54]: ACR > Arnisna failed Speed (x72) | type: airacceleration, ping: 44ms, tps: 20 
+[INFO|1:58:08]: ACR > Arnisna failed Speed (x80) | type: verticalspeed, ping: 44ms, tps: 20 
+[INFO|1:58:08]: ACR > Arnisna failed Speed (x88) | type: verticalspeed, ping: 44ms, tps: 20 
+[INFO|1:58:09]: ACR > Arnisna failed Flight (x24) | type: airclimb, ping: 44ms, tps: 20 
+[INFO|1:59:49]: ACR > Arnisna failed Speed (x96) | type: airspeed, ping: 47ms, tps: 20 

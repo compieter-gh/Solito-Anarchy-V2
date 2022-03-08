@@ -3,7 +3,7 @@ throttling:
 log_initial_handler_connections: false
 registered_plugin_channels_limit: 128
 use_netty_dns_resolver: true
-game_version: 1.15.2, 1.16.5, 1.17.x
+game_version: 1.15.2, 1.16.5, 1.17.x, 1.18.x
 disable_tab_list_rewrite: false
 disable_entity_metadata_rewrite: false
 disable_modern_tab_limiter: true

@@ -1,0 +1,15 @@
+on join:
+    set slot 4 of player to compass named "Servers"
+
+on drop:
+    if event-item is compass named "Servers":
+        cancel event
+
+on inventory click:
+    if event-item is compass named "Servers":
+        cancel event
+
+on rightclick with a compass:
+    if event-item is compass named "Servers":
+        make player execute "servergui"
+        play "entity_ender_dragon_growl" to player

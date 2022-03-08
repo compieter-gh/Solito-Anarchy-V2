@@ -1605,3 +1605,15 @@ plugins/betterbroadcaster/config.yml
 
 sent 6,294 bytes  received 40,040,193 bytes  26,697,658.00 bytes/sec
 total size is 40,011,587  speedup is 1.00
+[main b726273] Updated Upstream (servers)
+ 55 files changed, 2286 insertions(+), 414 deletions(-)
+ create mode 100644 scripts/linux-nas-01/logs-github/2022_02_28_08_36_PM_github-upstream.log
+ create mode 100644 servers/crazy_anarchy/plugins/AntiCheatReloaded/log/anticheat.log.lck
+ create mode 100644 servers/crazy_anarchy/plugins/Disease/players/4f9e8ce7-ec83-4a21-8b83-6ab8903c2a31.yml
+ create mode 100644 servers/crazy_anarchy/plugins/Disease/players/c4fbd630-d1fa-4ca7-812a-7852636b15ed.yml
+ create mode 100644 servers/creative_anarchy/plugins/AntiCheatReloaded/log/anticheat.log.lck
+ rewrite servers/proxy_anarchy/plugins/ServerListPlus/PlayerCache.json (84%)
+ rename servers/proxy_anarchy/plugins/{ViaBackwards-4.2.0-SNAPSHOT.jar => ViaBackwards-4.2.0.jar} (89%)
+ rename servers/proxy_anarchy/plugins/{ViaVersion-4.2.0-SNAPSHOT.jar => ViaVersion-4.2.1.jar} (94%)
+To github.com:compieter-gh/Solito-Anarchy-V2.git
+   b793dff..b726273  main -> main

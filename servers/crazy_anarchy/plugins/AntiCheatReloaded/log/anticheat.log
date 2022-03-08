@@ -31,3 +31,11 @@
 [INFO|10:10:37]: ACR > SKDEVILFF failed Flight (x56) | type: airflight, ping: 354ms, tps: 20 
 [INFO|10:10:46]: ACR > SKDEVILFF failed Flight (x64) | type: airflight, ping: 354ms, tps: 20 
 [INFO|10:11:17]: ACR > SKDEVILFF failed Flight (x72) | type: airclimb, ping: 468ms, tps: 20 
+[INFO|2:16:48]: ACR > Arnisna failed Speed (x8) | type: airspeed, ping: 67ms, tps: 20 
+[INFO|2:16:54]: ACR > Arnisna failed Speed (x16) | type: airspeed, ping: 67ms, tps: 20 
+[INFO|2:18:24]: ACR > Arnisna failed Flight (x8) | type: airflight, ping: 49ms, tps: 20 
+[INFO|2:20:05]: ACR > Arnisna failed Flight (x16) | type: airclimb, ping: 47ms, tps: 20 
+[INFO|2:20:10]: ACR > Arnisna failed Flight (x24) | type: airclimb, ping: 47ms, tps: 20 
+[INFO|2:20:10]: ACR > Arnisna failed Flight (x32) | type: airclimb, ping: 47ms, tps: 20 
+[INFO|2:20:11]: ACR > Arnisna failed Flight (x40) | type: airclimb, ping: 47ms, tps: 20 
+[INFO|2:20:15]: ACR > Arnisna failed Flight (x48) | type: airclimb, ping: 47ms, tps: 20 

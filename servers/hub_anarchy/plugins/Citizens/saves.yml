@@ -48,7 +48,7 @@ npc:
             n: -1
             delay: 0
       spawned: true
-    traitnames: equipment,mounttrait,scoreboardtrait,hologramtrait,type,owner,commandtrait,skintrait,inventory,location,spawned,sneak
+    traitnames: mounttrait,owner,skintrait,spawned,sneak,location,equipment,type,commandtrait,hologramtrait,scoreboardtrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -100,7 +100,7 @@ npc:
             n: -1
             delay: 0
       spawned: true
-    traitnames: equipment,mounttrait,scoreboardtrait,hologramtrait,type,owner,commandtrait,skintrait,inventory,location,spawned,sneak
+    traitnames: mounttrait,owner,skintrait,spawned,sneak,location,equipment,type,hologramtrait,commandtrait,scoreboardtrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -147,7 +147,7 @@ npc:
             n: -1
             delay: 0
       spawned: true
-    traitnames: equipment,mounttrait,scoreboardtrait,type,owner,commandtrait,skintrait,inventory,location,sneak,spawned
+    traitnames: mounttrait,owner,skintrait,spawned,sneak,location,equipment,type,commandtrait,scoreboardtrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -181,7 +181,7 @@ npc:
         direction: BOTTOM_UP
         lineHeight: -1.0
       spawned: true
-    traitnames: equipment,mounttrait,scoreboardtrait,hologramtrait,type,skintrait,owner,inventory,location,spawned,sneak
+    traitnames: mounttrait,skintrait,owner,spawned,sneak,location,equipment,type,hologramtrait,scoreboardtrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -197,9 +197,9 @@ npc:
       location:
         bodyYaw: 87.36789
         world: world_2
-        x: '3.6535'
+        x: '2.2124'
         y: '77.0'
-        z: '109.5827'
+        z: '110.1245'
         yaw: '87.3679'
         pitch: '-2.8393'
       spawned: true
@@ -212,7 +212,7 @@ npc:
         signature: ratSrljSuAS599TQl3yoqgL60Fks3CgR9JYbrYUuBViIiIneqIo3Uj87IhCO3GODt3yehB19btQ2v7O8gVvYT8d0N7KvniA3FntgNBGB1TzaM/L97yAFIkkoSBIAJ6xBnrPIrhqCv+uM8c05QLMtNTWE3f60wqOejh8NZF9doeVLSH9eE87rkc4snZguy6R/1IBJvhZmplsb3pyiHjOLxu1UUE48ywMrCpLsvZBtIZU+UR/82I/Rn0NXcxLwh87vSIE/5rwfgUUagK9mRvjUzfsRVcZylsXGtzBuINrMXWaJnHPZBXNOf9Sl623hXHWie5XDMQ5FlMEjjFTkgmAhAzm7dy4HbSqH25FEWyCkThDVZ9/n4JHqNBZYfNca26kPJsFybIHw+/WT78XmWhmVTmhqoowfngegTU1uKsFQ7O1iPuoa/ZSn/bROcWfg1Dh8g7fftmaFnqkd5YyyncX4cx3tBkjGkeRLrbhale2ThVWZYwDRBw4XgmqGoyRYbSyHD0QW2rl4PIViiz/BVHS0FKop6YM8j22bZtnjtEYGudFi+MoDFlhCLqF5cs0U4JJHeSPs9hwtSFGGOmef6bmzySpX71c1fx6CNm57iH2DR2oDdtcZZob0SB6fuOQHEBD5f87iC/zWlAB+lmXwovGySPAKU2UstoijLMaMVeYAROU=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0NTAyODMwMjEyOSwKICAicHJvZmlsZUlkIiA6ICI3YjY0ZTE1Y2E2NGI0MTMyYjdiZGFiZjVhZWE2ZmUxNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJiYXJ0Nzc4MiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xZGE5ZmUzMWZhY2FmNzVlNjM5MjMyYzdjZjA5ODU3MjliMjE0ZDFkOWRjNjY2N2U4MDFhYmQ2NWQ3YzRiOWY5IgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
         updateSkins: false
-    traitnames: equipment,mounttrait,scoreboardtrait,type,skintrait,owner,inventory,location,spawned,sneak
+    traitnames: mounttrait,skintrait,owner,spawned,sneak,location,equipment,type,scoreboardtrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

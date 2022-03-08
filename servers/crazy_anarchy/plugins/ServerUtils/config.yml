@@ -8,3 +8,8 @@ settings:
   install-updates-login: false
 disabled-commands: []
 config-version: 1
+unload-after-startup:
+  delay-ticks: 20
+  plugins: []
+hide-plugins-from-plugins-command: []
+protected-plugins: []

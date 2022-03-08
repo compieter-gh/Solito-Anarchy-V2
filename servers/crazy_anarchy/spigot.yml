@@ -65,6 +65,7 @@ world-settings:
   worldeditregentempworld:
     verbose: false
   default:
+    seed-nether: 30084232
     below-zero-generation-in-existing-chunks: true
     simulation-distance: default
     seed-stronghold: default

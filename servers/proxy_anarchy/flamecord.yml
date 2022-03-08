@@ -1,3 +1,48 @@
+allow-invalid-names: false
+antibot:
+  accounts:
+    enabled: true
+    firewall: true
+    limit: 3
+    log: true
+  fastchat:
+    enabled: true
+    firewall: true
+    time: 1000
+    log: true
+  nickname:
+    enabled: true
+    firewall: true
+    blacklist:
+    - mcstorm
+    - mcdown
+    - mcbot
+    - theresa_bot
+    - dropbot
+    - kingbot
+    log: true
+  password:
+    enabled: true
+    firewall: true
+    limit: 3
+    log: true
+  ratelimit:
+    enabled: true
+    firewall: true
+    connections-per-second: 3
+    pings-per-second: 16
+    log: true
+  reconnect:
+    enabled: true
+    attempts: 2
+    pings: 0
+    max-time: 10000
+    log: true
+  firewall:
+    firewall: true
+    time: 30000
+    log: true
+tcp-fast-open: 3
 custom-motd:
   enabled: false
   motds:
@@ -9,9 +54,3 @@ logger:
   exceptions: false
   dump: false
   haproxy: false
-firewall:
-  enabled: true
-  notify: true
-  seconds: 60
-  names:
-  - mcspam

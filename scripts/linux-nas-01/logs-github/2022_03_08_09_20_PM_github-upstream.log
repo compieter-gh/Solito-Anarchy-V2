@@ -1,0 +1,1608 @@
+Already up to date.
+receiving file list ... done
+created directory /mnt/volume1/NetBackup/github/Solito-Anarchy-V2/servers/proxy_anarchy
+config.yml
+flamecord.yml
+messages.yml
+waterfall.yml
+plugins/
+plugins/AntiBot.jar
+plugins/AuthMeBungee-2.2.0-SNAPSHOT.jar
+plugins/CommandWhitelist-Waterfall-2.2.1.jar
+plugins/FastLoginBungee.jar
+plugins/LuckPerms-Bungee-5.3.99.jar
+plugins/Maintenance.jar
+plugins/MaintenanceAddon-1.1.0.jar
+plugins/ServerListPlus-3.4.8-Universal.jar
+plugins/ServerUtils-Bungee-3.4.1.jar
+plugins/SkinsRestorer.jar
+plugins/TAB.v3.0.2.jar
+plugins/ViaBackwards-4.2.0.jar
+plugins/ViaVersion-4.2.1.jar
+plugins/movemenow-1.2-17.jar
+plugins/AntiBot/
+plugins/AntiBot/blacklist.yml
+plugins/AntiBot/config.yml
+plugins/AntiBot/messages.yml
+plugins/AntiBot/whitelist.yml
+plugins/AuthMeBungee/
+plugins/AuthMeBungee/config.yml
+plugins/Bungee/
+plugins/Bungee/commands.yml
+plugins/Bungee/config.yml
+plugins/Bungee/messages.yml
+plugins/CommandWhitelist/
+plugins/CommandWhitelist/config.yml
+plugins/FastLogin/
+plugins/FastLogin/config-alt.yml
+plugins/FastLogin/messages.yml
+plugins/LuckPerms/
+plugins/LuckPerms/config-alt.yml
+plugins/LuckPerms/contexts.json
+plugins/LuckPerms/luckperms-h2.mv.db
+plugins/LuckPerms/translations/
+plugins/LuckPerms/translations/repository/
+plugins/LuckPerms/translations/repository/ar_SA.properties
+plugins/LuckPerms/translations/repository/bg_BG.properties
+plugins/LuckPerms/translations/repository/cs_CZ.properties
+plugins/LuckPerms/translations/repository/da_DK.properties
+plugins/LuckPerms/translations/repository/de_DE.properties
+plugins/LuckPerms/translations/repository/el_GR.properties
+plugins/LuckPerms/translations/repository/en_PT.properties
+plugins/LuckPerms/translations/repository/es_ES.properties
+plugins/LuckPerms/translations/repository/fa_IR.properties
+plugins/LuckPerms/translations/repository/fi_FI.properties
+plugins/LuckPerms/translations/repository/fr_FR.properties
+plugins/LuckPerms/translations/repository/he_IL.properties
+plugins/LuckPerms/translations/repository/hu_HU.properties
+plugins/LuckPerms/translations/repository/id_ID.properties
+plugins/LuckPerms/translations/repository/it_IT.properties
+plugins/LuckPerms/translations/repository/ja_JP.properties
+plugins/LuckPerms/translations/repository/ko_KR.properties
+plugins/LuckPerms/translations/repository/nl_NL.properties
+plugins/LuckPerms/translations/repository/no_NO.properties
+plugins/LuckPerms/translations/repository/pl_PL.properties
+plugins/LuckPerms/translations/repository/pt_BR.properties
+plugins/LuckPerms/translations/repository/ro_RO.properties
+plugins/LuckPerms/translations/repository/ru_RU.properties
+plugins/LuckPerms/translations/repository/sr_CS.properties
+plugins/LuckPerms/translations/repository/status.json
+plugins/LuckPerms/translations/repository/sv_SE.properties
+plugins/LuckPerms/translations/repository/tr_TR.properties
+plugins/LuckPerms/translations/repository/vi_VN.properties
+plugins/LuckPerms/translations/repository/zh_CN.properties
+plugins/LuckPerms/translations/repository/zh_TW.properties
+plugins/Maintenance/
+plugins/Maintenance/WhitelistedPlayers.yml
+plugins/Maintenance/addon.yml
+plugins/Maintenance/config.yml
+plugins/Maintenance/language-en.yml
+plugins/Maintenance/maintenance-icon.png
+plugins/MoveMeNow/
+plugins/MoveMeNow/config.yml
+plugins/ServerListPlus/
+plugins/ServerListPlus/PlayerCache.json
+plugins/ServerListPlus/Profiles.json
+plugins/ServerListPlus/ServerListPlus.yml
+plugins/ServerListPlus/icons/
+plugins/ServerListPlus/icons/server-icon.png
+plugins/ServerUtils/
+plugins/ServerUtils/commands.yml
+plugins/ServerUtils/config.yml
+plugins/ServerUtils/messages.yml
+plugins/SkinsRestorer/
+plugins/SkinsRestorer/command-messages.properties
+plugins/SkinsRestorer/messages.yml
+plugins/TAB/
+plugins/TAB/animations.yml
+plugins/TAB/config.yml
+plugins/TAB/groups.yml
+plugins/TAB/layout.yml
+plugins/TAB/messages.yml
+plugins/TAB/users.yml
+plugins/TAB/old_configs/
+plugins/TAB/old_configs/animations.yml
+plugins/TAB/old_configs/anti-override.log
+plugins/TAB/old_configs/bossbar.yml
+plugins/TAB/old_configs/config.yml
+plugins/TAB/old_configs/translation.yml
+plugins/ViaBackwards/
+plugins/ViaBackwards/config.yml
+plugins/ViaVersion/
+plugins/ViaVersion/config.yml
+plugins/bStats/
+plugins/bStats/config.yml
+plugins/bStats/temp.txt
+
+sent 3,515 bytes  received 16,772,168 bytes  6,710,273.20 bytes/sec
+total size is 16,760,757  speedup is 1.00
+receiving file list ... done
+created directory /mnt/volume1/NetBackup/github/Solito-Anarchy-V2/servers/hub_anarchy
+airplane.yml
+bukkit.yml
+commands.yml
+eula.txt
+help.yml
+paper.yml
+permissions.yml
+server.properties
+spigot.yml
+wepif.yml
+plugins/
+plugins/AuthMe-5.6.0-SNAPSHOT.jar
+plugins/Citizens-2.0.29-b2493.jar
+plugins/CommandWhitelist-Bukkit-2.2.1.jar
+plugins/DeluxeMenus-1.13.3-Release.jar
+plugins/FastLoginBukkit.jar
+plugins/GMusic.jar
+plugins/ItemJoin.jar
+plugins/LuckPerms-Bukkit-5.3.64.jar
+plugins/Modern-LWC-2.1.5.jar
+plugins/Multiverse-Core-4.3.0.jar
+plugins/PlaceholderAPI-2.11.1.jar
+plugins/ProtocolLib.jar
+plugins/Scoreboard-revision.jar
+plugins/ServerUtils-Bukkit-3.4.1.jar
+plugins/SkQuery-4.1.5.jar
+plugins/SkinsRestorer.jar
+plugins/Skript.jar
+plugins/TAB-Bridge-1.6.1.jar
+plugins/VoidGen-2.2.1.jar
+plugins/VoidSpawn.jar
+plugins/skRayFall+v1.9.26.jar
+plugins/skript-placeholders-1.5.2.jar
+plugins/spark.jar
+plugins/AuthMe/
+plugins/AuthMe/commands.yml
+plugins/AuthMe/config-alt.yml
+plugins/AuthMe/email.html
+plugins/AuthMe/recovery_code_email.html
+plugins/AuthMe/spawn.yml
+plugins/AuthMe/verification_code_email.html
+plugins/AuthMe/messages/
+plugins/AuthMe/messages/help_en.yml
+plugins/AuthMe/messages/messages_en.yml
+plugins/Citizens/
+plugins/Citizens/config.yml
+plugins/Citizens/saves.yml
+plugins/CommandWhitelist/
+plugins/CommandWhitelist/config.yml
+plugins/DeluxeMenus/
+plugins/DeluxeMenus/config.yml
+plugins/DeluxeMenus/gui_menus/
+plugins/DeluxeMenus/gui_menus/servergui.yml
+plugins/FastLogin/
+plugins/FastLogin/allowed-proxies.txt
+plugins/FastLogin/config-alt.yml
+plugins/FastLogin/messages.yml
+plugins/GMusic/
+plugins/GMusic/config.yml
+plugins/GMusic/convert/
+plugins/GMusic/convert/14th Song.nbs
+plugins/GMusic/convert/A Little Piece of Heaven.nbs
+plugins/GMusic/convert/A Nightmare Before Christmas.nbs
+plugins/GMusic/convert/Africa.nbs
+plugins/GMusic/convert/Ahrix - Left Behind.nbs
+plugins/GMusic/convert/Ahrix - Nova.nbs
+plugins/GMusic/convert/Ahxello - Frisbee.nbs
+plugins/GMusic/convert/Ahxello - Light Speed.nbs
+plugins/GMusic/convert/Alan Walker - Alone.nbs
+plugins/GMusic/convert/Alan Walker - Big Universe.nbs
+plugins/GMusic/convert/Alan Walker - Fade.nbs
+plugins/GMusic/convert/Alan Walker - Force.nbs
+plugins/GMusic/convert/Alan Walker - Spectre.nbs
+plugins/GMusic/convert/Alex Skrindo - Jumbo.nbs
+plugins/GMusic/convert/Alex Skrindo _ Stahl! - Moments.nbs
+plugins/GMusic/convert/Animals.nbs
+plugins/GMusic/convert/Another One Bites the Dust.nbs
+plugins/GMusic/convert/Archie V. - Magic Is Timeless.nbs
+plugins/GMusic/convert/Asd - Thank you.nbs
+plugins/GMusic/convert/Audioscribe - Free Fall.nbs
+plugins/GMusic/convert/Auld Lang Syne.nbs
+plugins/GMusic/convert/Awolnation - Sail.nbs
+plugins/GMusic/convert/Axel F - Beverly Hills Cop.nbs
+plugins/GMusic/convert/Axel F - Remastered.nbs
+plugins/GMusic/convert/Bad Apple.nbs
+plugins/GMusic/convert/Bad apple 3.nbs
+plugins/GMusic/convert/Bangarang.nbs
+plugins/GMusic/convert/Beat it.nbs
+plugins/GMusic/convert/Billie Jean.nbs
+plugins/GMusic/convert/Bleach - Stand Up Be Strong.nbs
+plugins/GMusic/convert/Blue_Monday.nbs
+plugins/GMusic/convert/Can You Feel the Love.nbs
+plugins/GMusic/convert/Canon in D(Fsharp).nbs
+plugins/GMusic/convert/Canon in D.nbs
+plugins/GMusic/convert/Carol of the Bells.nbs
+plugins/GMusic/convert/Cat's In the Cradle.nbs
+plugins/GMusic/convert/Centerfold.nbs
+plugins/GMusic/convert/Charlie Brown.nbs
+plugins/GMusic/convert/Chen Yue - Flowers in a riot of color.nbs
+plugins/GMusic/convert/Clocks.nbs
+plugins/GMusic/convert/Counting Stars.nbs
+plugins/GMusic/convert/DJ Got Us Fallin in Love.nbs
+plugins/GMusic/convert/DJ Got Us Fallin' in Love.nbs
+plugins/GMusic/convert/DJVI - Moonstone.nbs
+plugins/GMusic/convert/Day_N_Night.nbs
+plugins/GMusic/convert/Defqwop - Heart Afire (feat. Strix).nbs
+plugins/GMusic/convert/Demons.nbs
+plugins/GMusic/convert/Desmeon - Back From The Dead.nbs
+plugins/GMusic/convert/Desmeon - Hellcat.nbs
+plugins/GMusic/convert/Desmeon - Undone (feat. Steklo).nbs
+plugins/GMusic/convert/Despacito - Luis Fonsi ft. Justin Bieber.txt
+plugins/GMusic/convert/Different Heaven - Far Away.nbs
+plugins/GMusic/convert/Different Heaven - Nekozilla.nbs
+plugins/GMusic/convert/Disfigure - Blank.nbs
+plugins/GMusic/convert/Disneys Grosse Pause.nbs
+plugins/GMusic/convert/Distrion _ Alex Skrindo - Entropy.nbs
+plugins/GMusic/convert/Distrion _ Electro-Light - Rubik.nbs
+plugins/GMusic/convert/Distrion _ Electro-Light ft. Ke'nekt - You And Me.nbs
+plugins/GMusic/convert/Disturbance.nbs
+plugins/GMusic/convert/Dixie Land.nbs
+plugins/GMusic/convert/Downtown.nbs
+plugins/GMusic/convert/Dream Lover.nbs
+plugins/GMusic/convert/Duck Tales Theme.nbs
+plugins/GMusic/convert/Duel of the Fates.nbs
+plugins/GMusic/convert/Dueling Banjos.nbs
+plugins/GMusic/convert/Dynamite.nbs
+plugins/GMusic/convert/Elektronomia - Desire.nbs
+plugins/GMusic/convert/Elektronomia - Energy.nbs
+plugins/GMusic/convert/Elektronomia - Vision.nbs
+plugins/GMusic/convert/Elektronomia _ Stahl! - Journey.nbs
+plugins/GMusic/convert/EnV - Ginseng.nbs
+plugins/GMusic/convert/Every Teardrop is a Waterfall.nbs
+plugins/GMusic/convert/Everybody Dance Now.nbs
+plugins/GMusic/convert/Eye Of The Tiger - Survivor.txt
+plugins/GMusic/convert/Fairy Tail Theme.nbs
+plugins/GMusic/convert/Fireflies.nbs
+plugins/GMusic/convert/Fix You.nbs
+plugins/GMusic/convert/Flight of The Bumblebee.nbs
+plugins/GMusic/convert/Float On.nbs
+plugins/GMusic/convert/Footloose.nbs
+plugins/GMusic/convert/Friends in Low Places.nbs
+plugins/GMusic/convert/Frosty the Snowman.nbs
+plugins/GMusic/convert/Fuer Elise.nbs
+plugins/GMusic/convert/Fugue In D Minor.nbs
+plugins/GMusic/convert/Fur Elise.nbs
+plugins/GMusic/convert/Gangnam Style.nbs
+plugins/GMusic/convert/GerudoValley.nbs
+plugins/GMusic/convert/Get Lucky.nbs
+plugins/GMusic/convert/Get Ready For This.nbs
+plugins/GMusic/convert/Ghostbusters.nbs
+plugins/GMusic/convert/Giant Woman.nbs
+plugins/GMusic/convert/Grandma Got Run Over by a Reindeer.nbs
+plugins/GMusic/convert/Gravity Falls Theme.nbs
+plugins/GMusic/convert/Grenade2.0.nbs
+plugins/GMusic/convert/Guns n Roses - Dont cry.nbs
+plugins/GMusic/convert/Guren No Yumiya.nbs
+plugins/GMusic/convert/Hakuna Matata.nbs
+plugins/GMusic/convert/Hall of Fame.nbs
+plugins/GMusic/convert/Halvorsen - Wouldn't Change It.nbs
+plugins/GMusic/convert/Happy.nbs
+plugins/GMusic/convert/He's A Pirate.nbs
+plugins/GMusic/convert/Heart Attack.nbs
+plugins/GMusic/convert/Heidi.nbs
+plugins/GMusic/convert/Hellberg _ Tobu - Sprinkles.nbs
+plugins/GMusic/convert/Hello.nbs
+plugins/GMusic/convert/Hey Soul Sister.nbs
+plugins/GMusic/convert/Hotel California.nbs
+plugins/GMusic/convert/Housewell _ Side-B feat. Karl VanBurkleo - Drifting Away.nbs
+plugins/GMusic/convert/Hurts Like Heaven.nbs
+plugins/GMusic/convert/I Am the Doctor.nbs
+plugins/GMusic/convert/I Knew You Were Trouble.nbs
+plugins/GMusic/convert/I'm an Albatraoz.nbs
+plugins/GMusic/convert/Imagine.nbs
+plugins/GMusic/convert/In the Hall of the Mountain King.nbs
+plugins/GMusic/convert/It's My Life.nbs
+plugins/GMusic/convert/Itro - Panda.nbs
+plugins/GMusic/convert/Itro _ Kontinuum - Alive.nbs
+plugins/GMusic/convert/Itro _ Tobu - Cloud 9.nbs
+plugins/GMusic/convert/Itro _ Tobu - Holiday.nbs
+plugins/GMusic/convert/JJD - Skyhigh.nbs
+plugins/GMusic/convert/James Bond Theme.nbs
+plugins/GMusic/convert/Janji - Dawn.nbs
+plugins/GMusic/convert/Janji - Heroes Tonight (feat. Johnning).nbs
+plugins/GMusic/convert/Janji - Horizon.nbs
+plugins/GMusic/convert/Janji - Shadows.nbs
+plugins/GMusic/convert/Janji - Summer Memories.nbs
+plugins/GMusic/convert/Janji feat. TR - Milky Way Stars.nbs
+plugins/GMusic/convert/Jensation - Donuts.nbs
+plugins/GMusic/convert/Jim Yosef - Arrow.nbs
+plugins/GMusic/convert/Jim Yosef - Eclipse.nbs
+plugins/GMusic/convert/Jim Yosef - Firefly.nbs
+plugins/GMusic/convert/Jim Yosef - Lights.nbs
+plugins/GMusic/convert/Jim Yosef - Unicorn.nbs
+plugins/GMusic/convert/Jim Yosef - Voices.nbs
+plugins/GMusic/convert/Jim Yosef _ Alex Skrindo - Passion.nbs
+plugins/GMusic/convert/Joy to the World.nbs
+plugins/GMusic/convert/Just Give Me a Reason.nbs
+plugins/GMusic/convert/K-391 - Earth.nbs
+plugins/GMusic/convert/K-391 - Everybody.nbs
+plugins/GMusic/convert/K-391 - Farmers Hockey Exclusive Feat. Gjermund Olstad.nbs
+plugins/GMusic/convert/K-391 - Summertime.nbs
+plugins/GMusic/convert/K-391 - Windows.nbs
+plugins/GMusic/convert/K.Safo _ Alex Skrindo - Future Vibes (feat. Stewart Wallace).nbs
+plugins/GMusic/convert/Kirby's Dreamland.nbs
+plugins/GMusic/convert/Kirbys Dreamland Intro.nbs
+plugins/GMusic/convert/Kygo - Stay (ft. Maty Noyes).nbs
+plugins/GMusic/convert/Laszlo - Fall To Light.nbs
+plugins/GMusic/convert/Laszlo - Imaginary Friends.nbs
+plugins/GMusic/convert/Let It Be.nbs
+plugins/GMusic/convert/Let It Go.nbs
+plugins/GMusic/convert/Levels.nbs
+plugins/GMusic/convert/Lucide Dreams - Juice WRLD.txt
+plugins/GMusic/convert/Luigi's Mansion.nbs
+plugins/GMusic/convert/MO - Kamikaze.nbs
+plugins/GMusic/convert/Mad World.nbs
+plugins/GMusic/convert/Maja Francis - Come Companion (Tobu Remix).nbs
+plugins/GMusic/convert/Major Lazer - Cold Water (feat. Justin Bieber _ MO) EASY.nbs
+plugins/GMusic/convert/Mako - Beam.nbs
+plugins/GMusic/convert/Mako - Smoke Filled Room.nbs
+plugins/GMusic/convert/Martin Garrix - Poison.nbs
+plugins/GMusic/convert/Martin Garrix _ Jay Hardway - Spotless.nbs
+plugins/GMusic/convert/Martin Garrix _ Mesto - WIEE.nbs
+plugins/GMusic/convert/Martin Garrix ft. John _ Michel - Now That I've Found You.nbs
+plugins/GMusic/convert/Megalovania.nbs
+plugins/GMusic/convert/Monody.nbs
+plugins/GMusic/convert/Moonlight Sonata.nbs
+plugins/GMusic/convert/Mortal Kombat Theme.nbs
+plugins/GMusic/convert/MortalKombat.nbs
+plugins/GMusic/convert/Moves Like Jagger.nbs
+plugins/GMusic/convert/Never Gonna Give You Up.nbs
+plugins/GMusic/convert/Numb.nbs
+plugins/GMusic/convert/Nutcracker Dance of the Sugar Plum Fairies.nbs
+plugins/GMusic/convert/Nutcracker Russian Dance.nbs
+plugins/GMusic/convert/Nutcracker Waltz.nbs
+plugins/GMusic/convert/Nyan Cat.nbs
+plugins/GMusic/convert/OMFG - Hello.nbs
+plugins/GMusic/convert/OMFG - I Love You.nbs
+plugins/GMusic/convert/OMFG - Wonderful.nbs
+plugins/GMusic/convert/Ob-La-Di, Ob-La-Da.nbs
+plugins/GMusic/convert/Ode an die Freude.nbs
+plugins/GMusic/convert/Ode to Joy.nbs
+plugins/GMusic/convert/On Our Way.nbs
+plugins/GMusic/convert/Oppan Gangnam Style.nbs
+plugins/GMusic/convert/PPAP.nbs
+plugins/GMusic/convert/Pallet Town Theme.nbs
+plugins/GMusic/convert/Papermoon.nbs
+plugins/GMusic/convert/Paradise.nbs
+plugins/GMusic/convert/Party Rock Anthem.nbs
+plugins/GMusic/convert/Payphone.nbs
+plugins/GMusic/convert/Peanut's Theme.nbs
+plugins/GMusic/convert/Pokemon Battle Theme.nbs
+plugins/GMusic/convert/Pokemon Center.nbs
+plugins/GMusic/convert/Pokemon Red-Blue Title.nbs
+plugins/GMusic/convert/Pokemon Theme Song.nbs
+plugins/GMusic/convert/Pokemon Theme.nbs
+plugins/GMusic/convert/Positive Force (VVVVVV).nbs
+plugins/GMusic/convert/Prefekt - Numb ft. Johnning.nbs
+plugins/GMusic/convert/Princess of China.nbs
+plugins/GMusic/convert/Pushing Onwards (VVVVVV).nbs
+plugins/GMusic/convert/Radioactive.nbs
+plugins/GMusic/convert/RainbowTylenol.nbs
+plugins/GMusic/convert/Raindrops Keep Falling On My Head.nbs
+plugins/GMusic/convert/Refrain of the Lovely Great war.nbs
+plugins/GMusic/convert/Reptilia.nbs
+plugins/GMusic/convert/Resonance.nbs
+plugins/GMusic/convert/RetroVision - Heroes.nbs
+plugins/GMusic/convert/RetroVision - Puzzle.nbs
+plugins/GMusic/convert/Roar.nbs
+plugins/GMusic/convert/Rock and Roll All Night.nbs
+plugins/GMusic/convert/Rude.nbs
+plugins/GMusic/convert/SAD! - XXXTENTACION.txt
+plugins/GMusic/convert/Sacrificial (Binding of Isaac).nbs
+plugins/GMusic/convert/Santeria.nbs
+plugins/GMusic/convert/Scary Monsters And Nice Sprites.nbs
+plugins/GMusic/convert/Scary_Monsters_And_Nice_Sprites.nbs
+plugins/GMusic/convert/Somebody That I Used to Know.nbs
+plugins/GMusic/convert/Spektrem - Shine.nbs
+plugins/GMusic/convert/Star Spangled Banner.nbs
+plugins/GMusic/convert/StarFox64Theme.nbs
+plugins/GMusic/convert/Starlyte _ Jim Yosef - Leviathan.nbs
+plugins/GMusic/convert/Steerner x Tobu - Alive.nbs
+plugins/GMusic/convert/Steins Gate.nbs
+plugins/GMusic/convert/Steven Universe Theme.nbs
+plugins/GMusic/convert/Still Alive.nbs
+plugins/GMusic/convert/Super Mario Sunshine - Delfino Plaza.txt
+plugins/GMusic/convert/Superstition.nbs
+plugins/GMusic/convert/Sweden.nbs
+plugins/GMusic/convert/Sweet Child of Mine.nbs
+plugins/GMusic/convert/Sword Art Online - Lizbeths Theme.nbs
+plugins/GMusic/convert/Sword Art Online - Main theme.nbs
+plugins/GMusic/convert/Take Back the Night.nbs
+plugins/GMusic/convert/Take On Me.nbs
+plugins/GMusic/convert/Tetris A Theme.nbs
+plugins/GMusic/convert/Tetris B Theme.nbs
+plugins/GMusic/convert/The A Team.nbs
+plugins/GMusic/convert/The Entertainer.nbs
+plugins/GMusic/convert/The Final Countdown.nbs
+plugins/GMusic/convert/The Fox.nbs
+plugins/GMusic/convert/The Lazy Song.nbs
+plugins/GMusic/convert/The Legend of Zelda Theme.nbs
+plugins/GMusic/convert/The Pretender.nbs
+plugins/GMusic/convert/The Scientist.nbs
+plugins/GMusic/convert/TheFatRat - Jackpot.nbs
+plugins/GMusic/convert/TheFatRat - Monody (feat. Laura Brehm).nbs
+plugins/GMusic/convert/TheFatRat - Never Be Alone.nbs
+plugins/GMusic/convert/TheFatRat - No No No.nbs
+plugins/GMusic/convert/TheFatRat - Windfall.nbs
+plugins/GMusic/convert/Through the Fire and Flames.nbs
+plugins/GMusic/convert/Tobu - Cacao.nbs
+plugins/GMusic/convert/Tobu - Caelum.nbs
+plugins/GMusic/convert/Tobu - Candyland.nbs
+plugins/GMusic/convert/Tobu - Colors.nbs
+plugins/GMusic/convert/Tobu - Damn Son.nbs
+plugins/GMusic/convert/Tobu - Dreams.nbs
+plugins/GMusic/convert/Tobu - Good Times.nbs
+plugins/GMusic/convert/Tobu - Higher.nbs
+plugins/GMusic/convert/Tobu - Hope.nbs
+plugins/GMusic/convert/Tobu - Infectious.nbs
+plugins/GMusic/convert/Tobu - Legacy.nbs
+plugins/GMusic/convert/Tobu - Life.nbs
+plugins/GMusic/convert/Tobu - Mesmerize.nbs
+plugins/GMusic/convert/Tobu - My own paradise.nbs
+plugins/GMusic/convert/Tobu - Natural High.nbs
+plugins/GMusic/convert/Tobu - Puzzle.nbs
+plugins/GMusic/convert/Tobu - Reflection.nbs
+plugins/GMusic/convert/Tobu - Roots.nbs
+plugins/GMusic/convert/Tobu - Seven.nbs
+plugins/GMusic/convert/Tobu - Sound of Goodbye.nbs
+plugins/GMusic/convert/Tobu - Such Fun.nbs
+plugins/GMusic/convert/Tobu _ Alex Skrindo - Smile.nbs
+plugins/GMusic/convert/Tobu _ Etori - Vicious.nbs
+plugins/GMusic/convert/Tobu _ Itro - Fantasy.nbs
+plugins/GMusic/convert/Tobu _ Itro - Magic.nbs
+plugins/GMusic/convert/Tobu _ Itro - Sunburst.nbs
+plugins/GMusic/convert/Tobu _ Jim Yosef - Miracle.nbs
+plugins/GMusic/convert/Tobu _ Jordan Kelvin James - Summer Breeze.nbs
+plugins/GMusic/convert/Tobu _ Marcus Mouya - Running Away.nbs
+plugins/GMusic/convert/Tobu _ Syndec - Dusk.nbs
+plugins/GMusic/convert/Tobu _ William Ekh - Let It Be Now (ft. Brenton Mattheus).nbs
+plugins/GMusic/convert/Tom Spander - Explore.nbs
+plugins/GMusic/convert/Tom Spander - Far Away.nbs
+plugins/GMusic/convert/Tom Spander - Fire.nbs
+plugins/GMusic/convert/Tom Spander - Fresh Start.nbs
+plugins/GMusic/convert/Tom Spander - Haunted By The Past.nbs
+plugins/GMusic/convert/Tom Spander - Lucky Days.nbs
+plugins/GMusic/convert/Tom Spander - Onwards and Upwards.nbs
+plugins/GMusic/convert/Tom Spander - Stardust.nbs
+plugins/GMusic/convert/TownMarket.nbs
+plugins/GMusic/convert/Tuen - Spare.nbs
+plugins/GMusic/convert/Turkish March.nbs
+plugins/GMusic/convert/Twelve Days of Christmas.nbs
+plugins/GMusic/convert/Vanilla Twilight.nbs
+plugins/GMusic/convert/Vince The II - Gates (Trick2g).nbs
+plugins/GMusic/convert/Viva La Vida.nbs
+plugins/GMusic/convert/Waiting For Love.nbs
+plugins/GMusic/convert/Wake Me Up.nbs
+plugins/GMusic/convert/Want You Gone - Simplified.nbs
+plugins/GMusic/convert/Want You Gone.nbs
+plugins/GMusic/convert/We're not Gonna Take It.nbs
+plugins/GMusic/convert/When I Was Your Man.nbs
+plugins/GMusic/convert/Where No One Goes.nbs
+plugins/GMusic/convert/William Ekh - Adventures (feat. Alexa Lusader).nbs
+plugins/GMusic/convert/Winter Wrap Up.nbs
+plugins/GMusic/convert/Wizards in Winter.nbs
+plugins/GMusic/convert/Wontolla, Kasger _ Limitless - Miles Away.nbs
+plugins/GMusic/convert/art tatum 1.nbs
+plugins/GMusic/convert/bla1.nbs
+plugins/GMusic/convert/bla2.nbs
+plugins/GMusic/convert/bla3.nbs
+plugins/GMusic/convert/hysteria.nbs
+plugins/GMusic/convert/imaine mod1.nbs
+plugins/GMusic/convert/let it be 1.nbs
+plugins/GMusic/convert/linkin_park-burn_it_down.nbs
+plugins/GMusic/convert/pretenders mod1.nbs
+plugins/GMusic/convert/street spirit 1.nbs
+plugins/GMusic/convert/thelonius_monk_around_midnight.nbs
+plugins/GMusic/convert/wake me up 1.nbs
+plugins/GMusic/data/
+plugins/GMusic/data/play.data
+plugins/GMusic/lang/
+plugins/GMusic/lang/de_de.yml
+plugins/GMusic/lang/en_en.yml
+plugins/GMusic/lang/es_es.yml
+plugins/GMusic/lang/fr_fr.yml
+plugins/GMusic/lang/pl_pl.yml
+plugins/GMusic/lang/pt_br.yml
+plugins/GMusic/lang/ru_ru.yml
+plugins/GMusic/songs/
+plugins/GMusic/songs/14th Song.gnbs
+plugins/GMusic/songs/A Little Piece of Heaven.gnbs
+plugins/GMusic/songs/A Nightmare Before Christmas.gnbs
+plugins/GMusic/songs/Africa.gnbs
+plugins/GMusic/songs/Ahrix - Left Behind.gnbs
+plugins/GMusic/songs/Ahrix - Nova.gnbs
+plugins/GMusic/songs/Ahxello - Frisbee.gnbs
+plugins/GMusic/songs/Ahxello - Light Speed.gnbs
+plugins/GMusic/songs/Alan Walker - Alone.gnbs
+plugins/GMusic/songs/Alan Walker - Big Universe.gnbs
+plugins/GMusic/songs/Alan Walker - Fade.gnbs
+plugins/GMusic/songs/Alan Walker - Force.gnbs
+plugins/GMusic/songs/Alan Walker - Spectre.gnbs
+plugins/GMusic/songs/Alex Skrindo - Jumbo.gnbs
+plugins/GMusic/songs/Alex Skrindo _ Stahl! - Moments.gnbs
+plugins/GMusic/songs/Animals.gnbs
+plugins/GMusic/songs/Another One Bites the Dust.gnbs
+plugins/GMusic/songs/Archie V. - Magic Is Timeless.gnbs
+plugins/GMusic/songs/Asd - Thank you.gnbs
+plugins/GMusic/songs/Audioscribe - Free Fall.gnbs
+plugins/GMusic/songs/Auld Lang Syne.gnbs
+plugins/GMusic/songs/Awolnation - Sail.gnbs
+plugins/GMusic/songs/Axel F - Beverly Hills Cop.gnbs
+plugins/GMusic/songs/Axel F - Remastered.gnbs
+plugins/GMusic/songs/Bad Apple.gnbs
+plugins/GMusic/songs/Bad apple 3.gnbs
+plugins/GMusic/songs/Bangarang.gnbs
+plugins/GMusic/songs/Beat it.gnbs
+plugins/GMusic/songs/Billie Jean.gnbs
+plugins/GMusic/songs/Bleach - Stand Up Be Strong.gnbs
+plugins/GMusic/songs/Blue_Monday.gnbs
+plugins/GMusic/songs/Can You Feel the Love.gnbs
+plugins/GMusic/songs/Canon in D(Fsharp).gnbs
+plugins/GMusic/songs/Canon in D.gnbs
+plugins/GMusic/songs/Carol of the Bells.gnbs
+plugins/GMusic/songs/Cat's In the Cradle.gnbs
+plugins/GMusic/songs/Centerfold.gnbs
+plugins/GMusic/songs/Charlie Brown.gnbs
+plugins/GMusic/songs/Chen Yue - Flowers in a riot of color.gnbs
+plugins/GMusic/songs/Clocks.gnbs
+plugins/GMusic/songs/Counting Stars.gnbs
+plugins/GMusic/songs/DJ Got Us Fallin in Love.gnbs
+plugins/GMusic/songs/DJ Got Us Fallin' in Love.gnbs
+plugins/GMusic/songs/DJVI - Moonstone.gnbs
+plugins/GMusic/songs/Day_N_Night.gnbs
+plugins/GMusic/songs/Defqwop - Heart Afire (feat. Strix).gnbs
+plugins/GMusic/songs/Demons.gnbs
+plugins/GMusic/songs/Desmeon - Back From The Dead.gnbs
+plugins/GMusic/songs/Desmeon - Hellcat.gnbs
+plugins/GMusic/songs/Desmeon - Undone (feat. Steklo).gnbs
+plugins/GMusic/songs/Different Heaven - Far Away.gnbs
+plugins/GMusic/songs/Different Heaven - Nekozilla.gnbs
+plugins/GMusic/songs/Disfigure - Blank.gnbs
+plugins/GMusic/songs/Disneys Grosse Pause.gnbs
+plugins/GMusic/songs/Distrion _ Alex Skrindo - Entropy.gnbs
+plugins/GMusic/songs/Distrion _ Electro-Light - Rubik.gnbs
+plugins/GMusic/songs/Distrion _ Electro-Light ft. Ke'nekt - You And Me.gnbs
+plugins/GMusic/songs/Disturbance.gnbs
+plugins/GMusic/songs/Dixie Land.gnbs
+plugins/GMusic/songs/Downtown.gnbs
+plugins/GMusic/songs/Dream Lover.gnbs
+plugins/GMusic/songs/Duck Tales Theme.gnbs
+plugins/GMusic/songs/Duel of the Fates.gnbs
+plugins/GMusic/songs/Dueling Banjos.gnbs
+plugins/GMusic/songs/Dynamite.gnbs
+plugins/GMusic/songs/Elektronomia - Desire.gnbs
+plugins/GMusic/songs/Elektronomia - Energy.gnbs
+plugins/GMusic/songs/Elektronomia - Vision.gnbs
+plugins/GMusic/songs/Elektronomia _ Stahl! - Journey.gnbs
+plugins/GMusic/songs/EnV - Ginseng.gnbs
+plugins/GMusic/songs/Every Teardrop is a Waterfall.gnbs
+plugins/GMusic/songs/Everybody Dance Now.gnbs
+plugins/GMusic/songs/Fairy Tail Theme.gnbs
+plugins/GMusic/songs/Fireflies.gnbs
+plugins/GMusic/songs/Fix You.gnbs
+plugins/GMusic/songs/Flight of The Bumblebee.gnbs
+plugins/GMusic/songs/Float On.gnbs
+plugins/GMusic/songs/Footloose.gnbs
+plugins/GMusic/songs/Friends in Low Places.gnbs
+plugins/GMusic/songs/Frosty the Snowman.gnbs
+plugins/GMusic/songs/Fuer Elise.gnbs
+plugins/GMusic/songs/Fugue In D Minor.gnbs
+plugins/GMusic/songs/Fur Elise.gnbs
+plugins/GMusic/songs/Gangnam Style.gnbs
+plugins/GMusic/songs/GerudoValley.gnbs
+plugins/GMusic/songs/Get Lucky.gnbs
+plugins/GMusic/songs/Get Ready For This.gnbs
+plugins/GMusic/songs/Ghostbusters.gnbs
+plugins/GMusic/songs/Giant Woman.gnbs
+plugins/GMusic/songs/Grandma Got Run Over by a Reindeer.gnbs
+plugins/GMusic/songs/Gravity Falls Theme.gnbs
+plugins/GMusic/songs/Grenade2.0.gnbs
+plugins/GMusic/songs/Guns n Roses - Dont cry.gnbs
+plugins/GMusic/songs/Guren No Yumiya.gnbs
+plugins/GMusic/songs/Hakuna Matata.gnbs
+plugins/GMusic/songs/Hall of Fame.gnbs
+plugins/GMusic/songs/Halvorsen - Wouldn't Change It.gnbs
+plugins/GMusic/songs/Happy.gnbs
+plugins/GMusic/songs/He's A Pirate.gnbs
+plugins/GMusic/songs/Heart Attack.gnbs
+plugins/GMusic/songs/Heidi.gnbs
+plugins/GMusic/songs/Hellberg _ Tobu - Sprinkles.gnbs
+plugins/GMusic/songs/Hello.gnbs
+plugins/GMusic/songs/Hey Soul Sister.gnbs
+plugins/GMusic/songs/Hotel California.gnbs
+plugins/GMusic/songs/Housewell _ Side-B feat. Karl VanBurkleo - Drifting Away.gnbs
+plugins/GMusic/songs/Hurts Like Heaven.gnbs
+plugins/GMusic/songs/I Am the Doctor.gnbs
+plugins/GMusic/songs/I Knew You Were Trouble.gnbs
+plugins/GMusic/songs/I'm an Albatraoz.gnbs
+plugins/GMusic/songs/Imagine.gnbs
+plugins/GMusic/songs/In the Hall of the Mountain King.gnbs
+plugins/GMusic/songs/It's My Life.gnbs
+plugins/GMusic/songs/Itro - Panda.gnbs
+plugins/GMusic/songs/Itro _ Kontinuum - Alive.gnbs
+plugins/GMusic/songs/Itro _ Tobu - Cloud 9.gnbs
+plugins/GMusic/songs/Itro _ Tobu - Holiday.gnbs
+plugins/GMusic/songs/JJD - Skyhigh.gnbs
+plugins/GMusic/songs/James Bond Theme.gnbs
+plugins/GMusic/songs/Janji - Dawn.gnbs
+plugins/GMusic/songs/Janji - Heroes Tonight (feat. Johnning).gnbs
+plugins/GMusic/songs/Janji - Horizon.gnbs
+plugins/GMusic/songs/Janji - Shadows.gnbs
+plugins/GMusic/songs/Janji - Summer Memories.gnbs
+plugins/GMusic/songs/Janji feat. TR - Milky Way Stars.gnbs
+plugins/GMusic/songs/Jensation - Donuts.gnbs
+plugins/GMusic/songs/Jim Yosef - Arrow.gnbs
+plugins/GMusic/songs/Jim Yosef - Eclipse.gnbs
+plugins/GMusic/songs/Jim Yosef - Firefly.gnbs
+plugins/GMusic/songs/Jim Yosef - Lights.gnbs
+plugins/GMusic/songs/Jim Yosef - Unicorn.gnbs
+plugins/GMusic/songs/Jim Yosef - Voices.gnbs
+plugins/GMusic/songs/Jim Yosef _ Alex Skrindo - Passion.gnbs
+plugins/GMusic/songs/Joy to the World.gnbs
+plugins/GMusic/songs/Just Give Me a Reason.gnbs
+plugins/GMusic/songs/K-391 - Earth.gnbs
+plugins/GMusic/songs/K-391 - Everybody.gnbs
+plugins/GMusic/songs/K-391 - Farmers Hockey Exclusive Feat. Gjermund Olstad.gnbs
+plugins/GMusic/songs/K-391 - Summertime.gnbs
+plugins/GMusic/songs/K-391 - Windows.gnbs
+plugins/GMusic/songs/K.Safo _ Alex Skrindo - Future Vibes (feat. Stewart Wallace).gnbs
+plugins/GMusic/songs/Kirby's Dreamland.gnbs
+plugins/GMusic/songs/Kirbys Dreamland Intro.gnbs
+plugins/GMusic/songs/Kygo - Stay (ft. Maty Noyes).gnbs
+plugins/GMusic/songs/Laszlo - Fall To Light.gnbs
+plugins/GMusic/songs/Laszlo - Imaginary Friends.gnbs
+plugins/GMusic/songs/Let It Be.gnbs
+plugins/GMusic/songs/Let It Go.gnbs
+plugins/GMusic/songs/Levels.gnbs
+plugins/GMusic/songs/Luigi's Mansion.gnbs
+plugins/GMusic/songs/MO - Kamikaze.gnbs
+plugins/GMusic/songs/Mad World.gnbs
+plugins/GMusic/songs/Maja Francis - Come Companion (Tobu Remix).gnbs
+plugins/GMusic/songs/Major Lazer - Cold Water (feat. Justin Bieber _ MO) EASY.gnbs
+plugins/GMusic/songs/Mako - Beam.gnbs
+plugins/GMusic/songs/Mako - Smoke Filled Room.gnbs
+plugins/GMusic/songs/Martin Garrix - Poison.gnbs
+plugins/GMusic/songs/Martin Garrix _ Jay Hardway - Spotless.gnbs
+plugins/GMusic/songs/Martin Garrix _ Mesto - WIEE.gnbs
+plugins/GMusic/songs/Martin Garrix ft. John _ Michel - Now That I've Found You.gnbs
+plugins/GMusic/songs/Megalovania.gnbs
+plugins/GMusic/songs/Monody.gnbs
+plugins/GMusic/songs/Moonlight Sonata.gnbs
+plugins/GMusic/songs/Mortal Kombat Theme.gnbs
+plugins/GMusic/songs/MortalKombat.gnbs
+plugins/GMusic/songs/Moves Like Jagger.gnbs
+plugins/GMusic/songs/Never Gonna Give You Up.gnbs
+plugins/GMusic/songs/Numb.gnbs
+plugins/GMusic/songs/Nutcracker Dance of the Sugar Plum Fairies.gnbs
+plugins/GMusic/songs/Nutcracker Russian Dance.gnbs
+plugins/GMusic/songs/Nutcracker Waltz.gnbs
+plugins/GMusic/songs/Nyan Cat.gnbs
+plugins/GMusic/songs/OMFG - Hello.gnbs
+plugins/GMusic/songs/OMFG - I Love You.gnbs
+plugins/GMusic/songs/OMFG - Wonderful.gnbs
+plugins/GMusic/songs/Ob-La-Di, Ob-La-Da.gnbs
+plugins/GMusic/songs/Ode an die Freude.gnbs
+plugins/GMusic/songs/Ode to Joy.gnbs
+plugins/GMusic/songs/On Our Way.gnbs
+plugins/GMusic/songs/Oppan Gangnam Style.gnbs
+plugins/GMusic/songs/PPAP.gnbs
+plugins/GMusic/songs/Pallet Town Theme.gnbs
+plugins/GMusic/songs/Papermoon.gnbs
+plugins/GMusic/songs/Paradise.gnbs
+plugins/GMusic/songs/Party Rock Anthem.gnbs
+plugins/GMusic/songs/Payphone.gnbs
+plugins/GMusic/songs/Peanut's Theme.gnbs
+plugins/GMusic/songs/Pokemon Center.gnbs
+plugins/GMusic/songs/Pokemon Red-Blue Title.gnbs
+plugins/GMusic/songs/Pokemon Theme Song.gnbs
+plugins/GMusic/songs/Pokemon Theme.gnbs
+plugins/GMusic/songs/Positive Force (VVVVVV).gnbs
+plugins/GMusic/songs/Prefekt - Numb ft. Johnning.gnbs
+plugins/GMusic/songs/Princess of China.gnbs
+plugins/GMusic/songs/Pushing Onwards (VVVVVV).gnbs
+plugins/GMusic/songs/Radioactive.gnbs
+plugins/GMusic/songs/RainbowTylenol.gnbs
+plugins/GMusic/songs/Raindrops Keep Falling On My Head.gnbs
+plugins/GMusic/songs/Refrain of the Lovely Great war.gnbs
+plugins/GMusic/songs/Reptilia.gnbs
+plugins/GMusic/songs/Resonance.gnbs
+plugins/GMusic/songs/RetroVision - Heroes.gnbs
+plugins/GMusic/songs/RetroVision - Puzzle.gnbs
+plugins/GMusic/songs/Roar.gnbs
+plugins/GMusic/songs/Rock and Roll All Night.gnbs
+plugins/GMusic/songs/Rude.gnbs
+plugins/GMusic/songs/Sacrificial (Binding of Isaac).gnbs
+plugins/GMusic/songs/Santeria.gnbs
+plugins/GMusic/songs/Scary Monsters And Nice Sprites.gnbs
+plugins/GMusic/songs/Scary_Monsters_And_Nice_Sprites.gnbs
+plugins/GMusic/songs/Somebody That I Used to Know.gnbs
+plugins/GMusic/songs/Spektrem - Shine.gnbs
+plugins/GMusic/songs/Star Spangled Banner.gnbs
+plugins/GMusic/songs/StarFox64Theme.gnbs
+plugins/GMusic/songs/Starlyte _ Jim Yosef - Leviathan.gnbs
+plugins/GMusic/songs/Steerner x Tobu - Alive.gnbs
+plugins/GMusic/songs/Steins Gate.gnbs
+plugins/GMusic/songs/Steven Universe Theme.gnbs
+plugins/GMusic/songs/Still Alive.gnbs
+plugins/GMusic/songs/Superstition.gnbs
+plugins/GMusic/songs/Sweden.gnbs
+plugins/GMusic/songs/Sweet Child of Mine.gnbs
+plugins/GMusic/songs/Sword Art Online - Lizbeths Theme.gnbs
+plugins/GMusic/songs/Sword Art Online - Main theme.gnbs
+plugins/GMusic/songs/Take Back the Night.gnbs
+plugins/GMusic/songs/Take On Me.gnbs
+plugins/GMusic/songs/Tetris A Theme.gnbs
+plugins/GMusic/songs/Tetris B Theme.gnbs
+plugins/GMusic/songs/The A Team.gnbs
+plugins/GMusic/songs/The Entertainer.gnbs
+plugins/GMusic/songs/The Final Countdown.gnbs
+plugins/GMusic/songs/The Fox.gnbs
+plugins/GMusic/songs/The Lazy Song.gnbs
+plugins/GMusic/songs/The Legend of Zelda Theme.gnbs
+plugins/GMusic/songs/The Pretender.gnbs
+plugins/GMusic/songs/The Scientist.gnbs
+plugins/GMusic/songs/TheFatRat - Jackpot.gnbs
+plugins/GMusic/songs/TheFatRat - Monody (feat. Laura Brehm).gnbs
+plugins/GMusic/songs/TheFatRat - Never Be Alone.gnbs
+plugins/GMusic/songs/TheFatRat - No No No.gnbs
+plugins/GMusic/songs/TheFatRat - Windfall.gnbs
+plugins/GMusic/songs/Through the Fire and Flames.gnbs
+plugins/GMusic/songs/Tobu - Cacao.gnbs
+plugins/GMusic/songs/Tobu - Caelum.gnbs
+plugins/GMusic/songs/Tobu - Candyland.gnbs
+plugins/GMusic/songs/Tobu - Colors.gnbs
+plugins/GMusic/songs/Tobu - Damn Son.gnbs
+plugins/GMusic/songs/Tobu - Dreams.gnbs
+plugins/GMusic/songs/Tobu - Good Times.gnbs
+plugins/GMusic/songs/Tobu - Higher.gnbs
+plugins/GMusic/songs/Tobu - Hope.gnbs
+plugins/GMusic/songs/Tobu - Infectious.gnbs
+plugins/GMusic/songs/Tobu - Legacy.gnbs
+plugins/GMusic/songs/Tobu - Life.gnbs
+plugins/GMusic/songs/Tobu - Mesmerize.gnbs
+plugins/GMusic/songs/Tobu - My own paradise.gnbs
+plugins/GMusic/songs/Tobu - Natural High.gnbs
+plugins/GMusic/songs/Tobu - Puzzle.gnbs
+plugins/GMusic/songs/Tobu - Reflection.gnbs
+plugins/GMusic/songs/Tobu - Roots.gnbs
+plugins/GMusic/songs/Tobu - Seven.gnbs
+plugins/GMusic/songs/Tobu - Sound of Goodbye.gnbs
+plugins/GMusic/songs/Tobu - Such Fun.gnbs
+plugins/GMusic/songs/Tobu _ Alex Skrindo - Smile.gnbs
+plugins/GMusic/songs/Tobu _ Etori - Vicious.gnbs
+plugins/GMusic/songs/Tobu _ Itro - Fantasy.gnbs
+plugins/GMusic/songs/Tobu _ Itro - Magic.gnbs
+plugins/GMusic/songs/Tobu _ Itro - Sunburst.gnbs
+plugins/GMusic/songs/Tobu _ Jim Yosef - Miracle.gnbs
+plugins/GMusic/songs/Tobu _ Jordan Kelvin James - Summer Breeze.gnbs
+plugins/GMusic/songs/Tobu _ Marcus Mouya - Running Away.gnbs
+plugins/GMusic/songs/Tobu _ Syndec - Dusk.gnbs
+plugins/GMusic/songs/Tobu _ William Ekh - Let It Be Now (ft. Brenton Mattheus).gnbs
+plugins/GMusic/songs/Tom Spander - Explore.gnbs
+plugins/GMusic/songs/Tom Spander - Far Away.gnbs
+plugins/GMusic/songs/Tom Spander - Fire.gnbs
+plugins/GMusic/songs/Tom Spander - Fresh Start.gnbs
+plugins/GMusic/songs/Tom Spander - Haunted By The Past.gnbs
+plugins/GMusic/songs/Tom Spander - Lucky Days.gnbs
+plugins/GMusic/songs/Tom Spander - Onwards and Upwards.gnbs
+plugins/GMusic/songs/Tom Spander - Stardust.gnbs
+plugins/GMusic/songs/TownMarket.gnbs
+plugins/GMusic/songs/Tuen - Spare.gnbs
+plugins/GMusic/songs/Turkish March.gnbs
+plugins/GMusic/songs/Twelve Days of Christmas.gnbs
+plugins/GMusic/songs/Vanilla Twilight.gnbs
+plugins/GMusic/songs/Vince The II - Gates (Trick2g).gnbs
+plugins/GMusic/songs/Viva La Vida.gnbs
+plugins/GMusic/songs/Waiting For Love.gnbs
+plugins/GMusic/songs/Wake Me Up.gnbs
+plugins/GMusic/songs/Want You Gone - Simplified.gnbs
+plugins/GMusic/songs/Want You Gone.gnbs
+plugins/GMusic/songs/We're not Gonna Take It.gnbs
+plugins/GMusic/songs/When I Was Your Man.gnbs
+plugins/GMusic/songs/Where No One Goes.gnbs
+plugins/GMusic/songs/William Ekh - Adventures (feat. Alexa Lusader).gnbs
+plugins/GMusic/songs/Winter Wrap Up.gnbs
+plugins/GMusic/songs/Wizards in Winter.gnbs
+plugins/GMusic/songs/Wontolla, Kasger _ Limitless - Miles Away.gnbs
+plugins/GMusic/songs/art tatum 1.gnbs
+plugins/GMusic/songs/bla1.gnbs
+plugins/GMusic/songs/bla2.gnbs
+plugins/GMusic/songs/bla3.gnbs
+plugins/GMusic/songs/hysteria.gnbs
+plugins/GMusic/songs/imaine mod1.gnbs
+plugins/GMusic/songs/let it be 1.gnbs
+plugins/GMusic/songs/linkin_park-burn_it_down.gnbs
+plugins/GMusic/songs/pretenders mod1.gnbs
+plugins/GMusic/songs/street spirit 1.gnbs
+plugins/GMusic/songs/thelonius_monk_around_midnight.gnbs
+plugins/GMusic/songs/wake me up 1.gnbs
+plugins/ItemJoin/
+plugins/ItemJoin/config.yml
+plugins/ItemJoin/database.db
+plugins/ItemJoin/en-lang.yml
+plugins/ItemJoin/items.yml
+plugins/LWC/
+plugins/LWC/core.yml
+plugins/LWC/doors.yml
+plugins/LWC/limitsv2.yml
+plugins/LWC/lwc.db
+plugins/LWC/magnet.yml
+plugins/LuckPerms/
+plugins/LuckPerms/config-alt.yml
+plugins/LuckPerms/contexts.json
+plugins/LuckPerms/translations/
+plugins/LuckPerms/translations/ar_SA.properties
+plugins/LuckPerms/translations/bg_BG.properties
+plugins/LuckPerms/translations/cs_CZ.properties
+plugins/LuckPerms/translations/da_DK.properties
+plugins/LuckPerms/translations/de_DE.properties
+plugins/LuckPerms/translations/el_GR.properties
+plugins/LuckPerms/translations/en_PT.properties
+plugins/LuckPerms/translations/es_ES.properties
+plugins/LuckPerms/translations/fa_IR.properties
+plugins/LuckPerms/translations/fi_FI.properties
+plugins/LuckPerms/translations/fr_FR.properties
+plugins/LuckPerms/translations/he_IL.properties
+plugins/LuckPerms/translations/hu_HU.properties
+plugins/LuckPerms/translations/id_ID.properties
+plugins/LuckPerms/translations/it_IT.properties
+plugins/LuckPerms/translations/ja_JP.properties
+plugins/LuckPerms/translations/ko_KR.properties
+plugins/LuckPerms/translations/nl_NL.properties
+plugins/LuckPerms/translations/no_NO.properties
+plugins/LuckPerms/translations/pl_PL.properties
+plugins/LuckPerms/translations/pt_BR.properties
+plugins/LuckPerms/translations/repository.json
+plugins/LuckPerms/translations/ro_RO.properties
+plugins/LuckPerms/translations/ru_RU.properties
+plugins/LuckPerms/translations/sr_CS.properties
+plugins/LuckPerms/translations/sv_SE.properties
+plugins/LuckPerms/translations/tr_TR.properties
+plugins/LuckPerms/translations/vi_VN.properties
+plugins/LuckPerms/translations/zh_CN.properties
+plugins/LuckPerms/translations/zh_TW.properties
+plugins/Multiverse-Core/
+plugins/Multiverse-Core/config.yml
+plugins/Multiverse-Core/scripts/
+plugins/Multiverse-Core/scripts/scripts.bin
+plugins/PlaceholderAPI/
+plugins/PlaceholderAPI/config.yml
+plugins/PlaceholderAPI/expansions/
+plugins/PlaceholderAPI/expansions/Expansion-bungee.jar
+plugins/PlaceholderAPI/expansions/Expansion-pinger.jar
+plugins/PlaceholderAPI/expansions/Expansion-player.jar
+plugins/PlaceholderAPI/expansions/Expansion-server.jar
+plugins/PlaceholderAPI/expansions/Expansion-viaversion.jar
+plugins/PluginMetrics/
+plugins/PluginMetrics/config.yml
+plugins/ProtocolLib/
+plugins/ProtocolLib/config.yml
+plugins/ProtocolLib/lastupdate
+plugins/Scoreboard-revision/
+plugins/Scoreboard-revision/language.yml
+plugins/Scoreboard-revision/settings.yml
+plugins/ServerUtils/
+plugins/ServerUtils/commands.yml
+plugins/ServerUtils/config.yml
+plugins/ServerUtils/messages.yml
+plugins/SkinsRestorer/
+plugins/SkinsRestorer/(README) Use bungee config for settings! (README)
+plugins/Skript/
+plugins/Skript/config.sk
+plugins/Skript/features.sk
+plugins/Skript/materials.json
+plugins/Skript/lang/
+plugins/Skript/lang/english.lang
+plugins/Skript/lang/german.lang
+plugins/Skript/lang/korean.lang
+plugins/Skript/scripts/
+plugins/Skript/scripts/-queue.sk
+plugins/Skript/scripts/-queuesystem.sk
+plugins/Skript/scripts/-world queue.sk
+plugins/Skript/scripts/-world queue.sk.old
+plugins/Skript/scripts/itemjoin_fix.sk
+plugins/Skript/scripts/main.sk
+plugins/Skript/scripts/motd.sk
+plugins/Skript/scripts/void.sk
+plugins/Skript/scripts/wands.sk
+plugins/TAB-Bridge/
+plugins/TAB-Bridge/config.yml
+plugins/TAB-BukkitBridge/
+plugins/TAB-BukkitBridge/config.yml
+plugins/Updater/
+plugins/Updater/config.yml
+plugins/VoidGen/
+plugins/VoidGen/configuration.json
+plugins/VoidSpawn/
+plugins/VoidSpawn/config.yml
+plugins/WorldEdit/
+plugins/WorldEdit/config.yml
+plugins/WorldGuard/
+plugins/WorldGuard/config.yml
+plugins/bStats/
+plugins/bStats/config.yml
+plugins/skRayFall/
+plugins/skRayFall/config.yml
+
+sent 16,429 bytes  received 55,759,309 bytes  15,935,925.14 bytes/sec
+total size is 55,686,901  speedup is 1.00
+receiving file list ... done
+created directory /mnt/volume1/NetBackup/github/Solito-Anarchy-V2/servers/anarchy
+bukkit.yml
+commands.yml
+eula.txt
+help.yml
+paper.yml
+permissions.yml
+server.properties
+spigot.yml
+plugins/
+plugins/AntiCheatReloaded.jar
+plugins/CommandWhitelist-Bukkit-2.2.1.jar
+plugins/DeathMessages-1.4.11.jar
+plugins/DiscordSRV-Build-1.24.0.jar
+plugins/GSit.jar
+plugins/LuckPerms-Bukkit-5.3.99.jar
+plugins/MaintenanceAddon-1.1.0.jar
+plugins/NoCheatPlus.jar.old
+plugins/OpenInv.jar
+plugins/PistonChat-1.5.2.jar
+plugins/PistonFilter-1.1.0.jar
+plugins/PistonMute-1.1.1.jar
+plugins/PlaceholderAPI-2.11.1.jar
+plugins/ProtocolLib.jar
+plugins/RandomSpawn-1.3.1.jar
+plugins/ServerUtils-Bukkit-3.4.1.jar
+plugins/SkinsRestorer.jar
+plugins/Skript.jar
+plugins/TAB-Bridge-1.6.1.jar
+plugins/TradeSystem_v2.0.10.jar
+plugins/Vault.jar
+plugins/anarchyexploitfixes-1.22.0.jar
+plugins/anarchystats-1.4.3.jar
+plugins/skript-placeholders.jar
+plugins/spark.jar
+plugins/AnarchyExploitFixes/
+plugins/AnarchyExploitFixes/config.yml
+plugins/AnarchyStats/
+plugins/AnarchyStats/config.yml
+plugins/AntiCheatReloaded/
+plugins/AntiCheatReloaded/checks.yml
+plugins/AntiCheatReloaded/config.yml
+plugins/AntiCheatReloaded/enterprise.yml
+plugins/AntiCheatReloaded/groups.yml
+plugins/AntiCheatReloaded/lang.yml
+plugins/AntiCheatReloaded/magic.yml
+plugins/AntiCheatReloaded/rules.yml
+plugins/AntiCheatReloaded/data/
+plugins/AntiCheatReloaded/data/levels.yml
+plugins/AntiCheatReloaded/log/
+plugins/AntiCheatReloaded/log/anticheat.log
+plugins/AntiCheatReloaded/log/anticheat.log.lck
+plugins/CommandWhitelist/
+plugins/CommandWhitelist/config.yml
+plugins/DeathMessages/
+plugins/DeathMessages/EntityDeathMessages.yml
+plugins/DeathMessages/Gangs.yml
+plugins/DeathMessages/Messages.yml
+plugins/DeathMessages/PlayerDeathMessages.yml
+plugins/DeathMessages/Settings.yml
+plugins/DeathMessages/UserData.yml
+plugins/DiscordSRV/
+plugins/DiscordSRV/alerts.yml
+plugins/DiscordSRV/linking.yml
+plugins/DiscordSRV/messages.yml
+plugins/DiscordSRV/synchronization.yml
+plugins/DiscordSRV/voice.yml
+plugins/GSit/
+plugins/GSit/config.yml
+plugins/GSit/data/
+plugins/GSit/data/s.data
+plugins/GSit/data/t.data
+plugins/GSit/lang/
+plugins/GSit/lang/cz_cz.yml
+plugins/GSit/lang/de_de.yml
+plugins/GSit/lang/en_en.yml
+plugins/GSit/lang/es_es.yml
+plugins/GSit/lang/fi_fi.yml
+plugins/GSit/lang/fr_fr.yml
+plugins/GSit/lang/ja_jp.yml
+plugins/GSit/lang/pl_pl.yml
+plugins/GSit/lang/pt_br.yml
+plugins/GSit/lang/ru_ru.yml
+plugins/GSit/lang/tr_tr.yml
+plugins/GSit/lang/zh_cn.yml
+plugins/GSit/lang/zh_tw.yml
+plugins/LuckPerms/
+plugins/LuckPerms/config-alt.yml
+plugins/LuckPerms/contexts.json
+plugins/LuckPerms/luckperms-h2.mv.db
+plugins/LuckPerms/translations/
+plugins/LuckPerms/translations/repository/
+plugins/LuckPerms/translations/repository/ar_SA.properties
+plugins/LuckPerms/translations/repository/bg_BG.properties
+plugins/LuckPerms/translations/repository/cs_CZ.properties
+plugins/LuckPerms/translations/repository/da_DK.properties
+plugins/LuckPerms/translations/repository/de_DE.properties
+plugins/LuckPerms/translations/repository/el_GR.properties
+plugins/LuckPerms/translations/repository/en_PT.properties
+plugins/LuckPerms/translations/repository/es_ES.properties
+plugins/LuckPerms/translations/repository/fa_IR.properties
+plugins/LuckPerms/translations/repository/fi_FI.properties
+plugins/LuckPerms/translations/repository/fr_FR.properties
+plugins/LuckPerms/translations/repository/he_IL.properties
+plugins/LuckPerms/translations/repository/hu_HU.properties
+plugins/LuckPerms/translations/repository/id_ID.properties
+plugins/LuckPerms/translations/repository/it_IT.properties
+plugins/LuckPerms/translations/repository/ja_JP.properties
+plugins/LuckPerms/translations/repository/ko_KR.properties
+plugins/LuckPerms/translations/repository/nl_NL.properties
+plugins/LuckPerms/translations/repository/no_NO.properties
+plugins/LuckPerms/translations/repository/pl_PL.properties
+plugins/LuckPerms/translations/repository/pt_BR.properties
+plugins/LuckPerms/translations/repository/ro_RO.properties
+plugins/LuckPerms/translations/repository/ru_RU.properties
+plugins/LuckPerms/translations/repository/sr_CS.properties
+plugins/LuckPerms/translations/repository/status.json
+plugins/LuckPerms/translations/repository/sv_SE.properties
+plugins/LuckPerms/translations/repository/tr_TR.properties
+plugins/LuckPerms/translations/repository/vi_VN.properties
+plugins/LuckPerms/translations/repository/zh_CN.properties
+plugins/LuckPerms/translations/repository/zh_TW.properties
+plugins/NoCheatPlus/
+plugins/NoCheatPlus/config.yml
+plugins/NoCheatPlus/config.yml.bak
+plugins/NoCheatPlus/nocheatplus.log
+plugins/OpenInv/
+plugins/OpenInv/config.yml
+plugins/OpenInv/en_us.yml
+plugins/PistonChat/
+plugins/PistonChat/config.yml
+plugins/PistonChat/data.yml
+plugins/PistonChat/language.yml
+plugins/PistonFilter/
+plugins/PistonFilter/config.yml
+plugins/PistonMute/
+plugins/PistonMute/data.yml
+plugins/PlaceholderAPI/
+plugins/PlaceholderAPI/config.yml
+plugins/PlaceholderAPI/expansions/
+plugins/PlaceholderAPI/expansions/Expansion-player.jar
+plugins/PlaceholderAPI/expansions/Expansion-server.jar
+plugins/PlaceholderAPI/expansions/Expansion-statistic.jar
+plugins/PlaceholderAPI/expansions/Expansion-viaversion.jar
+plugins/ProtocolLib/
+plugins/ProtocolLib/config.yml
+plugins/ProtocolLib/lastupdate
+plugins/RandomSpawn/
+plugins/RandomSpawn/config.yml
+plugins/ServerUtils/
+plugins/ServerUtils/commands.yml
+plugins/ServerUtils/config.yml
+plugins/ServerUtils/messages.yml
+plugins/SkinsRestorer/
+plugins/SkinsRestorer/(README) Use bungee config for settings! (README)
+plugins/SkinsRestorer/Use bungee config for settings!
+plugins/Skript/
+plugins/Skript/config.sk
+plugins/Skript/features.sk
+plugins/Skript/materials.json
+plugins/Skript/lang/
+plugins/Skript/lang/english.lang
+plugins/Skript/lang/german.lang
+plugins/Skript/lang/korean.lang
+plugins/Skript/scripts/
+plugins/Skript/scripts/-anarchy-commands.sk
+plugins/Skript/scripts/-motd.sk
+plugins/Skript/scripts/-randomspawn.sk
+plugins/Skript/scripts/-restart.sk
+plugins/Skript/scripts/main.sk
+plugins/TAB-Bridge/
+plugins/TAB-Bridge/config.yml
+plugins/TAB/
+plugins/TAB/animations.yml
+plugins/TAB/bossbar.yml
+plugins/TAB/config.yml
+plugins/TAB/translation.yml
+plugins/TradeSystem/
+plugins/TradeSystem/Config.yml
+plugins/TradeSystem/Layouts.yml
+plugins/TradeSystem/Languages/
+plugins/TradeSystem/Languages/CHI.yml
+plugins/TradeSystem/Languages/CS.yml
+plugins/TradeSystem/Languages/CZE.yml
+plugins/TradeSystem/Languages/ENG.yml
+plugins/TradeSystem/Languages/ES.yml
+plugins/TradeSystem/Languages/FR.yml
+plugins/TradeSystem/Languages/GER.yml
+plugins/TradeSystem/Languages/POL.yml
+plugins/TradeSystem/Languages/RUS.yml
+plugins/TradeSystem/Languages/TR.yml
+plugins/TradeSystem/Languages/VI.yml
+plugins/Vault/
+plugins/Vault/config.yml
+plugins/bStats/
+plugins/bStats/config.yml
+plugins/spark/
+plugins/spark/activity.json
+
+sent 4,874 bytes  received 38,901,120 bytes  25,937,329.33 bytes/sec
+total size is 38,879,219  speedup is 1.00
+receiving file list ... done
+created directory /mnt/volume1/NetBackup/github/Solito-Anarchy-V2/servers/creative_anarchy
+bukkit.yml
+commands.yml
+eula.txt
+help.yml
+paper.yml
+permissions.yml
+server.properties
+spigot.yml
+wepif.yml
+plugins/
+plugins/AntiCheatReloaded.jar
+plugins/CommandWhitelist-Bukkit-2.2.1.jar
+plugins/DeathMessages-1.4.11.jar
+plugins/DiscordSRV-Build-1.24.0.jar
+plugins/GSit.jar
+plugins/LuckPerms-Bukkit-5.3.99.jar
+plugins/NoCheatPlus.jar.old
+plugins/PistonChat-1.5.2.jar
+plugins/PistonFilter-1.1.0.jar
+plugins/PistonMute-1.1.1.jar
+plugins/PlaceholderAPI-2.10.10.jar
+plugins/ProtocolLib.jar
+plugins/SecurityPatches.jar
+plugins/ServerUtils-Bukkit-3.4.1.jar
+plugins/SkinsRestorer.jar
+plugins/Skript.jar
+plugins/TAB-Bridge-1.6.1.jar
+plugins/TradeSystem_v2.0.10.jar
+plugins/Vault.jar
+plugins/anarchyexploitfixes-1.22.0.jar
+plugins/anarchystats-1.4.3.jar
+plugins/skript-placeholders.jar
+plugins/AnarchyExploitFixes/
+plugins/AnarchyExploitFixes/config.yml
+plugins/AnarchyStats/
+plugins/AnarchyStats/config.yml
+plugins/AntiCheatReloaded/
+plugins/AntiCheatReloaded/checks.yml
+plugins/AntiCheatReloaded/config.yml
+plugins/AntiCheatReloaded/enterprise.yml
+plugins/AntiCheatReloaded/groups.yml
+plugins/AntiCheatReloaded/lang.yml
+plugins/AntiCheatReloaded/magic.yml
+plugins/AntiCheatReloaded/rules.yml
+plugins/AntiCheatReloaded/data/
+plugins/AntiCheatReloaded/data/levels.yml
+plugins/AntiCheatReloaded/log/
+plugins/AntiCheatReloaded/log/anticheat.log
+plugins/AntiCheatReloaded/log/anticheat.log.lck
+plugins/CommandWhitelist/
+plugins/CommandWhitelist/config.yml
+plugins/DeathMessages/
+plugins/DeathMessages/EntityDeathMessages.yml
+plugins/DeathMessages/Gangs.yml
+plugins/DeathMessages/Messages.yml
+plugins/DeathMessages/PlayerDeathMessages.yml
+plugins/DeathMessages/Settings.yml
+plugins/DeathMessages/UserData.yml
+plugins/DiscordSRV/
+plugins/DiscordSRV/alerts.yml
+plugins/DiscordSRV/linking.yml
+plugins/DiscordSRV/messages.yml
+plugins/DiscordSRV/synchronization.yml
+plugins/DiscordSRV/voice.yml
+plugins/GSit/
+plugins/GSit/config.yml
+plugins/GSit/data/
+plugins/GSit/data/s.data
+plugins/GSit/data/t.data
+plugins/GSit/lang/
+plugins/GSit/lang/cz_cz.yml
+plugins/GSit/lang/de_de.yml
+plugins/GSit/lang/en_en.yml
+plugins/GSit/lang/es_es.yml
+plugins/GSit/lang/fi_fi.yml
+plugins/GSit/lang/fr_fr.yml
+plugins/GSit/lang/ja_jp.yml
+plugins/GSit/lang/pl_pl.yml
+plugins/GSit/lang/pt_br.yml
+plugins/GSit/lang/ru_ru.yml
+plugins/GSit/lang/tr_tr.yml
+plugins/GSit/lang/zh_cn.yml
+plugins/GSit/lang/zh_tw.yml
+plugins/LuckPerms/
+plugins/LuckPerms/config-alt.yml
+plugins/LuckPerms/contexts.json
+plugins/LuckPerms/luckperms-h2.mv.db
+plugins/LuckPerms/translations/
+plugins/LuckPerms/translations/repository/
+plugins/LuckPerms/translations/repository/ar_SA.properties
+plugins/LuckPerms/translations/repository/bg_BG.properties
+plugins/LuckPerms/translations/repository/cs_CZ.properties
+plugins/LuckPerms/translations/repository/da_DK.properties
+plugins/LuckPerms/translations/repository/de_DE.properties
+plugins/LuckPerms/translations/repository/el_GR.properties
+plugins/LuckPerms/translations/repository/en_PT.properties
+plugins/LuckPerms/translations/repository/es_ES.properties
+plugins/LuckPerms/translations/repository/fa_IR.properties
+plugins/LuckPerms/translations/repository/fi_FI.properties
+plugins/LuckPerms/translations/repository/fr_FR.properties
+plugins/LuckPerms/translations/repository/he_IL.properties
+plugins/LuckPerms/translations/repository/hu_HU.properties
+plugins/LuckPerms/translations/repository/id_ID.properties
+plugins/LuckPerms/translations/repository/it_IT.properties
+plugins/LuckPerms/translations/repository/ja_JP.properties
+plugins/LuckPerms/translations/repository/ko_KR.properties
+plugins/LuckPerms/translations/repository/nl_NL.properties
+plugins/LuckPerms/translations/repository/no_NO.properties
+plugins/LuckPerms/translations/repository/pl_PL.properties
+plugins/LuckPerms/translations/repository/pt_BR.properties
+plugins/LuckPerms/translations/repository/ro_RO.properties
+plugins/LuckPerms/translations/repository/ru_RU.properties
+plugins/LuckPerms/translations/repository/sr_CS.properties
+plugins/LuckPerms/translations/repository/status.json
+plugins/LuckPerms/translations/repository/sv_SE.properties
+plugins/LuckPerms/translations/repository/tr_TR.properties
+plugins/LuckPerms/translations/repository/vi_VN.properties
+plugins/LuckPerms/translations/repository/zh_CN.properties
+plugins/LuckPerms/translations/repository/zh_TW.properties
+plugins/NoCheatPlus/
+plugins/NoCheatPlus/config.yml
+plugins/NoCheatPlus/nocheatplus.log
+plugins/PistonChat/
+plugins/PistonChat/config.yml
+plugins/PistonChat/data.yml
+plugins/PistonChat/language.yml
+plugins/PistonFilter/
+plugins/PistonFilter/config.yml
+plugins/PistonMute/
+plugins/PistonMute/data.yml
+plugins/PlaceholderAPI/
+plugins/PlaceholderAPI/config.yml
+plugins/PlaceholderAPI/expansions/
+plugins/PlaceholderAPI/expansions/Expansion-player.jar
+plugins/PlaceholderAPI/expansions/Expansion-server.jar
+plugins/ProtocolLib/
+plugins/ProtocolLib/config.yml
+plugins/ProtocolLib/lastupdate
+plugins/ServerUtils/
+plugins/ServerUtils/commands.yml
+plugins/ServerUtils/config.yml
+plugins/ServerUtils/messages.yml
+plugins/SkinsRestorer/
+plugins/SkinsRestorer/(README) Use bungee config for settings! (README)
+plugins/SkinsRestorer/Use bungee config for settings!
+plugins/Skript/
+plugins/Skript/config.sk
+plugins/Skript/features.sk
+plugins/Skript/materials.json
+plugins/Skript/lang/
+plugins/Skript/lang/english.lang
+plugins/Skript/lang/german.lang
+plugins/Skript/lang/korean.lang
+plugins/Skript/scripts/
+plugins/Skript/scripts/luckperms.sk
+plugins/Skript/scripts/main.sk
+plugins/Skript/scripts/nuke.sk
+plugins/TAB-Bridge/
+plugins/TAB-Bridge/config.yml
+plugins/TAB-BukkitBridge/
+plugins/TAB-BukkitBridge/config.yml
+plugins/TradeSystem/
+plugins/TradeSystem/Config.yml
+plugins/TradeSystem/Layouts.yml
+plugins/TradeSystem/Languages/
+plugins/TradeSystem/Languages/CHI.yml
+plugins/TradeSystem/Languages/CS.yml
+plugins/TradeSystem/Languages/CZE.yml
+plugins/TradeSystem/Languages/ENG.yml
+plugins/TradeSystem/Languages/ES.yml
+plugins/TradeSystem/Languages/FR.yml
+plugins/TradeSystem/Languages/GER.yml
+plugins/TradeSystem/Languages/POL.yml
+plugins/TradeSystem/Languages/RUS.yml
+plugins/TradeSystem/Languages/TR.yml
+plugins/TradeSystem/Languages/VI.yml
+plugins/Vault/
+plugins/Vault/config.yml
+plugins/bStats/
+plugins/bStats/config.yml
+plugins/update/
+plugins/update/SkinsRestorer.jar
+
+sent 4,621 bytes  received 41,289,285 bytes  16,517,562.40 bytes/sec
+total size is 41,267,665  speedup is 1.00
+receiving file list ... done
+created directory /mnt/volume1/NetBackup/github/Solito-Anarchy-V2/servers/crazy_anarchy
+CRAZYLIST.txt
+bukkit.yml
+commands.yml
+eula.txt
+help.yml
+paper.yml
+permissions.yml
+purpur.yml
+server.properties
+spigot.yml
+wepif.yml
+plugins/
+plugins/AntiCheatReloaded.jar
+plugins/BetterBroadcaster.jar
+plugins/BoneMealEverything.jar
+plugins/DeadlyDisasters-V3.0.jar
+plugins/DeathMessages-1.4.11.jar
+plugins/DiscordSRV-Build-1.24.0.jar
+plugins/Disease-4.1.1.jar
+plugins/GSit.jar
+plugins/InversedChunks.jar
+plugins/LightChatBubbles.jar
+plugins/LuckPerms-Bukkit-5.3.99.jar
+plugins/MendingEnchant-1.4.jar
+plugins/NoCheatPlus.jar.old
+plugins/PistonChat-1.5.2.jar
+plugins/PistonFilter-1.1.0.jar
+plugins/PistonMute-1.1.1.jar
+plugins/PlaceholderAPI-2.10.10.jar
+plugins/PlayerHeads.jar
+plugins/ProtocolLib.jar
+plugins/RandomSpawn-1.3.1.jar
+plugins/ServerUtils-Bukkit-3.4.1.jar
+plugins/SilkSpawners.jar
+plugins/SkinsRestorer.jar
+plugins/Skript.jar
+plugins/Slimefun4 - RC 26 (git 6aba4).jar
+plugins/Sudo-1.0-SNAPSHOT.jar
+plugins/TAB-Bridge-1.6.1.jar
+plugins/TradeSystem_v2.0.10.jar
+plugins/Vault.jar
+plugins/anarchyexploitfixes-1.22.0.jar
+plugins/anarchystats-1.4.3.jar
+plugins/skript-placeholders.jar
+plugins/AnarchyExploitFixes/
+plugins/AnarchyExploitFixes/config.yml
+plugins/AnarchyStats/
+plugins/AnarchyStats/config.yml
+plugins/AntiCheatReloaded/
+plugins/AntiCheatReloaded/checks.yml
+plugins/AntiCheatReloaded/config.yml
+plugins/AntiCheatReloaded/enterprise.yml
+plugins/AntiCheatReloaded/groups.yml
+plugins/AntiCheatReloaded/lang.yml
+plugins/AntiCheatReloaded/magic.yml
+plugins/AntiCheatReloaded/rules.yml
+plugins/AntiCheatReloaded/data/
+plugins/AntiCheatReloaded/data/levels.yml
+plugins/AntiCheatReloaded/log/
+plugins/AntiCheatReloaded/log/anticheat.log
+plugins/AntiCheatReloaded/log/anticheat.log.lck
+plugins/BoneMealAnything/
+plugins/BoneMealAnything/config.yml
+plugins/CommandWhitelist/
+plugins/CommandWhitelist/config.yml
+plugins/DeadChest/
+plugins/DeadChest/chestData.yml
+plugins/DeadChest/config.yml
+plugins/DeadChest/deadchest.log
+plugins/DeadChest/locale.yml
+plugins/DeadlyDisasters/
+plugins/DeadlyDisasters/config.yml
+plugins/DeathMessages/
+plugins/DeathMessages/EntityDeathMessages.yml
+plugins/DeathMessages/Gangs.yml
+plugins/DeathMessages/Messages.yml
+plugins/DeathMessages/PlayerDeathMessages.yml
+plugins/DeathMessages/Settings.yml
+plugins/DeathMessages/UserData.yml
+plugins/DiscordSRV/
+plugins/DiscordSRV/alerts.yml
+plugins/DiscordSRV/linking.yml
+plugins/DiscordSRV/messages.yml
+plugins/DiscordSRV/synchronization.yml
+plugins/DiscordSRV/voice.yml
+plugins/Disease/
+plugins/Disease/config.yml
+plugins/Disease/language.yml
+plugins/Disease/players/
+plugins/Disease/players/025181b2-c491-346c-aaf3-903f0ee029dd.yml
+plugins/Disease/players/04c27dbc-18d5-4879-bdf8-3f7c05bcee5a.yml
+plugins/Disease/players/0a188bbf-2a86-390c-b60e-3e709f2516b8.yml
+plugins/Disease/players/0a2aed5f-5e4f-3670-923d-acd8b82e429b.yml
+plugins/Disease/players/0f9c7d29-169c-4458-b3c6-397ff24b3114.yml
+plugins/Disease/players/17fcf13d-b1c0-35e7-9ecb-ce2e9f5b8c12.yml
+plugins/Disease/players/325950d4-18b4-48c5-b2aa-cc00115e9da9.yml
+plugins/Disease/players/3485ff31-b4bf-3ec6-8e33-38ed34360c76.yml
+plugins/Disease/players/3694d96a-bb47-449e-9711-a70912fa97d0.yml
+plugins/Disease/players/39b765e7-2ed6-4bd2-899f-722b34964557.yml
+plugins/Disease/players/3e33a55b-5e2e-4813-b97f-a37fe9cff79c.yml
+plugins/Disease/players/3f25210c-d7d8-495f-b19a-8d1b1041ef1b.yml
+plugins/Disease/players/44e4146c-0c95-3219-bc77-ddac3d344582.yml
+plugins/Disease/players/483701c4-0595-3499-964a-7d03e969b655.yml
+plugins/Disease/players/4f9e8ce7-ec83-4a21-8b83-6ab8903c2a31.yml
+plugins/Disease/players/52414fc1-8220-4502-b5ac-9c1731beb836.yml
+plugins/Disease/players/56032fd3-04b4-3c2a-ac81-7e1603782035.yml
+plugins/Disease/players/5ff01e65-33a3-33e5-9ddc-98c7128f5eaf.yml
+plugins/Disease/players/6eaa26da-50f0-3038-93ec-1ceb41cc2706.yml
+plugins/Disease/players/786022de-e2a8-3ba9-926a-4e95310badf4.yml
+plugins/Disease/players/7b64e15c-a64b-4132-b7bd-abf5aea6fe15.yml
+plugins/Disease/players/8499aeef-e7f2-3163-afae-0ed27a24b09b.yml
+plugins/Disease/players/9916bd4f-b560-4c89-9679-953163324eb3.yml
+plugins/Disease/players/Arnisna.yml
+plugins/Disease/players/BOTAsiann.yml
+plugins/Disease/players/DumbDebt.yml
+plugins/Disease/players/HMS_DUNCAN.yml
+plugins/Disease/players/NotAMCPlayer.yml
+plugins/Disease/players/Triciauriowa.yml
+plugins/Disease/players/Vukicaa.yml
+plugins/Disease/players/bart7782.yml
+plugins/Disease/players/boxedbox2076.yml
+plugins/Disease/players/c4fbd630-d1fa-4ca7-812a-7852636b15ed.yml
+plugins/Disease/players/chadmes2.yml
+plugins/Disease/players/chadmes2_1.yml
+plugins/Disease/players/chadmes2_2.yml
+plugins/Disease/players/chadmes2_3.yml
+plugins/Disease/players/d2e9c20d-56a4-4405-af34-a04b0b82dcb5.yml
+plugins/Disease/players/d3c6c07e-fea7-378a-ab4f-d00189dbddff.yml
+plugins/Disease/players/d6a29030-de0c-3d3f-a05d-9e5cdcc07bef.yml
+plugins/Disease/players/f4a5d2d8-f3ea-31dc-9eff-d6634dd3668f.yml
+plugins/Disease/players/night4666.yml
+plugins/Disease/players/sadjdk.yml
+plugins/Disease/players/zombiestrike444.yml
+plugins/GSit/
+plugins/GSit/config.yml
+plugins/GSit/data/
+plugins/GSit/data/s.data
+plugins/GSit/data/t.data
+plugins/GSit/lang/
+plugins/GSit/lang/cz_cz.yml
+plugins/GSit/lang/de_de.yml
+plugins/GSit/lang/en_en.yml
+plugins/GSit/lang/es_es.yml
+plugins/GSit/lang/fi_fi.yml
+plugins/GSit/lang/fr_fr.yml
+plugins/GSit/lang/ja_jp.yml
+plugins/GSit/lang/pl_pl.yml
+plugins/GSit/lang/pt_br.yml
+plugins/GSit/lang/ru_ru.yml
+plugins/GSit/lang/tr_tr.yml
+plugins/GSit/lang/zh_cn.yml
+plugins/GSit/lang/zh_tw.yml
+plugins/LightChatBubbles/
+plugins/LightChatBubbles/config.yml
+plugins/LuckPerms/
+plugins/LuckPerms/config-alt.yml
+plugins/LuckPerms/contexts.json
+plugins/LuckPerms/luckperms-h2.mv.db
+plugins/LuckPerms/translations/
+plugins/LuckPerms/translations/repository/
+plugins/LuckPerms/translations/repository/ar_SA.properties
+plugins/LuckPerms/translations/repository/bg_BG.properties
+plugins/LuckPerms/translations/repository/cs_CZ.properties
+plugins/LuckPerms/translations/repository/da_DK.properties
+plugins/LuckPerms/translations/repository/de_DE.properties
+plugins/LuckPerms/translations/repository/el_GR.properties
+plugins/LuckPerms/translations/repository/en_PT.properties
+plugins/LuckPerms/translations/repository/es_ES.properties
+plugins/LuckPerms/translations/repository/fa_IR.properties
+plugins/LuckPerms/translations/repository/fi_FI.properties
+plugins/LuckPerms/translations/repository/fr_FR.properties
+plugins/LuckPerms/translations/repository/he_IL.properties
+plugins/LuckPerms/translations/repository/hu_HU.properties
+plugins/LuckPerms/translations/repository/id_ID.properties
+plugins/LuckPerms/translations/repository/it_IT.properties
+plugins/LuckPerms/translations/repository/ja_JP.properties
+plugins/LuckPerms/translations/repository/ko_KR.properties
+plugins/LuckPerms/translations/repository/nl_NL.properties
+plugins/LuckPerms/translations/repository/no_NO.properties
+plugins/LuckPerms/translations/repository/pl_PL.properties
+plugins/LuckPerms/translations/repository/pt_BR.properties
+plugins/LuckPerms/translations/repository/ro_RO.properties
+plugins/LuckPerms/translations/repository/ru_RU.properties
+plugins/LuckPerms/translations/repository/sr_CS.properties
+plugins/LuckPerms/translations/repository/status.json
+plugins/LuckPerms/translations/repository/sv_SE.properties
+plugins/LuckPerms/translations/repository/tr_TR.properties
+plugins/LuckPerms/translations/repository/vi_VN.properties
+plugins/LuckPerms/translations/repository/zh_CN.properties
+plugins/LuckPerms/translations/repository/zh_TW.properties
+plugins/MendingEnchant/
+plugins/MendingEnchant/config.yml
+plugins/NoCheatPlus/
+plugins/NoCheatPlus/config.yml
+plugins/NoCheatPlus/config.yml.bak
+plugins/NoCheatPlus/nocheatplus.log
+plugins/PistonChat/
+plugins/PistonChat/config.yml
+plugins/PistonChat/data.yml
+plugins/PistonChat/language.yml
+plugins/PistonFilter/
+plugins/PistonFilter/config.yml
+plugins/PistonMute/
+plugins/PistonMute/data.yml
+plugins/PlaceholderAPI/
+plugins/PlaceholderAPI/config.yml
+plugins/PlaceholderAPI/expansions/
+plugins/PlaceholderAPI/expansions/Expansion-player.jar
+plugins/PlaceholderAPI/expansions/Expansion-server.jar
+plugins/PlaceholderAPI/expansions/Expansion-statistic.jar
+plugins/PlayerHeads/
+plugins/PlayerHeads/config.yml
+plugins/PlayerHeads/lang.properties
+plugins/ProtocolLib/
+plugins/ProtocolLib/config.yml
+plugins/ProtocolLib/lastupdate
+plugins/RandomSpawn/
+plugins/RandomSpawn/config.yml
+plugins/ServerUtils/
+plugins/ServerUtils/commands.yml
+plugins/ServerUtils/config.yml
+plugins/ServerUtils/messages.yml
+plugins/SilkSpawners/
+plugins/SilkSpawners/config.yml
+plugins/SilkSpawners/localization.yml
+plugins/SilkSpawners/mobs.yml
+plugins/SkinsRestorer/
+plugins/SkinsRestorer/(README) Use bungee config for settings! (README)
+plugins/SkinsRestorer/Use bungee config for settings!
+plugins/Skript/
+plugins/Skript/config.sk
+plugins/Skript/features.sk
+plugins/Skript/materials.json
+plugins/Skript/lang/
+plugins/Skript/lang/english.lang
+plugins/Skript/lang/german.lang
+plugins/Skript/lang/korean.lang
+plugins/Skript/scripts/
+plugins/Skript/scripts/luckperms.sk
+plugins/Skript/scripts/main.sk
+plugins/Slimefun/
+plugins/Slimefun/Items.yml
+plugins/Slimefun/Researches.yml
+plugins/Slimefun/config.yml
+plugins/Slimefun/item-models.yml
+plugins/Slimefun/messages.yml
+plugins/Slimefun/permissions.yml
+plugins/Slimefun/resources.yml
+plugins/StoneDrop/
+plugins/StoneDrop/config.yml
+plugins/StoneDrop/lang.yml
+plugins/StoneDrop/playerData.yml
+plugins/TAB-Bridge/
+plugins/TAB-Bridge/config.yml
+plugins/TAB-BukkitBridge/
+plugins/TAB-BukkitBridge/config.yml
+plugins/TradeSystem/
+plugins/TradeSystem/Config.yml
+plugins/TradeSystem/Layouts.yml
+plugins/TradeSystem/Languages/
+plugins/TradeSystem/Languages/CHI.yml
+plugins/TradeSystem/Languages/CS.yml
+plugins/TradeSystem/Languages/CZE.yml
+plugins/TradeSystem/Languages/ENG.yml
+plugins/TradeSystem/Languages/ES.yml
+plugins/TradeSystem/Languages/FR.yml
+plugins/TradeSystem/Languages/GER.yml
+plugins/TradeSystem/Languages/POL.yml
+plugins/TradeSystem/Languages/RUS.yml
+plugins/TradeSystem/Languages/TR.yml
+plugins/TradeSystem/Languages/VI.yml
+plugins/Updater/
+plugins/Updater/config.yml
+plugins/Vault/
+plugins/Vault/config.yml
+plugins/bStats/
+plugins/bStats/config.yml
+plugins/bStats/src/
+plugins/bStats/src/main/
+plugins/bStats/src/main/resources/
+plugins/bStats/src/main/resources/config.yml
+plugins/betterbroadcaster/
+plugins/betterbroadcaster/config.yml
+plugins/update/
+plugins/update/SkinsRestorer.jar
+
+sent 6,310 bytes  received 41,668,350 bytes  16,669,864.00 bytes/sec
+total size is 41,639,235  speedup is 1.00

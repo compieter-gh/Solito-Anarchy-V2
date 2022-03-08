@@ -6,3 +6,8 @@ settings:
   install-updates-boot: false
   install-updates-login: false
 config-version: 1
+unload-after-startup:
+  delay-ticks: 20
+  plugins: []
+hide-plugins-from-plugins-command: []
+protected-plugins: []

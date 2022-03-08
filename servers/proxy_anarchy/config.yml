@@ -10,7 +10,7 @@ listeners:
   priorities:
   - hub_anarchy
   proxy_protocol: false
-  query_enabled: false
+  query_enabled: true
   query_port: 25566
   tab_list: GLOBAL_PING
   tab_size: 60

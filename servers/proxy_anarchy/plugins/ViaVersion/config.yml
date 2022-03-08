@@ -78,10 +78,10 @@ bungee-ping-save: true
 # It will fallback to the default option if none found.
 bungee-servers:
   default: 47
-  creative_anarchy: 757
-  anarchy: 757
-  hub_anarchy: 757
-  crazy_anarchy: 757
+  creative_anarchy: 758
+  anarchy: 758
+  hub_anarchy: 758
+  crazy_anarchy: 758
 # 
 # ----------------------------------------------------------#
 #                  GLOBAL PACKET LIMITER                   #

@@ -56,3 +56,47 @@ flamecord_help: |-
   &e /flamecord firewall&7 >&b Shows information about the Firewall!
   &e /flamecord help&7 >&b Shows this message!
 flamecord_nopermission: '&cYou don''t have permission to do this!'
+timeout: Server not reachable (timeout). Offline? Incorrectly configured address/port/firewall?
+illegal_chat_characters: '&cIllegal characters in chat ({0})'
+antibot_accounts: |-
+  &c&lFlameCord
+
+  &cYou have too many accounts! ({0})
+
+  &cError? Contact us on discord.gg/gF36AT3
+antibot_fastchat: |-
+  &c&lFlameCord
+
+  &cYou are chatting too fast!
+
+  &cError? Contact us on discord.gg/gF36AT3
+antibot_firewall: |-
+  &c&lFlameCord
+
+  &cYou are blocked from this server!
+
+  &cError? Contact us on discord.gg/gF36AT3
+antibot_nickname: |-
+  &c&lFlameCord
+
+  &cYour nickname was detected as bot! ({0})
+
+  &cError? Contact us on discord.gg/gF36AT3
+antibot_password: |-
+  &c&lFlameCord
+
+  &cYour password is used by other players! ({0})
+
+  &cError? Contact us on discord.gg/gF36AT3
+antibot_ratelimit: |-
+  &c&lFlameCord
+
+  &cYou are connecting too fast! ({0})
+
+  &cError? Contact us on discord.gg/gF36AT3
+antibot_reconnect: |-
+  &c&lFlameCord
+
+  &cReconnect {0} more times to enter!
+
+  &cError? Contact us on discord.gg/gF36AT3
