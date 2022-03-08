@@ -29,6 +29,7 @@
 ##luckperms
 
 **/plugins/LuckPerms/libs
+**/plugins/LuckPerms/translation
 **/plugins/LuckPerms/config.yml
 
 ##fastlogin
@@ -53,6 +54,16 @@
 ##discordsrv
 **/plugins/DiscordSRV/config.yml
 **/plugins/DiscordSRV/linkedaccounts.json.imported
+
+##AntiCheatReloaded
+**/plugins/AntiCheatReloaded/data
+**/plugins/AntiCheatReloaded/log
+
+#DeathMessages
+**/plugins/UserData.yml
+
+##ProtocolLib
+**/plugins/ProtocolLib/lastupdate
 
 ##votingplugin
 **/plugins/VotingPlugin/bungeeconfig.yml
