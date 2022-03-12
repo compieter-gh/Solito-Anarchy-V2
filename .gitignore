@@ -30,8 +30,9 @@
 ##luckperms
 
 **/plugins/LuckPerms/libs
-**/plugins/LuckPerms/translation
+**/plugins/LuckPerms/translations
 **/plugins/LuckPerms/config.yml
+**/plugins/LuckPerms/luckperms-h2.mv.db
 
 ##fastlogin
 
