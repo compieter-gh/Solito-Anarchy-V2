@@ -1,7 +1,5 @@
 #!/usr/bin/bash
 
-#USE THIS SCRIPT WITH CAUSTION!! Last time i used this i wiped my whole server.
-
 #Log File & Paths
 ROOT_PATH=$(git root)
 HOSTNAME=$HOSTNAME
@@ -10,8 +8,8 @@ EXTENSION=".log"
 LOG_FILE=${ROOT_PATH}/scripts/${HOSTNAME}/logs-github/${DATE}
 
 #SRC/DEST dirs
-SRCDIR_1="/srv/daemon-data/" #legacy
-SRCDIR_2="/var/lib/pterodactyl/volumes/"
+SRCDIR_1="/srv/daemon-data" #legacy
+SRCDIR_2="/var/lib/pterodactyl/volumes"
 
 #Server SRC DIRS
 PROXY_ANARCHY_UUID="${SRCDIR_2}/38041d33-5b50-4dde-962e-95709f1d73be"
@@ -46,8 +44,7 @@ cd ${ROOT_PATH}
 exec 1>${LOG_FILE}"github-downstream"${EXTENSION} 2>&1
 
 #Make sure source is updated
-#git checkout main
-#git pull
+git pull
 
 #Sync all servers
 for (( i=0; i<${#SRV_IP_LIST[@]}; i++ ));

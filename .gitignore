@@ -1,6 +1,7 @@
 #base:
 
 .auth
+**/logs-github/*.log
 **/proxy.jar*
 **/server.jar*
 **/.console_history
@@ -52,6 +53,7 @@
 **/plugins/SkinsRestorer/config.yml
 
 ##discordsrv
+**/plugins/DiscordSRV/*.old
 **/plugins/DiscordSRV/config.yml
 **/plugins/DiscordSRV/linkedaccounts.json.imported
 

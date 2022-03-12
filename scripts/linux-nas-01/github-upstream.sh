@@ -49,6 +49,7 @@ exec 1>${LOG_FILE}"github-upstream"${EXTENSION} 2>&1
 
 cd ${ROOT_PATH}
 
+#Make sure source is updated
 git pull
 
 rm -rf ${ROOT_PATH}/servers/*
