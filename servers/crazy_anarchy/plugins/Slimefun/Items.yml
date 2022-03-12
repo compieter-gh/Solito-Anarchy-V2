@@ -1075,6 +1075,18 @@ ENDER_MINER_TALISMAN:
   hide-in-guide: false
   allow-enchanting: true
   allow-disenchanting: true
+FARMER_TALISMAN:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
+ENDER_FARMER_TALISMAN:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true
 HUNTER_TALISMAN:
   enabled: true
   can-be-used-in-workbenches: false
@@ -2678,8 +2690,8 @@ AUTO_ENCHANTER:
   ignored-lores:
   - '&7- &cCan''t be used in §5Auto Enchanter'
   enchant-level-limit: 10
-  use-enchant-level-limit: false
   override-existing-enchants-lvl: false
+  use-enchant-level-limit: false
 AUTO_ENCHANTER_2:
   enabled: true
   can-be-used-in-workbenches: false
@@ -2687,11 +2699,11 @@ AUTO_ENCHANTER_2:
   allow-enchanting: true
   allow-disenchanting: true
   use-enchant-level-limit: false
+  override-existing-enchants-lvl: false
   use-ignored-lores: false
   enchant-level-limit: 10
   ignored-lores:
   - '&7- &cCan''t be used in §5Auto Enchanter §7- §eII'
-  override-existing-enchants-lvl: false
 AUTO_DISENCHANTER:
   enabled: true
   can-be-used-in-workbenches: false
@@ -3685,15 +3697,3 @@ PRODUCE_COLLECTOR:
   allow-enchanting: true
   allow-disenchanting: true
   range: 2
-FARMER_TALISMAN:
-  enabled: true
-  can-be-used-in-workbenches: false
-  hide-in-guide: false
-  allow-enchanting: true
-  allow-disenchanting: true
-ENDER_FARMER_TALISMAN:
-  enabled: true
-  can-be-used-in-workbenches: false
-  hide-in-guide: false
-  allow-enchanting: true
-  allow-disenchanting: true

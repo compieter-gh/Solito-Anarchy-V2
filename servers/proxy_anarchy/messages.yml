@@ -100,3 +100,9 @@ antibot_reconnect: |-
   &cReconnect {0} more times to enter!
 
   &cError? Contact us on discord.gg/gF36AT3
+antibot_country: |-
+  &c&lFlameCord
+
+  &cYour country {0} is blacklisted!
+
+  &cError? Contact us on discord.gg/gF36AT3

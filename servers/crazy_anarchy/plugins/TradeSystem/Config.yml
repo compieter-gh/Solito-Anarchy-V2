@@ -7,7 +7,7 @@ TradeSystem:
   # If permissions are disabled, every player is able to accept/deny/toggle/initiate trades
   # Permissions:
 
-  # Both traders have to add an item/money to finish the trade
+    # Both traders have to add an item/money to finish the trade
   #   "tradesystem.trade": Can accept/deny/toggle trade requests
   # The GUI type which will be used to enter the money amount. Available options: SIGN, ANVIL
   #   "tradesystem.trade.initiate": Can invite players for trades
@@ -17,14 +17,14 @@ TradeSystem:
     # Both traders have to add an item/money to finish the trade
   #   "tradesystem.trade": Can accept/deny/toggle trade requests
 
-  # Example:            (all variables are optional)
+    # Example:            (all variables are optional)
   # - Material: STONE
   #   Data: 0
   #   DisplayName: 0
   #   Lore: "Some text that will be searched in every line."
   #   CustomModelData: 0
   #   Compare: IGNORE_CASE      (Default=IGNORE_CASE; STRICT, IGNORE_CASE, CONTAINS, CONTAINS_IGNORE_CASE, REGEX_ANY, REGEX_ALL)
-  # 
+  #
   # Compare examples
   #   STRICT: "FOO" = "FOO"
   #   IGNORE_CASE: "FOO" = "foo"
@@ -34,44 +34,388 @@ TradeSystem:
   #   REGEX_ALL: ".*" matches "Foo"
   # The GUI type which will be used to enter the money amount. Available options: SIGN, ANVIL
 
-  #   "tradesystem.trade.initiate": Can invite players for trades
+    #   "tradesystem.trade.initiate": Can invite players for trades
   # If permissions are disabled, every player is able to accept/deny/toggle/initiate trades
-    # in ticks (20 ticks = 1 second)
-  Permissions: true
-  
+  # in ticks (20 ticks = 1 second)
+  # Permissions:
 
-  # true: After finishing a trade all overflowing items will be dropped, if the inventory is full
+  
+    # true: After finishing a trade all overflowing items will be dropped, if the inventory is full
   # false: Prevent the trade partner to put too much items into the gui
   # Both traders have to add an item/money to finish the trade
 
-  # In seconds (e.g. after <60> seconds the request will be expired)
-  Trade_Both: true
+    # In seconds (e.g. after <60> seconds the request will be expired)
+  #   "tradesystem.trade": Can accept/deny/toggle trade requests
 
   
-  # Example:            (all variables are optional)
+    # Example:            (all variables are optional)
 
-  # - Material: STONE
+    # - Material: STONE
   #   Data: 0
 
-  #   DisplayName: 0
+    #   DisplayName: 0
   #   Lore: "Some text that will be searched in every line."
-    # Do NOT use special symbols (e.g. '$') here.
-    # Use characters only!
+  # Do NOT use special symbols (e.g. '$') here.
+  # Use characters only!
   #   CustomModelData: 0
 
-  # Warning: The aliases will not be validated. Make sure they are correct.
+    # Warning: The aliases will not be validated. Make sure they are correct.
   #   Compare: IGNORE_CASE      (Default=IGNORE_CASE; STRICT, IGNORE_CASE, CONTAINS, CONTAINS_IGNORE_CASE, REGEX_ANY, REGEX_ALL)
   #
   # Compare examples
   #   STRICT: "FOO" = "FOO"
   #   IGNORE_CASE: "FOO" = "foo"
 
-  # BETA - Please post issues on my GitHub Issue-Tracker: https://github.com/CodingAir/TradeSystem/issues
+    # BETA - Please post issues on my GitHub Issue-Tracker: https://github.com/CodingAir/TradeSystem/issues
   # WARNING - This log does not remove files automatically after some time, so you have to do it yourself.
   #   CONTAINS: "F" is in "Foo"
   #   CONTAINS_IGNORE_CASE: "f" is in "Foo"
   #   REGEX_ANY: "." matches "Foo"
-      # Values: SQLITE, MYSQL
+  # Values: SQLITE, MYSQL
+  #   REGEX_ALL: ".*" matches "Foo"
+  # The GUI type which will be used to enter the money amount. Available options: SIGN, ANVIL
+
+    #   "tradesystem.trade.initiate": Can invite players for trades
+  # If permissions are disabled, every player is able to accept/deny/toggle/initiate trades
+  # in ticks (20 ticks = 1 second)
+
+    # Sound names can be found here: https://github.com/CodingAir/CodingAPI/tree/master/src/main/java/de/codingair/codingapi/server/sounds/Sound.java
+  # Permissions:
+
+  
+    # true: After finishing a trade all overflowing items will be dropped, if the inventory is full
+  # false: Prevent the trade partner to put too much items into the gui
+  # Both traders have to add an item/money to finish the trade
+
+    # In seconds (e.g. after <60> seconds the request will be expired)
+  #   "tradesystem.trade": Can accept/deny/toggle trade requests
+
+  
+    # Example:            (all variables are optional)
+
+    # - Material: STONE
+  #   Data: 0
+
+    #   DisplayName: 0
+  #   Lore: "Some text that will be searched in every line."
+  # Do NOT use special symbols (e.g. '$') here.
+  # Use characters only!
+  #   CustomModelData: 0
+
+    # Warning: The aliases will not be validated. Make sure they are correct.
+  #   Compare: IGNORE_CASE      (Default=IGNORE_CASE; STRICT, IGNORE_CASE, CONTAINS, CONTAINS_IGNORE_CASE, REGEX_ANY, REGEX_ALL)
+  #
+  # Compare examples
+  #   STRICT: "FOO" = "FOO"
+  #   IGNORE_CASE: "FOO" = "foo"
+
+    # BETA - Please post issues on my GitHub Issue-Tracker: https://github.com/CodingAir/TradeSystem/issues
+  # WARNING - This log does not remove files automatically after some time, so you have to do it yourself.
+  #   CONTAINS: "F" is in "Foo"
+  #   CONTAINS_IGNORE_CASE: "f" is in "Foo"
+  #   REGEX_ANY: "." matches "Foo"
+  # Values: SQLITE, MYSQL
+  #   REGEX_ALL: ".*" matches "Foo"
+  # The GUI type which will be used to enter the money amount. Available options: SIGN, ANVIL
+
+    #   "tradesystem.trade.initiate": Can invite players for trades
+  # If permissions are disabled, every player is able to accept/deny/toggle/initiate trades
+  # in ticks (20 ticks = 1 second)
+
+    # Sound names can be found here: https://github.com/CodingAir/CodingAPI/tree/master/src/main/java/de/codingair/codingapi/server/sounds/Sound.java
+  # Permissions:
+
+  
+    # true: After finishing a trade all overflowing items will be dropped, if the inventory is full
+  # false: Prevent the trade partner to put too much items into the gui
+  # Both traders have to add an item/money to finish the trade
+
+    # In seconds (e.g. after <60> seconds the request will be expired)
+  #   "tradesystem.trade": Can accept/deny/toggle trade requests
+
+  
+    # Example:            (all variables are optional)
+
+    # - Material: STONE
+  #   Data: 0
+
+    #   DisplayName: 0
+  #   Lore: "Some text that will be searched in every line."
+  # Do NOT use special symbols (e.g. '$') here.
+  # Use characters only!
+  #   CustomModelData: 0
+
+    # Warning: The aliases will not be validated. Make sure they are correct.
+  #   Compare: IGNORE_CASE      (Default=IGNORE_CASE; STRICT, IGNORE_CASE, CONTAINS, CONTAINS_IGNORE_CASE, REGEX_ANY, REGEX_ALL)
+  #
+  # Compare examples
+  #   STRICT: "FOO" = "FOO"
+  #   IGNORE_CASE: "FOO" = "foo"
+
+    # BETA - Please post issues on my GitHub Issue-Tracker: https://github.com/CodingAir/TradeSystem/issues
+  # WARNING - This log does not remove files automatically after some time, so you have to do it yourself.
+  #   CONTAINS: "F" is in "Foo"
+  #   CONTAINS_IGNORE_CASE: "f" is in "Foo"
+  #   REGEX_ANY: "." matches "Foo"
+  # Values: SQLITE, MYSQL
+  #   REGEX_ALL: ".*" matches "Foo"
+  # The GUI type which will be used to enter the money amount. Available options: SIGN, ANVIL
+
+    #   "tradesystem.trade.initiate": Can invite players for trades
+  # If permissions are disabled, every player is able to accept/deny/toggle/initiate trades
+  # in ticks (20 ticks = 1 second)
+
+    # Sound names can be found here: https://github.com/CodingAir/CodingAPI/tree/master/src/main/java/de/codingair/codingapi/server/sounds/Sound.java
+  # Permissions:
+
+  
+    # true: After finishing a trade all overflowing items will be dropped, if the inventory is full
+  # false: Prevent the trade partner to put too much items into the gui
+  # Both traders have to add an item/money to finish the trade
+
+    # In seconds (e.g. after <60> seconds the request will be expired)
+  #   "tradesystem.trade": Can accept/deny/toggle trade requests
+
+  
+    # Example:            (all variables are optional)
+
+    # - Material: STONE
+  #   Data: 0
+
+    #   DisplayName: 0
+  #   Lore: "Some text that will be searched in every line."
+  # Do NOT use special symbols (e.g. '$') here.
+  # Use characters only!
+  #   CustomModelData: 0
+
+    # Warning: The aliases will not be validated. Make sure they are correct.
+  #   Compare: IGNORE_CASE      (Default=IGNORE_CASE; STRICT, IGNORE_CASE, CONTAINS, CONTAINS_IGNORE_CASE, REGEX_ANY, REGEX_ALL)
+  #
+  # Compare examples
+  #   STRICT: "FOO" = "FOO"
+  #   IGNORE_CASE: "FOO" = "foo"
+
+    # BETA - Please post issues on my GitHub Issue-Tracker: https://github.com/CodingAir/TradeSystem/issues
+  # WARNING - This log does not remove files automatically after some time, so you have to do it yourself.
+  #   CONTAINS: "F" is in "Foo"
+  #   CONTAINS_IGNORE_CASE: "f" is in "Foo"
+  #   REGEX_ANY: "." matches "Foo"
+  # Values: SQLITE, MYSQL
+  #   REGEX_ALL: ".*" matches "Foo"
+  # The GUI type which will be used to enter the money amount. Available options: SIGN, ANVIL
+
+    #   "tradesystem.trade.initiate": Can invite players for trades
+  # If permissions are disabled, every player is able to accept/deny/toggle/initiate trades
+  # in ticks (20 ticks = 1 second)
+
+    # Sound names can be found here: https://github.com/CodingAir/CodingAPI/tree/master/src/main/java/de/codingair/codingapi/server/sounds/Sound.java
+  # Permissions:
+
+  
+    # true: After finishing a trade all overflowing items will be dropped, if the inventory is full
+  # false: Prevent the trade partner to put too much items into the gui
+  # Both traders have to add an item/money to finish the trade
+
+    # In seconds (e.g. after <60> seconds the request will be expired)
+  #   "tradesystem.trade": Can accept/deny/toggle trade requests
+
+  
+    # Example:            (all variables are optional)
+
+    # - Material: STONE
+  #   Data: 0
+
+    #   DisplayName: 0
+  #   Lore: "Some text that will be searched in every line."
+  # Do NOT use special symbols (e.g. '$') here.
+  # Use characters only!
+  #   CustomModelData: 0
+
+    # Warning: The aliases will not be validated. Make sure they are correct.
+  #   Compare: IGNORE_CASE      (Default=IGNORE_CASE; STRICT, IGNORE_CASE, CONTAINS, CONTAINS_IGNORE_CASE, REGEX_ANY, REGEX_ALL)
+  #
+  # Compare examples
+  #   STRICT: "FOO" = "FOO"
+  #   IGNORE_CASE: "FOO" = "foo"
+
+    # BETA - Please post issues on my GitHub Issue-Tracker: https://github.com/CodingAir/TradeSystem/issues
+  # WARNING - This log does not remove files automatically after some time, so you have to do it yourself.
+  #   CONTAINS: "F" is in "Foo"
+  #   CONTAINS_IGNORE_CASE: "f" is in "Foo"
+  #   REGEX_ANY: "." matches "Foo"
+  # Values: SQLITE, MYSQL
+  #   REGEX_ALL: ".*" matches "Foo"
+  # The GUI type which will be used to enter the money amount. Available options: SIGN, ANVIL
+
+    #   "tradesystem.trade.initiate": Can invite players for trades
+  # If permissions are disabled, every player is able to accept/deny/toggle/initiate trades
+  # in ticks (20 ticks = 1 second)
+
+    # Sound names can be found here: https://github.com/CodingAir/CodingAPI/tree/master/src/main/java/de/codingair/codingapi/server/sounds/Sound.java
+  # Permissions:
+
+  
+    # true: After finishing a trade all overflowing items will be dropped, if the inventory is full
+  # false: Prevent the trade partner to put too much items into the gui
+  # Both traders have to add an item/money to finish the trade
+
+    # In seconds (e.g. after <60> seconds the request will be expired)
+  #   "tradesystem.trade": Can accept/deny/toggle trade requests
+
+  
+    # Example:            (all variables are optional)
+
+    # - Material: STONE
+  #   Data: 0
+
+    #   DisplayName: 0
+  #   Lore: "Some text that will be searched in every line."
+  # Do NOT use special symbols (e.g. '$') here.
+  # Use characters only!
+  #   CustomModelData: 0
+
+    # Warning: The aliases will not be validated. Make sure they are correct.
+  #   Compare: IGNORE_CASE      (Default=IGNORE_CASE; STRICT, IGNORE_CASE, CONTAINS, CONTAINS_IGNORE_CASE, REGEX_ANY, REGEX_ALL)
+  #
+  # Compare examples
+  #   STRICT: "FOO" = "FOO"
+  #   IGNORE_CASE: "FOO" = "foo"
+
+    # BETA - Please post issues on my GitHub Issue-Tracker: https://github.com/CodingAir/TradeSystem/issues
+  # WARNING - This log does not remove files automatically after some time, so you have to do it yourself.
+  #   CONTAINS: "F" is in "Foo"
+  #   CONTAINS_IGNORE_CASE: "f" is in "Foo"
+  #   REGEX_ANY: "." matches "Foo"
+  # Values: SQLITE, MYSQL
+  #   REGEX_ALL: ".*" matches "Foo"
+  # The GUI type which will be used to enter the money amount. Available options: SIGN, ANVIL
+
+    #   "tradesystem.trade.initiate": Can invite players for trades
+  # If permissions are disabled, every player is able to accept/deny/toggle/initiate trades
+  # in ticks (20 ticks = 1 second)
+
+    # Sound names can be found here: https://github.com/CodingAir/CodingAPI/tree/master/src/main/java/de/codingair/codingapi/server/sounds/Sound.java
+  # Permissions:
+
+  
+    # true: After finishing a trade all overflowing items will be dropped, if the inventory is full
+  # false: Prevent the trade partner to put too much items into the gui
+  # Both traders have to add an item/money to finish the trade
+
+    # In seconds (e.g. after <60> seconds the request will be expired)
+  #   "tradesystem.trade": Can accept/deny/toggle trade requests
+
+  
+    # Example:            (all variables are optional)
+
+    # - Material: STONE
+  #   Data: 0
+
+    #   DisplayName: 0
+  #   Lore: "Some text that will be searched in every line."
+  # Do NOT use special symbols (e.g. '$') here.
+  # Use characters only!
+  #   CustomModelData: 0
+
+    # Warning: The aliases will not be validated. Make sure they are correct.
+  #   Compare: IGNORE_CASE      (Default=IGNORE_CASE; STRICT, IGNORE_CASE, CONTAINS, CONTAINS_IGNORE_CASE, REGEX_ANY, REGEX_ALL)
+  #
+  # Compare examples
+  #   STRICT: "FOO" = "FOO"
+  #   IGNORE_CASE: "FOO" = "foo"
+
+    # BETA - Please post issues on my GitHub Issue-Tracker: https://github.com/CodingAir/TradeSystem/issues
+  # WARNING - This log does not remove files automatically after some time, so you have to do it yourself.
+  #   CONTAINS: "F" is in "Foo"
+  #   CONTAINS_IGNORE_CASE: "f" is in "Foo"
+  #   REGEX_ANY: "." matches "Foo"
+  # Values: SQLITE, MYSQL
+  #   REGEX_ALL: ".*" matches "Foo"
+  # The GUI type which will be used to enter the money amount. Available options: SIGN, ANVIL
+
+    #   "tradesystem.trade.initiate": Can invite players for trades
+  # If permissions are disabled, every player is able to accept/deny/toggle/initiate trades
+  # in ticks (20 ticks = 1 second)
+
+    # Sound names can be found here: https://github.com/CodingAir/CodingAPI/tree/master/src/main/java/de/codingair/codingapi/server/sounds/Sound.java
+  # Permissions:
+
+  
+    # true: After finishing a trade all overflowing items will be dropped, if the inventory is full
+  # false: Prevent the trade partner to put too much items into the gui
+  # Both traders have to add an item/money to finish the trade
+
+    # In seconds (e.g. after <60> seconds the request will be expired)
+  #   "tradesystem.trade": Can accept/deny/toggle trade requests
+
+  
+    # Example:            (all variables are optional)
+
+    # - Material: STONE
+  #   Data: 0
+
+    #   DisplayName: 0
+  #   Lore: "Some text that will be searched in every line."
+  # Do NOT use special symbols (e.g. '$') here.
+  # Use characters only!
+  #   CustomModelData: 0
+
+    # Warning: The aliases will not be validated. Make sure they are correct.
+  #   Compare: IGNORE_CASE      (Default=IGNORE_CASE; STRICT, IGNORE_CASE, CONTAINS, CONTAINS_IGNORE_CASE, REGEX_ANY, REGEX_ALL)
+  #
+  # Compare examples
+  #   STRICT: "FOO" = "FOO"
+  #   IGNORE_CASE: "FOO" = "foo"
+
+    # BETA - Please post issues on my GitHub Issue-Tracker: https://github.com/CodingAir/TradeSystem/issues
+  # WARNING - This log does not remove files automatically after some time, so you have to do it yourself.
+  #   CONTAINS: "F" is in "Foo"
+  #   CONTAINS_IGNORE_CASE: "f" is in "Foo"
+  #   REGEX_ANY: "." matches "Foo"
+  # Values: SQLITE, MYSQL
+  #   REGEX_ALL: ".*" matches "Foo"
+  # The GUI type which will be used to enter the money amount. Available options: SIGN, ANVIL
+
+    #   "tradesystem.trade.initiate": Can invite players for trades
+  # If permissions are disabled, every player is able to accept/deny/toggle/initiate trades
+  # in ticks (20 ticks = 1 second)
+
+    # Sound names can be found here: https://github.com/CodingAir/CodingAPI/tree/master/src/main/java/de/codingair/codingapi/server/sounds/Sound.java
+  Permissions: true
+  
+  
+  # true: After finishing a trade all overflowing items will be dropped, if the inventory is full
+  # false: Prevent the trade partner to put too much items into the gui
+  # Both traders have to add an item/money to finish the trade
+
+    # In seconds (e.g. after <60> seconds the request will be expired)
+  Trade_Both: true
+  
+  
+  # Example:            (all variables are optional)
+
+    # - Material: STONE
+  #   Data: 0
+
+    #   DisplayName: 0
+  #   Lore: "Some text that will be searched in every line."
+  # Do NOT use special symbols (e.g. '$') here.
+  # Use characters only!
+  #   CustomModelData: 0
+
+    # Warning: The aliases will not be validated. Make sure they are correct.
+  #   Compare: IGNORE_CASE      (Default=IGNORE_CASE; STRICT, IGNORE_CASE, CONTAINS, CONTAINS_IGNORE_CASE, REGEX_ANY, REGEX_ALL)
+  #
+  # Compare examples
+  #   STRICT: "FOO" = "FOO"
+  #   IGNORE_CASE: "FOO" = "foo"
+
+    # BETA - Please post issues on my GitHub Issue-Tracker: https://github.com/CodingAir/TradeSystem/issues
+  # WARNING - This log does not remove files automatically after some time, so you have to do it yourself.
+  #   CONTAINS: "F" is in "Foo"
+  #   CONTAINS_IGNORE_CASE: "f" is in "Foo"
+  #   REGEX_ANY: "." matches "Foo"
+  # Values: SQLITE, MYSQL
   #   REGEX_ALL: ".*" matches "Foo"
   # The GUI type which will be used to enter the money amount. Available options: SIGN, ANVIL
 
@@ -79,7 +423,7 @@ TradeSystem:
   Trade_Distance:
     # in ticks (20 ticks = 1 second)
 
-  # Sound names can be found here: https://github.com/CodingAir/CodingAPI/tree/master/src/main/java/de/codingair/codingapi/server/sounds/Sound.java
+        # Sound names can be found here: https://github.com/CodingAir/CodingAPI/tree/master/src/main/java/de/codingair/codingapi/server/sounds/Sound.java
     enabled: false
     distance_in_blocks: 50
   

@@ -788,6 +788,16 @@ ENDER_MINER_TALISMAN:
   lore:
   - '&rYou do not have the permission'
   - '&rto access this item.'
+FARMER_TALISMAN:
+  permission: none
+  lore:
+  - '&rYou do not have the permission'
+  - '&rto access this item.'
+ENDER_FARMER_TALISMAN:
+  permission: none
+  lore:
+  - '&rYou do not have the permission'
+  - '&rto access this item.'
 HUNTER_TALISMAN:
   permission: none
   lore:
@@ -2704,16 +2714,6 @@ ARMOR_AUTO_CRAFTER:
   - '&rYou do not have the permission'
   - '&rto access this item.'
 PRODUCE_COLLECTOR:
-  permission: none
-  lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
-FARMER_TALISMAN:
-  permission: none
-  lore:
-  - '&rYou do not have the permission'
-  - '&rto access this item.'
-ENDER_FARMER_TALISMAN:
   permission: none
   lore:
   - '&rYou do not have the permission'

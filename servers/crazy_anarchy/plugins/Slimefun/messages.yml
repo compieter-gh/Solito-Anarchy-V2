@@ -1,12 +1,4 @@
-smithing_table:
-  not-working: '&4You cannot use a Slimefun item as a smithing material!'
 commands:
-  debug:
-    description: Run debug logging for the developers
-    current: '&7Current test case: &6%test_case%'
-    none-running: '&7No test case is currently being ran!'
-    running: '&7Running debug mode with test: &6%test%'
-    disabled: '&7Disabled debug mode.'
   help: Displays this help screen
   cheat: Allows you to cheat Items
   give: Give somebody some Slimefun Items
@@ -36,16 +28,18 @@ commands:
     please-wait: '&ePlease wait a second... The results are coming in!'
     verbose-player: '&4The verbose flag cannot be used by a Player!'
     unknown-flag: '&4Unknown flag: &c%flag%'
+  debug:
+    description: Run debug logging for the developers
+    current: '&7Current test case: &6%test_case%'
+    none-running: '&7No test case is currently being ran!'
+    running: '&7Running debug mode with test: &6%test%'
+    disabled: '&7Disabled debug mode.'
 placeholderapi:
   profile-loading: Loading...
 guide:
-  locked-itemgroup:
-  - To unlock this category you will
-  - need to unlock all items from the
-  - following categories
   locked: LOCKED
   work-in-progress: This feature is not fully finished yet!
-  locked-category:
+  locked-itemgroup:
   - To unlock this category you will
   - need to unlock all items from the
   - following categories
@@ -56,7 +50,6 @@ guide:
     inventory: 'Searching for: %item%'
   tooltips:
     open-itemgroup: Click to open
-    open-category: Click to open
     versions-notice: These are very important when reporting bugs!
     wiki: View this Item on the official Slimefun Wiki
     recipes:
@@ -185,9 +178,9 @@ messages:
       - '&eLeft Click &7to re-enable this recipe'
       - '&eRight Click &7to remove this recipe'
   talisman:
-    farmer: '&a&oYour Talisman just doubled your drops'
     anvil: '&a&oYour Talisman saved your tool from breaking'
     miner: '&a&oYour Talisman just doubled your drops'
+    farmer: '&a&oYour Talisman just doubled your drops'
     hunter: '&a&oYour Talisman just doubled your drops'
     lava: '&a&oYour Talisman saved you from burning to death'
     water: '&a&oYour Talisman saved you from drowning'
@@ -319,6 +312,8 @@ brewing_stand:
   not-working: '&4You cannot use Slimefun items in a brewing stand!'
 cartography_table:
   not-working: '&4You cannot use Slimefun items in a cartography table!'
+smithing_table:
+  not-working: '&4You cannot use a Slimefun item as a smithing material!'
 villagers:
   no-trading: '&4You cannot trade Slimefun items with Villagers!'
 backpack:

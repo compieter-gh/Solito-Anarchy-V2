@@ -42,6 +42,21 @@ antibot:
     firewall: true
     time: 30000
     log: true
+  country:
+    enabled: true
+    firewall: true
+    blacklist:
+    - CN
+    - HK
+    - RU
+    - IN
+    - TH
+    - ID
+    - DZ
+    - VN
+    - IR
+    - PK
+    log: true
 tcp-fast-open: 3
 custom-motd:
   enabled: false

@@ -1,26 +1,3 @@
-# BoneMealAnything
-# Does what you think it does
-# Made by fishcute
-# ---------------------------------------------------------------------
-#
-# C O N F I G U R A T I O N
-# Bonemeal-Range - "Diameter" of bonemeal range
-# Min-Locations - Minimum amount of locations that will generate for blocks
-# Max-Locations - Maximum amount of locations that will generate for blocks
-# Entity-Min-Locations - Minimum amount of locations that will generate for entities
-# Entity-Max-Locations - Maximum amount of locations that will generate for entities
-# Blacklist - Toggle blacklist/whitelist.
-# True = blacklist
-# False = whitelist
-#
-# Block-Blacklist - Blacklist/whitelist of block types 
-# (List can be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)
-#
-# Entity-Blacklist - Blacklist/whitelist of entity types, not all will work correctly 
-# (List can be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html)
-#
-# Use /bma_reload to apply your changes
-
 Bonemeal-Range: 6
 Min-Locations: 5
 Max-Locations: 15
@@ -29,8 +6,5 @@ Entity-Max-Locations: 10
 Blacklist: true
 Block-Blacklist:
 - AIR
-- BEDROCK
-- END_PORTAL_FRAME
-- NETHER_PORTAL
 Entity-Blacklist:
 - LEASH_HITCH
