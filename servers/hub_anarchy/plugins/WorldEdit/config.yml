@@ -121,7 +121,7 @@ snapshots:
     directory:
 
 navigation-wand:
-    item: minecraft:compass
+    item: minecraft:stick
     max-distance: 100
 
 scripting:

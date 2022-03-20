@@ -1,0 +1,9 @@
+command /mars [<player>]:
+	description: Mars
+	usage: /mars
+	executable by: players
+	trigger:
+		message "&cMars &ris the fourth planet from the &eSun &rand the second-smallest planet in the &9Solar System&r, being larger than only &7Mercury&r."
+		message "In English, &cMars &rcarries the name of the Roman god of war and is often referred to as the &c""Red Planet""&r."
+		message "The latter refers to the effect of the iron oxide prevalent on &rMars's&r surface, which gives it a striking &creddish&r appearance in the sky."
+		message "&cMars &ris a terrestrial planet with a thin atmosphere, with surface features such as impact craters, valleys, dunes, and polar ice caps."

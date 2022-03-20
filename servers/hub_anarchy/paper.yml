@@ -8,7 +8,7 @@
 # Discord: https://discord.gg/papermc
 # IRC: #paper @ irc.esper.net ( https://webchat.esper.net/?channels=paper ) 
 # Website: https://papermc.io/ 
-# Docs: https://paper.readthedocs.org/ 
+# Docs: https://docs.papermc.io/ 
 
 verbose: false
 use-display-name-in-quit-message: false
@@ -78,6 +78,7 @@ settings:
       author: 8192
       page: 16384
   loggers:
+    use-rgb-for-named-text-colors: true
     deobfuscate-stacktraces: true
   use-display-name-in-quit-message: false
   chunk-loading:

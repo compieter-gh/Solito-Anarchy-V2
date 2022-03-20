@@ -197,7 +197,7 @@ database: '{pluginDir}/FastLogin.db'
 
 # MySQL/MariaDB
 # If you want to enable it uncomment only the lines below this not this line.
-driver: 'com.mysql.jdbc.Driver'
+driver: 'com.mysql.cj.jdbc.Driver'
 host: '10.0.1.10'
 port: 3306
 database: 'minecraft_fastlogin'

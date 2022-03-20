@@ -10,9 +10,13 @@ data:
     '05': 0
     '06': 0
     '07': 0
-  entries: 0
+  entries: 2
   notify: false
-  firstStart: true
+  firstStart: false
   lang: 0
   catalogVersion: 1
 customentities: {}
+timers:
+  d3c6c07e-fea7-378a-ab4f-d00189dbddff: 112
+  325950d4-18b4-48c5-b2aa-cc00115e9da9: 141
+  af6777e4-11fe-3b9b-8c36-d4226d252ef3: 114

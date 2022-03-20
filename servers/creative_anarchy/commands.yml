@@ -16,4 +16,7 @@ aliases:
   icanhasbukkit:
   - version $1-
   reload: []
+  bukkit:reload: []
+  rl: []
+  bukkit:rl: []
 

@@ -3473,12 +3473,14 @@ FREEZER:
   hide-in-guide: false
   allow-enchanting: true
   allow-disenchanting: true
+  use-vanilla-ratios: false
 FREEZER_2:
   enabled: true
   can-be-used-in-workbenches: false
   hide-in-guide: false
   allow-enchanting: true
   allow-disenchanting: true
+  use-vanilla-ratios: false
 REACTOR_COLLANT_CELL:
   enabled: true
   can-be-used-in-workbenches: false
@@ -3697,3 +3699,9 @@ PRODUCE_COLLECTOR:
   allow-enchanting: true
   allow-disenchanting: true
   range: 2
+ARMORED_JETPACK:
+  enabled: true
+  can-be-used-in-workbenches: false
+  hide-in-guide: false
+  allow-enchanting: true
+  allow-disenchanting: true

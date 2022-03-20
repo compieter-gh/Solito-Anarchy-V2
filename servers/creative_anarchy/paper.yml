@@ -78,6 +78,7 @@ settings:
       author: 8192
       page: 16384
   loggers:
+    use-rgb-for-named-text-colors: true
     deobfuscate-stacktraces: true
   use-display-name-in-quit-message: false
   chunk-loading:

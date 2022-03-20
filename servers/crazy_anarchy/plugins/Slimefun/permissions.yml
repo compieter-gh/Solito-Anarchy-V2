@@ -2718,3 +2718,8 @@ PRODUCE_COLLECTOR:
   lore:
   - '&rYou do not have the permission'
   - '&rto access this item.'
+ARMORED_JETPACK:
+  permission: none
+  lore:
+  - '&rYou do not have the permission'
+  - '&rto access this item.'

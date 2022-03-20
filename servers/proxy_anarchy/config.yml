@@ -15,7 +15,7 @@ listeners:
   tab_list: GLOBAL_PING
   tab_size: 60
 remote_ping_cache: -1
-network_compression_threshold: 128
+network_compression_threshold: 64
 permissions:
   admin:
   - bungeecord.command.alert

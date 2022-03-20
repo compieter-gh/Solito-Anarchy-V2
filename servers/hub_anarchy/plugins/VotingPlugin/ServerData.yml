@@ -1,0 +1,35 @@
+LastUpdated: 1647789908938
+IntColumns:
+- VotePartyVotes
+- MilestoneCount
+- MonthTotal
+- AllTimeTotal
+- DailyTotal
+- WeeklyTotal
+- Points
+- DayVoteStreak
+- BestDayVoteStreak
+- WeekVoteStreak
+- BestWeekVoteStreak
+- MonthVoteStreak
+- HighestDailyTotal
+- HighestMonthlyTotal
+- HighestWeeklyTotal
+- LastMonthTotal
+- BestMonthVoteStreak
+- AllSitesLast_PleaseSet
+VotingPlugin:
+  Version: 'git-Paper-264 (MC: 1.18.2)'
+  ServiceSites:
+  - Best Minecraft Servers
+  - MinecraftServers.org
+  - LMCS
+  - Minecraft-MP.com
+  - TopMinecraftServers
+  - MCTools.org
+  - MCSL
+PluginVersions:
+  VotingPlugin: 6.8.3
+Month: MARCH
+PrevWeek: 13
+PrevDay: 20

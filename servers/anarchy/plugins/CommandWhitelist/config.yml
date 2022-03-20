@@ -19,31 +19,39 @@ use_protocollib: false
 groups:
   default:
     commands:
-    - help
-    - seed
     - msg
-    - r
-    - reply
-    - deathmessages
     - togglewhispering
-    - togglechat
-    - toggleconnectionmsgs
-    - ignore
-    - ignorehard
-    - ignorelist
+    - seed
+    - rules
+    - ban
+    - crawl
     - playerstats
     - stats
-    - kill
-    - kick
-    - rules
-    - tps
-    - vote
-    - discord
-    - hub
-    - trade
-    - sit
-    - lay
-    - bellyflop
-    - crawl
     - sittoggle
+    - ignore
+    - togglechat
+    - reply
+    - vote
+    - toggleconnectionmsgs
+    - sit
+    - op
+    - lay
+    - minecraft:ban
+    - kill
+    - help
+    - r
+    - discord
+    - trade
+    - bellyflop
+    - kick
+    - hub
+    - deathmessages
+    - tps
+    - ignorelist
+    - ignorehard
+    - minecraft:op
+    subcommands: []
+  easter:
+    commands:
+    - mars
     subcommands: []

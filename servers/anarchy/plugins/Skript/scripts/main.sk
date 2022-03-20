@@ -1,5 +1,5 @@
 options:
-	skript_version: 1.5.0-(11-11-2021)
+	skript_version: 1.5.1-(16-03-2022)
 	skript_prefix: &b&lSolito &a&lAnarchy &r»
 	discord_link: https://www.solitomc.nl/discord
 	server_ip: anarchy.solitomc.nl
@@ -106,6 +106,21 @@ command /kick [<player>] [<text>]:
 		else:
 			message "&7You must select a player that's online"
 
+command /ban [<player>]:
+	description: Ban
+	usage: /ban [player]
+	executable by: players
+	trigger:
+		message "excuse me"
+command /minecraft:ban [<player>]:
+	description: Ban
+	usage: /ban [player]
+	executable by: players
+	trigger:
+		message "still no"
+        
+
+
 command /kill [<player>]:
 	description: Kill yourself
 	usage: /kill [player]
@@ -132,11 +147,12 @@ command /discord:
 command /vote:
 	trigger:
 		send "&7--------------------&fLinks&7-------------------"
-		send "<link:https://topminecraftservers.org/server/18595>&fLink 1 - &3topminecraftservers.org<reset>"
-		send "<link:https://minecraft-mp.com/server-s288522>&fLink 2 - &3minecraft-mp.com<reset>"
-		send "<link:https://minecraftservers.org/server/617918>&fLink 3 - &3minecraftservers.org<reset>"
-		send "<link:https://minecraft-server-list.com/server/478460/>&fLink 4 - &3minecraft-server-list.com<reset>"
-		send "<link:https://list-minecraft-server.com/server-solito-anarchy.878>&fLink 5 - &3list-minecraft-server.com"
+		send "<link:https://topminecraftservers.org/server/25692>&fLink 1 - &3&ntopminecraftservers.org<reset>"
+		send "<link:https://minecraft-mp.com/server-s300951>&fLink 2 - &3&nminecraft-mp.com<reset>"
+		send "<link:https://minecraftservers.org/server/632780>&fLink 3 - &3&nminecraftservers.org<reset>"
+		send "<link:https://minecraft-server-list.com/server/486395//>&fLink 4 - &3&nminecraft-server-list.com<reset>"
+		send "<link:https://list-minecraft-server.com/server-solito-anarchy.1082>&fLink 5 - &3&nlist-minecraft-server.com"
+		send "<link:https://best-minecraft-servers.co/server-solito-anarchy.5287>&fLink 6 - &3&nbest-minecraft-servers.co"
 		send "&7-------------------------------------------"
 
 command /hub:
@@ -150,6 +166,19 @@ on command "/gamemode creative":
 	else:
 		cancel event
 		message "Did you really think that would work?"
+        
+command /op [<player>]:
+	description: Op
+	usage: /op [player]
+	executable by: players
+	trigger:
+		message "Click <link:https://bart7782.tech/>&6here &rfor free op"
+command /minecraft:op [<player>]:
+	description: Op
+	usage: /op [player]
+	executable by: players
+	trigger:
+		message "Click <link:https://bart7782.tech/>&6here &rfor free op"
 
 on command "/minecraft:gamemode creative":
 	if player has permission "minecraft.command.gamemode":

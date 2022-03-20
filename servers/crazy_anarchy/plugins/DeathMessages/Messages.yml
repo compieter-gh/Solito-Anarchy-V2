@@ -1,11 +1,10 @@
 Prefix: '&7[&cDM&7]'
 Console:
+  # Send death messages to console
   #Send death messages to console
   Enabled: true
   Message: '%message% (Extra: World:%world%, X:%x%, Y:%y%)'
 Bungee:
-  # Configure how bungee messages look from other servers.
-  # Only available placeholder is %server_name%
   # Configure how bungee messages look from other servers.
   # Only available placeholder is %server_name%
   Message: '&a%server_name%&7> '
@@ -63,7 +62,6 @@ Commands:
         Restored: '%prefix% &aPlugin files restored from backup &e#%backup-code%'
         Backup-Not-Found: '%prefix% &cThe backup with that code does not exist.'
       # Do not touch this section. If you do. Leave the last line alone.
-      # Do not touch this section. If you do. Leave the last line alone.
       DiscordLog:
       - '%prefix% &3Discord Status Log for support:'
       - '&7Take a picture of this and send it to the support chat if you created a
@@ -85,16 +83,27 @@ Discord:
   # %y% - returns the y position the player died at.
   # %z% - returns the z position the player died at.
   # Placeholders from placeholderapi works here too
+  # %player% - returns the player name
+  # %player_display% - returns the custom display name of the player
+  # %killer% - returns the entity's name. If there is no name set, it will be the entity type.
+  # %killer_display% - if the killer is a player, returns the display name of the player
+  # %killer_type% - returns the entity type from Mobs.<Mob> in Messages.yml
+  # %biome% - returns the biome the player was in
+  # %world% - returns the world name
+  # %world_environment% - returns the environment of the world (normal, nether, the_end) (These are configurable in Messages.yml (Environment))
+  # %x% - returns the x position the player died at.
+  # %y% - returns the y position the player died at.
+  # %z% - returns the z position the player died at.
+  # Placeholders from placeholderapi works here too
   DeathMessage:
     Remove-Plugin-Prefix: false
+    # Besides the color, you can leave all this blank if you want.
     # Besides the color, you can leave all this blank if you want.
     Color: BLUE
     # NEW: this was how the old DMP had messages formatted (Playerhead - IconURL, Name - the death message)
     Author:
       # The message of the author
-      # The message of the author
       Name: '%message%'
-      # The clickable link
       # The clickable link
       URL: ''
       # The picture that shows up in the author name
@@ -103,6 +112,8 @@ Discord:
     Title: DeathMessage
     Description: '%message%'
     Image: https://crafatar.com/avatars/%uuid%
+    # Block title|Block value|inline boolean
+    # To have no content, set content to 'Content: []'
     Content:
     - 'Location:|World: %world%, X: %x%, Y: %y%, Z: %z%|false'
     Footer:
@@ -286,6 +297,518 @@ Discord:
       # Meaning if you change Text: "" to anything else, the plugin will send regular text.
       # You may use \n to make another line.
       # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+      # Defining the message below will ignore all above embed values and just return regular text.
+      # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+      # You may use \n to make another line.
+      # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
     # Defining the message below will ignore all above embed values and just return regular text.
     # Meaning if you change Text: "" to anything else, the plugin will send regular text.
     # You may use \n to make another line.
@@ -353,6 +876,198 @@ Discord:
       Text: Footer text here
       Icon-URL: https://crafatar.com/avatars/%uuid%
     Timestamp: true
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
+    # Defining the message below will ignore all above embed values and just return regular text.
+    # Meaning if you change Text: "" to anything else, the plugin will send regular text.
+    # You may use \n to make another line.
+    # Example: Text: "%message%\nX:%x%\nY:%y%\nZ:%z%"
     # Defining the message below will ignore all above embed values and just return regular text.
     # Meaning if you change Text: "" to anything else, the plugin will send regular text.
     # You may use \n to make another line.

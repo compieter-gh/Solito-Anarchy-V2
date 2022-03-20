@@ -42,8 +42,10 @@ antibot:
     firewall: true
     time: 30000
     log: true
-  country:
     enabled: true
+    ipset: true
+  country:
+    enabled: false
     firewall: true
     blacklist:
     - CN
